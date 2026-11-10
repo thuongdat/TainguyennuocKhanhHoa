@@ -498,6 +498,8 @@ const CAU_HINH = {
       khoa: 'ma',
       truong_nhan: 'ten_cong_trinh',
       mo_ta: 'Công trình khai thác, sử dụng nước mặt theo kết quả kiểm kê (đập dâng, trạm bơm, trạm cấp nước, cống; hồ chứa nằm ở lớp Ao, hồ, hồ chứa)',
+      /* Cong trinh khai thac luon la hinh vuong, mau van theo loai cong trinh */
+      ky_hieu: { hinh: 'vuong' },
       /* Mau theo nhom cong trinh, ban kinh theo luu luong khai thac quy doi */
       kieu_ve: function (p) {
         var loai = String(p.loai_hinh || '');
@@ -544,6 +546,8 @@ const CAU_HINH = {
       khoa: 'ma',
       truong_nhan: 'ten_cong_trinh',
       mo_ta: 'Các điểm xả nước thải vào nguồn nước theo kết quả kiểm kê',
+      /* Diem xa thai luon la hinh tam giac, mau van theo loai nguon thai */
+      ky_hieu: { hinh: 'tam_giac' },
       kieu_ve: function (p) {
         var mau = '#ea580c';
         if (p.nguon_thai === 'Y tế') mau = '#be185d';
