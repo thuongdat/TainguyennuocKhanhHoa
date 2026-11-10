@@ -144,6 +144,8 @@ python scripts/04_tao_nen_dia_phuong.py       # cắt nền quốc gia theo tỉ
 python scripts/06_tao_ky_hieu.py              # .qml của QGIS -> assets/ky_hieu/*.svg
 python scripts/08_xuat_lo_khoan_ndd.py        # data/quan_trac_ndd.geojson, từ QTQG
 python scripts/09_chuan_hoa_ao_ho_khong_san_lap.py   # data/ao_ho_khong_san_lap.geojson
+python scripts/12_nap_ao_ho_kiem_ke.py        # data/ao_ho.geojson, từ Excel rà soát kiểm kê
+python scripts/13_nap_wqi_dia_phuong.py       # data/quan_trac_dia_phuong.geojson
 ```
 
 Script 04 nhận tên lớp làm tham số để chỉ làm lại một phần, ví dụ
@@ -188,6 +190,46 @@ Ba chốt trong script 09, **đừng gỡ**:
 Bản ghi thiếu tọa độ và điểm nằm ngoài `khung_bao_nen` đều bị **bỏ khỏi tệp và
 báo số lượng ra màn hình**, giống cách `backend/khong_gian.tap_feature()` làm
 với `bo_ngoai_tinh`. Không dòng nào trong khung thì script dừng, không ghi đè.
+
+Script 12 và 13 đọc bản rà soát kiểm kê
+`CSDL/dulieu_thuc/TH_Kiemke_*.xlsx`: sheet `B3.2.Hồ` (202 hồ, ao, đầm) và
+`Biểu 10` (WQI của 111 vị trí quan trắc địa phương). Phần dùng chung nằm ở
+`scripts/kiem_ke_xlsx.py`, và nó **gọi lại** hàm tọa độ của script 09 chứ không
+chép lại. Cả hai nhận `--tep` và `--thu-muc-ra` để chạy thử mà không đụng `data/`.
+
+**Hai sheet này không có tọa độ trong bản gốc.** Người dùng tự thêm cột tọa độ
+vào Excel (`X`/`Y`, `Kinh độ`/`Vĩ độ` hoặc một cột `Tọa độ`; VN-2000 hay WGS84
+đều được). Chưa có cột đó thì script in bảng ánh xạ cột, số dòng đọc được rồi
+**dừng, không ghi tệp nào**.
+
+Năm điều phải nhớ khi đụng vào hai script này:
+
+1. **Chạy script 12 xong phải chạy lại script 05.** `ao_ho.geojson` có hai kiểu.
+   Kiểu cũ do script 05 tách 51 hồ từ bảng khai thác, mang lưu lượng. Kiểu mới
+   do script 12 ghi là danh mục nguồn nước, không có lưu lượng, và mang dấu
+   `"sinh_boi"` ở cấp FeatureCollection. Script 05 thấy dấu đó thì **không tách
+   hồ và không ghi đè** `ao_ho.geojson`; các hồ khai thác quay về
+   `khai_thac.geojson`. Quên chạy lại 05 thì lưu lượng của các hồ biến mất khỏi
+   trang Thống kê mà không có lỗi nào báo.
+2. **Trang Thống kê phân biệt hai kiểu bằng việc đối tượng có khóa
+   `q_khai_thac_m3_ngay` hay không**, xem `ho_khai_thac_trong_ao_ho()` trong
+   `thong-ke.js`. Xét khóa chứ không xét giá trị. Đừng thêm trường lưu lượng
+   vào đầu ra của script 12: hồ sẽ bị cộng hai lần.
+3. **Ô chữ trong Excel dùng dấu phẩy thập phân.** `kiem_ke_xlsx.so_hoc()` đọc
+   `'0,018'` là 0,018. Đừng thay bằng `doc_so()` của script 09: hàm đó coi đây
+   là dấu phân nhóm và trả về 18, tức một cái ao dung tích 18 triệu m³. Lỗi này
+   đã xảy ra thật với dữ liệu thật, bộ kiểm thử bắt được.
+4. **Biểu 10 không đều.** Ba phần (Bắc Khánh Hòa, Nam Khánh Hòa, mẫu bổ sung
+   7/2026), STT đếm lại từ 1 ở mỗi phần, mỗi vị trí một khối 12 tháng, 10
+   tháng, 4 quý hoặc 1 lần đo. Vì vậy mã là `QD<phần>-<STT>`, không có cột theo
+   tháng: `wqi` là kỳ mới nhất, cả chuỗi nằm trong `chuoi_wqi`.
+5. **WQI lấy nguyên từ Excel, không tính lại.** Phân loại gọi
+   `backend/wqi.phan_loai_wqi()`; màu trên bản đồ là `MAU_WQI` trong
+   `config.js`, đúng mã RGB của mục 1.4 Quyết định 1460/QĐ-TCMT. Lớp này
+   **không trộn** vào `quan_trac.geojson` và không liên quan đến
+   `HOP_TRAM_DIA_PHUONG`.
+
+`backend/tests/test_lop_kiem_ke_xlsx.py` chốt lại các điều trên.
 
 ### Bẫy PROJ, bắt buộc tuân thủ
 
@@ -490,6 +532,8 @@ Phải nắm rõ trước khi sửa bất cứ thứ gì liên quan đến số 
 | Tab Quan trắc ở `CHE_DO=thu_nghiem` | **Thử nghiệm**, sinh từ vị trí trạm |
 | `data/quan_trac_ndd.geojson`, 28 lỗ khoan | Dữ liệu thật, đã sinh 27/10/2026 |
 | `data/ao_ho_khong_san_lap.geojson` | Dữ liệu thật, danh mục tỉnh công bố. **Chưa sinh**, chờ bản xuất CSV |
+| `data/ao_ho.geojson` kiểu mới (202 hồ, ao, đầm từ Excel) | Dữ liệu thật. **Chưa sinh**, chờ cột tọa độ trong sheet `B3.2.Hồ`; hiện vẫn là 51 hồ kiểu cũ |
+| `data/quan_trac_dia_phuong.geojson` (111 vị trí WQI) | Dữ liệu thật. **Chưa sinh**, chờ cột tọa độ trong sheet `Biểu 10`; chưa có trong `lop_co_san` |
 
 Dữ liệu mô phỏng do `scripts/00_tao_du_lieu_mau.py` sinh ra, mỗi đối tượng mang
 trường `nguon_dl` ghi rõ điều đó, và `index.html` có dải cảnh báo ở đầu trang.

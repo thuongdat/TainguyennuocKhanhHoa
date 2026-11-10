@@ -29,6 +29,19 @@ const MAU = {
   ao_ho_giu: '#0f766e',
 };
 
+/* Mau theo phan loai WQI, dung NGUYEN ma mau RGB cua bang o muc 1.4 Quyet dinh
+   1460/QD-TCMT (ban goc: CSDL/dulieu_thuc/WQI_1460_QD-TCMT_428277.doc). Khoa la
+   dung chuoi ma phan_loai_wqi() cua backend/wqi.py tra ve. Khong tu doi sac
+   do: nguoi lam quan trac doc ban do theo dung sau mau nay. */
+const MAU_WQI = {
+  'Rất tốt': '#3333ff',            // 91 - 100, xanh nuoc bien
+  'Tốt': '#00e400',                // 76 - 90, xanh la cay
+  'Trung bình': '#ffff00',         // 51 - 75, vang
+  'Xấu': '#ff7e00',                // 26 - 50, da cam
+  'Kém': '#ff0000',                // 10 - 25, do
+  'Ô nhiễm rất nặng': '#7e0023',   // duoi 10, nau
+};
+
 /* --------------------------------------------------------------------------
    Ham dinh dang gia tri hien thi
    -------------------------------------------------------------------------- */
@@ -212,7 +225,7 @@ const CAU_HINH = {
     { ma: 'khai_thac_xa_thai', ten: 'Khai thác và xả thải', mo: true,
       lop: ['khai_thac', 'xa_thai'] },
     { ma: 'giam_sat', ten: 'Quan trắc và sức chịu tải', mo: true,
-      lop: ['doan_song', 'quan_trac', 'quan_trac_ndd'] },
+      lop: ['doan_song', 'quan_trac', 'quan_trac_dia_phuong', 'quan_trac_ndd'] },
   ],
 
   /* ---------------- Dinh nghia tung lop ---------------- */
@@ -445,10 +458,16 @@ const CAU_HINH = {
       ],
     },
 
-    /* ===== Ao, ho thuc (tach tu bang kiem ke cong trinh khai thac) =====
-       Cac cong trinh khai thac co loai hinh "Ho" (ho chua, ho chua thuy loi,
-       ho thuy dien). Sinh boi scripts/05_chuan_hoa_chuyen_de.py, DU LIEU THAT.
-       Dap dang, tram bom, tram cap nuoc, cong o lai lop khai_thac. */
+    /* ===== Ao, ho thuc (ket qua kiem ke) =====
+       DU LIEU THAT. Tep ao_ho.geojson co hai kieu, khoi nay khai bao truong
+       cua ca hai; truong nao tep khong co thi giao dien tu bo qua.
+
+       Kieu cu, scripts/05_chuan_hoa_chuyen_de.py: cac cong trinh khai thac co
+       loai hinh "Ho" tach tu bang khai thac, mang luu luong khai thac.
+       Kieu moi, scripts/12_nap_ao_ho_kiem_ke.py: danh muc nguon nuoc (ho, ao,
+       dam) cua ban ra soat kiem ke, mang dien tich va dung tich, KHONG co luu
+       luong; khi do ho khai thac nam o lop khai_thac. Tep kieu moi mang dau
+       "sinh_boi" o cap FeatureCollection. */
     ao_ho: {
       ten: 'Ao, hồ, hồ chứa (kiểm kê)',
       tep: 'ao_ho.geojson',
@@ -458,7 +477,7 @@ const CAU_HINH = {
       khoa: 'ma',
       truong_nhan: 'ten_cong_trinh',
       du_lieu_that: true,
-      mo_ta: 'Hồ chứa, hồ chứa thủy lợi, hồ thủy điện theo kết quả kiểm kê (tách từ công trình khai thác)',
+      mo_ta: 'Hồ, ao, đầm và hồ chứa theo kết quả kiểm kê nguồn nước mặt',
       kieu_ve: function (p) {
         var v = p.dung_tich_ho_trieu_m3 || 0;
         var bk = Math.max(3.5, Math.min(8, 3.5 + Math.sqrt(v) * 0.9));
@@ -472,7 +491,11 @@ const CAU_HINH = {
         { ma: 'muc_dich_su_dung', ten: 'Mục đích sử dụng' },
         { ma: 'nguon_nuoc_khai_thac', ten: 'Nguồn nước' },
         { ma: 'xa_phuong', ten: 'Xã, phường' },
+        { ma: 'dien_tich_mat_nuoc_m2', ten: 'Diện tích mặt nước', dinh_dang: 'so', don_vi: 'm²' },
         { ma: 'dung_tich_ho_trieu_m3', ten: 'Dung tích hồ chứa', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'dung_tich_huu_ich_trieu_m3', ten: 'Dung tích hữu ích', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'luu_vuc_kiem_ke', ten: 'Thuộc hệ thống sông' },
+        { ma: 'ghi_chu', ten: 'Ghi chú' },
         { ma: 'q_tuoi_m3s', ten: 'Lưu lượng tưới', dinh_dang: 'so_le', don_vi: 'm³/s' },
         { ma: 'q_san_xuat_m3_ngay', ten: 'Lưu lượng sản xuất', dinh_dang: 'so', don_vi: 'm³/ngày' },
         { ma: 'q_khac_m3_ngay', ten: 'Lưu lượng mục đích khác', dinh_dang: 'so', don_vi: 'm³/ngày' },
@@ -771,6 +794,62 @@ const CAU_HINH = {
       chu_giai: [
         { kieu: 'diem', mau: '#b45309',
           nhan: 'Lỗ khoan quan trắc nước dưới đất' },
+      ],
+    },
+
+    /* ===== Vi tri quan trac chat luong nuoc mat cua dia phuong (du lieu that) =====
+
+       Sinh boi scripts/13_nap_wqi_dia_phuong.py tu Bieu 10 cua ban ra soat
+       kiem ke. KHONG tron vao lop quan_trac o tren: lop do la tram cua CSDL
+       Quan trac Quoc gia, con day la mang quan trac cua tinh.
+
+       WQI la so CO SAN trong bieu, khong tinh lai. Moi vi tri co so ky do
+       khac nhau (12 thang, 10 thang, 4 quy, hoac 1 lan lay mau bo sung) nen
+       khong co cot theo thang: truong wqi la ky MOI NHAT, ca chuoi nam o
+       chuoi_wqi. Mau diem theo phan loai cua ky moi nhat.
+
+       Vien toi mau chu khong vien trang nhu cac lop khac: muc "Trung binh" la
+       mau vang, vien trang thi chim tren nen sang. */
+    quan_trac_dia_phuong: {
+      ten: 'Chất lượng nước mặt (WQI, quan trắc địa phương)',
+      tep: 'quan_trac_dia_phuong.geojson',
+      kieu: 'diem',
+      hien: true,
+      z: 479,                  /* duoi quan_trac 480, tren quan_trac_ndd 478 */
+      khoa: 'ma',
+      truong_nhan: 'ten',
+      du_lieu_that: true,
+      mo_ta: 'Vị trí quan trắc chất lượng nước mặt của tỉnh, chỉ số WQI theo kết quả kiểm kê (Biểu 10)',
+      kieu_ve: function (p) {
+        return { radius: 6, fillColor: MAU_WQI[p.phan_loai_wqi] || MAU.trung_tinh,
+                 color: '#1e293b', weight: 1.2, opacity: 1, fillOpacity: 0.95 };
+      },
+      truong: [
+        { ma: 'ten', ten: 'Vị trí quan trắc' },
+        { ma: 'xa_phuong', ten: 'Xã, phường' },
+        { ma: 'xa_cu', ten: 'Xã (cũ)' },
+        { ma: 'huyen_cu', ten: 'Huyện (cũ)' },
+        { ma: 'tinh_cu', ten: 'Tỉnh (cũ)' },
+        { ma: 'luu_vuc_kiem_ke', ten: 'Thuộc lưu vực sông' },
+        { ma: 'ten_luu_vuc', ten: 'Lưu vực' },
+        { ma: 'wqi', ten: 'WQI kỳ mới nhất', dinh_dang: 'so' },
+        { ma: 'phan_loai_wqi', ten: 'Phân loại' },
+        { ma: 'thoi_diem_wqi', ten: 'Kỳ quan trắc mới nhất' },
+        { ma: 'wqi_thap_nhat', ten: 'WQI thấp nhất', dinh_dang: 'so' },
+        { ma: 'ky_wqi_thap_nhat', ten: 'Kỳ có WQI thấp nhất' },
+        { ma: 'so_ky', ten: 'Số kỳ quan trắc', dinh_dang: 'so' },
+        { ma: 'chuoi_wqi', ten: 'WQI các kỳ' },
+        { ma: 'dot_quan_trac', ten: 'Đợt quan trắc' },
+      ],
+      cot_bang: ['ma', 'ten', 'xa_phuong', 'luu_vuc_kiem_ke', 'wqi',
+                 'phan_loai_wqi', 'thoi_diem_wqi', 'wqi_thap_nhat'],
+      chu_giai: [
+        { kieu: 'diem', mau: MAU_WQI['Rất tốt'], nhan: 'WQI 91 - 100: Rất tốt' },
+        { kieu: 'diem', mau: MAU_WQI['Tốt'], nhan: 'WQI 76 - 90: Tốt' },
+        { kieu: 'diem', mau: MAU_WQI['Trung bình'], nhan: 'WQI 51 - 75: Trung bình' },
+        { kieu: 'diem', mau: MAU_WQI['Xấu'], nhan: 'WQI 26 - 50: Xấu' },
+        { kieu: 'diem', mau: MAU_WQI['Kém'], nhan: 'WQI 10 - 25: Kém' },
+        { kieu: 'diem', mau: MAU_WQI['Ô nhiễm rất nặng'], nhan: 'WQI dưới 10: Ô nhiễm rất nặng' },
       ],
     },
   },

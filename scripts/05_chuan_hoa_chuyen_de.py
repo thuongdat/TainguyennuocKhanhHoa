@@ -15,6 +15,11 @@ Dau ra  : data/luu_vuc.geojson, song_suoi.geojson, khai_thac.geojson,
           bom, tram cap nuoc, cong o lai khai_thac.geojson. Hai lop dung chung
           truong, ma KT giu nguyen de truy nguoc ve bang kiem ke.
 
+          NGOAI LE: khi ao_ho.geojson da do scripts/12_nap_ao_ho_kiem_ke.py
+          sinh ra (tep mang dau "sinh_boi") thi script nay KHONG tach ho va
+          KHONG ghi de ao_ho.geojson; ho khai thac o lai khai_thac.geojson.
+          Xem ao_ho_do_script_khac_sinh().
+
 BA DIEU CAN BIET VE NGUON
 
 1. Chu tieng Viet trong cac tep nay la ma TCVN3 (ABC) bi doc nhu cp1252,
@@ -438,6 +443,21 @@ def dong_bo_lop_mo_phong(tt, luu_vuc):
         print("   {}: {} doi tuong, {} khong gan duoc luu vuc".format(ten, len(g), thieu))
 
 
+def ao_ho_do_script_khac_sinh(tt):
+    """Ten script da sinh data/ao_ho.geojson, hoac None neu la tep cua script nay.
+
+    scripts/12_nap_ao_ho_kiem_ke.py ghi dau "sinh_boi" o cap FeatureCollection.
+    Co dau do thi ao_ho la danh muc nguon nuoc tu Excel (khong co luu luong),
+    script nay KHONG duoc tach ho va ghi de len no. Tep kieu cu do chinh script
+    nay ghi thi khong co dau.
+    """
+    duong = mod_tinh.duong_dan_ra(tt, "ao_ho.geojson")
+    if not os.path.isfile(duong):
+        return None
+    with open(duong, encoding="utf-8") as f:
+        return json.load(f).get("sinh_boi") or None
+
+
 def main():
     tt = mod_tinh.nap()
     epsg = tt["epsg_chuyen_de"]
@@ -457,21 +477,31 @@ def main():
     khai = kiem_tra_khung_bao("khai_thac", khai.to_crs(4326), khung).to_crs(epsg)
     xa = kiem_tra_khung_bao("xa_thai", xa.to_crs(4326), khung).to_crs(epsg)
 
-    # tach ho ra lop rieng: loai_hinh bat dau bang "Ho" (ho chua, ho thuy dien)
-    la_ho = khai["loai_hinh"].fillna("").str.startswith("Hồ")
-    ao_ho = khai[la_ho].reset_index(drop=True)
-    khai = khai[~la_ho].reset_index(drop=True)
-    ao_ho.insert(0, "ma_khai_thac", ao_ho["ma"])
-    ao_ho["ma"] = ["AH{:03d}".format(i + 1) for i in range(len(ao_ho))]
-    print("\nTach lop ho: {} ho sang ao_ho, con {} cong trinh khai thac".format(
-        len(ao_ho), len(khai)))
+    nguon_ao_ho = ao_ho_do_script_khac_sinh(tt)
+    if nguon_ao_ho:
+        # ao_ho.geojson da la danh muc nguon nuoc tu ban ra soat kiem ke (Excel).
+        # Khong tach, khong ghi de: ho khai thac o lai khai_thac cung luu luong.
+        ao_ho = None
+        print("\nKHONG tach lop ho: ao_ho.geojson do script {} sinh ra, giu "
+              "nguyen. {} cong trinh khai thac (gom ca ho) o lai khai_thac."
+              .format(nguon_ao_ho, len(khai)))
+    else:
+        # tach ho ra lop rieng: loai_hinh bat dau bang "Ho" (ho chua, ho thuy dien)
+        la_ho = khai["loai_hinh"].fillna("").str.startswith("Hồ")
+        ao_ho = khai[la_ho].reset_index(drop=True)
+        khai = khai[~la_ho].reset_index(drop=True)
+        ao_ho.insert(0, "ma_khai_thac", ao_ho["ma"])
+        ao_ho["ma"] = ["AH{:03d}".format(i + 1) for i in range(len(ao_ho))]
+        print("\nTach lop ho: {} ho sang ao_ho, con {} cong trinh khai thac".format(
+            len(ao_ho), len(khai)))
 
     print("\nGhi tep")
     # luu_vuc ghi truoc de dong_bo_lop_mo_phong dung cung ma
     ghi(tt, "luu_vuc.geojson", luu_vuc)
     ghi(tt, "song_suoi.geojson", song)
     ghi(tt, "khai_thac.geojson", khai)
-    ghi(tt, "ao_ho.geojson", ao_ho)
+    if ao_ho is not None:
+        ghi(tt, "ao_ho.geojson", ao_ho)
     ghi(tt, "xa_thai.geojson", xa)
 
     dong_bo_lop_mo_phong(tt, luu_vuc)
@@ -479,6 +509,8 @@ def main():
     # canh bao ky tu con sot (bang ma TCVN3 thieu)
     sot = set()
     for gdf in (luu_vuc, song, khai, ao_ho, xa):
+        if gdf is None:
+            continue
         for c in gdf.columns:
             if c != "geometry" and la_cot_chu(gdf[c]):
                 for v in gdf[c].dropna():
