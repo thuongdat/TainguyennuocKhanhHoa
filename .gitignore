@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Tep nen va kho nen: khong dua len kho ma nguon.
+# GitHub canh bao voi tep tren 50 MB va tu choi tep tren 100 MB.
+*.rar
+*.7z
+*.zip
+
+# Du lieu goc: nang va chi dung o buoc xu ly, web khong doc truc tiep
+data_goc/*
+!data_goc/.gitkeep
+
+# Tep tam cua Office
+~$*
+
+# He dieu hanh
+Thumbs.db
+.DS_Store
+
+# Backend trung gian QTQG: thong tin ket noi va du lieu tich luy cuc bo.
+# Dat truoc khi tao backend/.env de khong bao gio lot thong tin dang nhap len kho.
+backend/.env
+# Ban sao luu cua .env cung giu mat khau. Chan ca ho .env.* roi mo lai
+# rieng .env.mau, vi tep mau co cac gia tri rong va duoc commit.
+backend/.env.*
+!backend/.env.mau
+backend/*.sqlite3
+backend/schema_qtqg.md
+
+# Bo du lieu quoc gia va ban du lieu kiem ke goc (nang, chi dung o buoc tien xu ly tren may,
+# trang web chi doc data/). Giong cach data_goc/ dang lam.
+CSDL/
+
+# Cau hinh cuc bo cua Claude Code
+.claude/

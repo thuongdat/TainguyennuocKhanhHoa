@@ -1,0 +1,70 @@
+{
+  "ghi_chu": "Danh mục ký hiệu điểm, sinh từ CSDL/symbol_QGIS bằng scripts/06_tao_ky_hieu.py. Mỗi tệp SVG vẽ trong viewBox -50 -50 100 100, gốc tọa độ ở giữa, một milimét của QGIS bằng 10 đơn vị viewBox.",
+  "ky_hieu": {
+    "Cong": {
+      "tep": "ky_hieu/Cong.svg",
+      "kich_thuoc_mm": 4.2,
+      "so_lop": 1
+    },
+    "DiemdoQ": {
+      "tep": "ky_hieu/DiemdoQ.svg",
+      "kich_thuoc_mm": 7.0,
+      "so_lop": 1
+    },
+    "DiemdoQ_LT": {
+      "tep": "ky_hieu/DiemdoQ_LT.svg",
+      "kich_thuoc_mm": 7.0,
+      "so_lop": 1
+    },
+    "Diemlaymaunuocsong": {
+      "tep": "ky_hieu/Diemlaymaunuocsong.svg",
+      "kich_thuoc_mm": 12.0,
+      "so_lop": 1
+    },
+    "Dieutraho": {
+      "tep": "ky_hieu/Dieutraho.svg",
+      "kich_thuoc_mm": 6.0,
+      "so_lop": 1
+    },
+    "Ghenh_dangdiem": {
+      "tep": "ky_hieu/Ghenh_dangdiem.svg",
+      "kich_thuoc_mm": 6.0,
+      "so_lop": 2
+    },
+    "Lokhoan_TK": {
+      "tep": "ky_hieu/Lokhoan_TK.svg",
+      "kich_thuoc_mm": 7.0,
+      "so_lop": 2
+    },
+    "Nuilua": {
+      "tep": "ky_hieu/Nuilua.svg",
+      "kich_thuoc_mm": 5.0,
+      "so_lop": 2
+    },
+    "Trambom": {
+      "tep": "ky_hieu/Trambom.svg",
+      "kich_thuoc_mm": 7.0,
+      "so_lop": 1
+    },
+    "Tramkhituong": {
+      "tep": "ky_hieu/Tramkhituong.svg",
+      "kich_thuoc_mm": 5.0,
+      "so_lop": 2
+    },
+    "Tramthuyvan": {
+      "tep": "ky_hieu/Tramthuyvan.svg",
+      "kich_thuoc_mm": 7.0,
+      "so_lop": 1
+    },
+    "UBND": {
+      "tep": "ky_hieu/UBND.svg",
+      "kich_thuoc_mm": 2.2,
+      "so_lop": 1
+    },
+    "diemlo": {
+      "tep": "ky_hieu/diemlo.svg",
+      "kich_thuoc_mm": 6.0,
+      "so_lop": 3
+    }
+  }
+}

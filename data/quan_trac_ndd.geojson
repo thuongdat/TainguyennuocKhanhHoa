@@ -1,0 +1,1162 @@
+{
+ "type": "FeatureCollection",
+ "name": "quan_trac_ndd",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc.",
+ "thoi_diem_xuat": "2026-10-27T09:42+07:00",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT1-KH",
+    "ten": "Lỗ khoan QT1-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 4.791,
+    "vi_tri_hc": "Tu Bông",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 07:00",
+    "thoi_diem": "2026-10-06 07:00",
+    "h_ngam_m": -3.14,
+    "cao_do_mn_m": 1.651,
+    "nhiet_do_c": 28.5,
+    "thoi_diem_chat_luong": "2026-05-03",
+    "ph": 7.66,
+    "permanganat_mg_l": 0.4,
+    "tds_mg_l": 200.0,
+    "do_cung_mg_l": 146.5,
+    "amoni_mg_l": 0.195,
+    "nitrat_mg_l": 0.077,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 29.069,
+    "fe_mg_l": 6.375,
+    "mn_mg_l": 0.726,
+    "as_mg_l": 0.0015,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.305646,
+     12.779418
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT1-NT",
+    "ten": "Lỗ khoan QT1-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 38.298,
+    "vi_tri_hc": "Ninh Hải",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -2.86,
+    "cao_do_mn_m": 35.438,
+    "nhiet_do_c": 30.1,
+    "thoi_diem_chat_luong": "2026-05-08",
+    "ph": 7.4,
+    "permanganat_mg_l": 0.4,
+    "tds_mg_l": 261.0,
+    "do_cung_mg_l": 128.0,
+    "amoni_mg_l": 0.01,
+    "nitrat_mg_l": 5.035,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 46.085,
+    "fe_mg_l": 0.35,
+    "mn_mg_l": 0.0137,
+    "as_mg_l": 0.00263,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.100778,
+     11.655699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT10-KH",
+    "ten": "Lỗ khoan QT10-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 3.784,
+    "vi_tri_hc": "Tây Nha Trang",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 07:00",
+    "thoi_diem": "2026-10-06 07:00",
+    "h_ngam_m": -2.81,
+    "cao_do_mn_m": 0.974,
+    "nhiet_do_c": 28.5,
+    "thoi_diem_chat_luong": "2026-05-10",
+    "ph": 7.16,
+    "permanganat_mg_l": 9.6,
+    "tds_mg_l": 495.0,
+    "do_cung_mg_l": 299.0,
+    "amoni_mg_l": 11.02,
+    "nitrat_mg_l": 0.079,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 439.58,
+    "fe_mg_l": 3.102,
+    "mn_mg_l": 0.741,
+    "as_mg_l": 0.00225,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.162031,
+     12.261257
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT11-KH",
+    "ten": "Lỗ khoan QT11-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 5.943,
+    "vi_tri_hc": "Diên Khánh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 17:00",
+    "thoi_diem": "2026-10-06 17:00",
+    "h_ngam_m": -3.25,
+    "cao_do_mn_m": 2.693,
+    "nhiet_do_c": 30.0,
+    "thoi_diem_chat_luong": "2026-05-10",
+    "ph": 7.91,
+    "permanganat_mg_l": 1.2,
+    "tds_mg_l": 224.0,
+    "do_cung_mg_l": 144.5,
+    "amoni_mg_l": 1.034,
+    "nitrat_mg_l": 0.07,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 75.863,
+    "fe_mg_l": 10.98,
+    "mn_mg_l": 1.25,
+    "as_mg_l": 0.0017,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.116267,
+     12.2579
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT12-KH",
+    "ten": "Lỗ khoan QT12-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 9.077,
+    "vi_tri_hc": "Diên Lạc",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 15:00",
+    "thoi_diem": "2026-10-06 15:00",
+    "h_ngam_m": -2.15,
+    "cao_do_mn_m": 6.927,
+    "nhiet_do_c": 29.0,
+    "thoi_diem_chat_luong": "2026-05-10",
+    "ph": 7.89,
+    "permanganat_mg_l": 1.2,
+    "tds_mg_l": 230.0,
+    "do_cung_mg_l": 97.0,
+    "amoni_mg_l": 1.72,
+    "nitrat_mg_l": 0.12,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 43.249,
+    "fe_mg_l": 21.68,
+    "mn_mg_l": 1.72,
+    "as_mg_l": 0.00634,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.066175,
+     12.252129
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT13-KH",
+    "ten": "Lỗ khoan QT13-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 5.341,
+    "vi_tri_hc": "Cam Lâm",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 05:00",
+    "thoi_diem": "2026-10-06 05:00",
+    "h_ngam_m": -4.44,
+    "cao_do_mn_m": 0.901,
+    "nhiet_do_c": 30.0,
+    "thoi_diem_chat_luong": "2026-05-09",
+    "ph": 7.74,
+    "permanganat_mg_l": 2.0,
+    "tds_mg_l": 55.0,
+    "do_cung_mg_l": 45.0,
+    "amoni_mg_l": 0.18,
+    "nitrat_mg_l": 0.138,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 17.016,
+    "fe_mg_l": 1.184,
+    "mn_mg_l": 0.046,
+    "as_mg_l": 0.0015,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.180995,
+     12.081144
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT14-KH",
+    "ten": "Lỗ khoan QT14-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 21.848,
+    "vi_tri_hc": "Cam Lâm",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 17:00",
+    "thoi_diem": "2026-10-06 17:00",
+    "h_ngam_m": -7.46,
+    "cao_do_mn_m": 14.388,
+    "nhiet_do_c": 29.0,
+    "thoi_diem_chat_luong": "2026-05-09",
+    "ph": 8.18,
+    "permanganat_mg_l": 0.4,
+    "tds_mg_l": 133.0,
+    "do_cung_mg_l": 37.0,
+    "amoni_mg_l": 0.024,
+    "nitrat_mg_l": 4.32,
+    "nitrit_mg_l": 0.013,
+    "clorua_mg_l": 54.593,
+    "fe_mg_l": 0.137,
+    "mn_mg_l": 0.0137,
+    "as_mg_l": 0.0015,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.157615,
+     12.024135
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT15-KH",
+    "ten": "Lỗ khoan QT15-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "q",
+    "cao_do_mieng_lk_m": 69.731,
+    "vi_tri_hc": "Cam Lâm",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 17:00",
+    "thoi_diem": "2026-10-06 17:00",
+    "h_ngam_m": -4.6,
+    "cao_do_mn_m": 65.131,
+    "nhiet_do_c": 28.0,
+    "thoi_diem_chat_luong": "2026-05-09",
+    "ph": 8.21,
+    "permanganat_mg_l": 0.4,
+    "tds_mg_l": 233.0,
+    "do_cung_mg_l": 88.5,
+    "amoni_mg_l": 0.018,
+    "nitrat_mg_l": 6.51,
+    "nitrit_mg_l": 0.005,
+    "clorua_mg_l": 75.154,
+    "fe_mg_l": 1.097,
+    "mn_mg_l": 0.198,
+    "as_mg_l": 0.00368,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.086492,
+     12.011734
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT16-KH",
+    "ten": "Lỗ khoan QT16-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "j",
+    "cao_do_mieng_lk_m": 31.668,
+    "vi_tri_hc": "Khánh Vĩnh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 15:00",
+    "thoi_diem": "2026-10-06 15:00",
+    "h_ngam_m": -4.01,
+    "cao_do_mn_m": 27.658,
+    "nhiet_do_c": 29.0,
+    "thoi_diem_chat_luong": "2026-05-10",
+    "ph": 7.37,
+    "permanganat_mg_l": 0.3,
+    "tds_mg_l": 194.0,
+    "do_cung_mg_l": 189.0,
+    "amoni_mg_l": 0.048,
+    "nitrat_mg_l": 0.96,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 33.323,
+    "fe_mg_l": 0.069,
+    "mn_mg_l": 0.731,
+    "as_mg_l": 0.0015,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.949903,
+     12.259843
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT17-KH",
+    "ten": "Lỗ khoan QT17-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 7.916,
+    "vi_tri_hc": "Cam Lâm",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 17:00",
+    "thoi_diem": "2026-10-06 17:00",
+    "h_ngam_m": -4.18,
+    "cao_do_mn_m": 3.736,
+    "nhiet_do_c": 32.0,
+    "thoi_diem_chat_luong": "2026-05-09",
+    "ph": 7.74,
+    "permanganat_mg_l": 0.3,
+    "tds_mg_l": 236.0,
+    "do_cung_mg_l": 4.0,
+    "amoni_mg_l": 0.05,
+    "nitrat_mg_l": 0.07,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 98.551,
+    "fe_mg_l": 0.329,
+    "mn_mg_l": 0.008,
+    "as_mg_l": 0.012,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.129987,
+     12.109812
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT2-KH",
+    "ten": "Lỗ khoan QT2-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 12.854,
+    "vi_tri_hc": "Đại Lãnh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -6.63,
+    "cao_do_mn_m": 6.224,
+    "nhiet_do_c": 30.0,
+    "thoi_diem_chat_luong": "2026-05-03",
+    "ph": 8.33,
+    "permanganat_mg_l": 0.8,
+    "tds_mg_l": 74.0,
+    "do_cung_mg_l": 28.5,
+    "amoni_mg_l": 0.01,
+    "nitrat_mg_l": 0.35,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 16.307,
+    "fe_mg_l": 0.194,
+    "mn_mg_l": 0.0202,
+    "as_mg_l": 0.0015,
+    "coliform_mpn_100ml": 790.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.333759,
+     12.804013
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT2-NT",
+    "ten": "Lỗ khoan QT2-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 11.658,
+    "vi_tri_hc": "Thuận Bắc",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 07:00",
+    "thoi_diem": "2026-10-06 07:00",
+    "h_ngam_m": -1.2,
+    "cao_do_mn_m": 10.458,
+    "nhiet_do_c": 30.4,
+    "thoi_diem_chat_luong": "2026-05-08",
+    "ph": 7.03,
+    "permanganat_mg_l": 1.2,
+    "tds_mg_l": 2043.0,
+    "do_cung_mg_l": 211.0,
+    "amoni_mg_l": 0.036,
+    "nitrat_mg_l": 0.089,
+    "nitrit_mg_l": 0.02,
+    "clorua_mg_l": 836.62,
+    "fe_mg_l": 2.666,
+    "mn_mg_l": 0.495,
+    "as_mg_l": 0.0051,
+    "coliform_mpn_100ml": 20.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.032839,
+     11.676447
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT3-KH",
+    "ten": "Lỗ khoan QT3-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 3.8,
+    "vi_tri_hc": "Đại Lãnh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 07:00",
+    "thoi_diem": "2026-10-06 07:00",
+    "h_ngam_m": -2.5,
+    "cao_do_mn_m": 1.3,
+    "nhiet_do_c": 32.0,
+    "thoi_diem_chat_luong": "2026-05-03",
+    "ph": 7.64,
+    "permanganat_mg_l": 4.4,
+    "tds_mg_l": 174.0,
+    "do_cung_mg_l": 166.0,
+    "amoni_mg_l": 2.86,
+    "nitrat_mg_l": 0.09,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 154.562,
+    "fe_mg_l": 2.07,
+    "mn_mg_l": 0.655,
+    "as_mg_l": 0.00241,
+    "coliform_mpn_100ml": 49.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.381641,
+     12.709269
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT3-NT",
+    "ten": "Lỗ khoan QT3-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "j",
+    "cao_do_mieng_lk_m": 92.627,
+    "vi_tri_hc": "Mỹ Sơn",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 13:00",
+    "thoi_diem": "2026-10-06 13:00",
+    "h_ngam_m": -2.83,
+    "cao_do_mn_m": 89.797,
+    "nhiet_do_c": 30.2,
+    "thoi_diem_chat_luong": "2026-05-08",
+    "ph": 7.4,
+    "permanganat_mg_l": 0.8,
+    "tds_mg_l": 439.0,
+    "do_cung_mg_l": 263.0,
+    "amoni_mg_l": 0.011,
+    "nitrat_mg_l": 0.07,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 92.17,
+    "fe_mg_l": 0.719,
+    "mn_mg_l": 0.118,
+    "as_mg_l": 0.00947,
+    "coliform_mpn_100ml": 45.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.938981,
+     11.708959
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT4-KH",
+    "ten": "Lỗ khoan QT4-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 4.143,
+    "vi_tri_hc": "Vạn Ninh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -2.05,
+    "cao_do_mn_m": 2.093,
+    "nhiet_do_c": 29.5,
+    "thoi_diem_chat_luong": "2026-05-03",
+    "ph": 6.98,
+    "permanganat_mg_l": 1.2,
+    "tds_mg_l": 455.0,
+    "do_cung_mg_l": 199.0,
+    "amoni_mg_l": 0.01,
+    "nitrat_mg_l": 18.22,
+    "nitrit_mg_l": 0.075,
+    "clorua_mg_l": 65.228,
+    "fe_mg_l": 0.031,
+    "mn_mg_l": 0.555,
+    "as_mg_l": 0.0076,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.22073,
+     12.70323
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT4-NT",
+    "ten": "Lỗ khoan QT4-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 4.617,
+    "vi_tri_hc": "Ninh Phước",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -1.13,
+    "cao_do_mn_m": 3.487,
+    "nhiet_do_c": 30.2,
+    "thoi_diem_chat_luong": "2026-05-07",
+    "ph": 7.14,
+    "permanganat_mg_l": 0.8,
+    "tds_mg_l": 701.0,
+    "do_cung_mg_l": 203.0,
+    "amoni_mg_l": 1.72,
+    "nitrat_mg_l": 0.07,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 138.964,
+    "fe_mg_l": 3.096,
+    "mn_mg_l": 0.852,
+    "as_mg_l": 0.0045,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.975778,
+     11.532078
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT5-KH",
+    "ten": "Lỗ khoan QT5-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 5.473,
+    "vi_tri_hc": "Vạn Ninh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -1.07,
+    "cao_do_mn_m": 4.403,
+    "nhiet_do_c": 29.0,
+    "thoi_diem_chat_luong": "2026-05-03",
+    "ph": 6.89,
+    "permanganat_mg_l": 2.8,
+    "tds_mg_l": 476.0,
+    "do_cung_mg_l": 262.0,
+    "amoni_mg_l": 0.15,
+    "nitrat_mg_l": 8.04,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 103.514,
+    "fe_mg_l": 0.086,
+    "mn_mg_l": 0.0263,
+    "as_mg_l": 0.00431,
+    "coliform_mpn_100ml": 490.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.198677,
+     12.687969
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT5-NT",
+    "ten": "Lỗ khoan QT5-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 7.633,
+    "vi_tri_hc": "Bảo An",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -4.2,
+    "cao_do_mn_m": 3.433,
+    "nhiet_do_c": 30.2,
+    "thoi_diem_chat_luong": "2026-05-08",
+    "ph": 6.88,
+    "permanganat_mg_l": 1.2,
+    "tds_mg_l": 470.0,
+    "do_cung_mg_l": 187.0,
+    "amoni_mg_l": 0.018,
+    "nitrat_mg_l": 2.234,
+    "nitrit_mg_l": 0.1,
+    "clorua_mg_l": 120.53,
+    "fe_mg_l": 0.08,
+    "mn_mg_l": 0.779,
+    "as_mg_l": 0.00293,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.971859,
+     11.582475
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT6-KH",
+    "ten": "Lỗ khoan QT6-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "j",
+    "cao_do_mieng_lk_m": 8.154,
+    "vi_tri_hc": "Vạn Hưng",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -1.18,
+    "cao_do_mn_m": 6.974,
+    "nhiet_do_c": 28.5,
+    "thoi_diem_chat_luong": "2026-05-03",
+    "ph": 7.44,
+    "permanganat_mg_l": 4.0,
+    "tds_mg_l": 1055.0,
+    "do_cung_mg_l": 915.0,
+    "amoni_mg_l": 0.01,
+    "nitrat_mg_l": 0.07,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 666.46,
+    "fe_mg_l": 1.455,
+    "mn_mg_l": 0.555,
+    "as_mg_l": 0.002715,
+    "coliform_mpn_100ml": 49.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.174796,
+     12.614347
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT6-NT",
+    "ten": "Lỗ khoan QT6-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 13.362,
+    "vi_tri_hc": "Phước Hậu",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 11:00",
+    "thoi_diem": "2026-10-06 11:00",
+    "h_ngam_m": -2.72,
+    "cao_do_mn_m": 10.642,
+    "nhiet_do_c": 30.4,
+    "thoi_diem_chat_luong": "2026-05-08",
+    "ph": 8.13,
+    "permanganat_mg_l": 0.3,
+    "tds_mg_l": 108.0,
+    "do_cung_mg_l": 62.0,
+    "amoni_mg_l": 0.075,
+    "nitrat_mg_l": 0.568,
+    "nitrit_mg_l": 0.003,
+    "clorua_mg_l": 13.471,
+    "fe_mg_l": 1.252,
+    "mn_mg_l": 0.919,
+    "as_mg_l": 0.00251,
+    "coliform_mpn_100ml": 20.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.901184,
+     11.605633
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT7-KH",
+    "ten": "Lỗ khoan QT7-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qh",
+    "cao_do_mieng_lk_m": 2.028,
+    "vi_tri_hc": "Đông Ninh Hòa",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 11:00",
+    "thoi_diem": "2026-10-06 11:00",
+    "h_ngam_m": -1.36,
+    "cao_do_mn_m": 0.668,
+    "nhiet_do_c": 28.0,
+    "thoi_diem_chat_luong": "2026-05-03",
+    "ph": 7.22,
+    "permanganat_mg_l": 10.0,
+    "tds_mg_l": 1947.0,
+    "do_cung_mg_l": 318.0,
+    "amoni_mg_l": 0.229,
+    "nitrat_mg_l": 0.115,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 1091.86,
+    "fe_mg_l": 2.252,
+    "mn_mg_l": 0.3572,
+    "as_mg_l": 0.01528,
+    "coliform_mpn_100ml": 240.0,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.226438,
+     12.528264
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT7-NT",
+    "ten": "Lỗ khoan QT7-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 15.139,
+    "vi_tri_hc": "Phước Hậu",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 11:00",
+    "thoi_diem": "2026-10-06 11:00",
+    "h_ngam_m": -1.22,
+    "cao_do_mn_m": 13.919,
+    "nhiet_do_c": 30.1,
+    "thoi_diem_chat_luong": "2026-05-08",
+    "ph": 7.25,
+    "permanganat_mg_l": 0.8,
+    "tds_mg_l": 645.0,
+    "do_cung_mg_l": 141.0,
+    "amoni_mg_l": 0.01,
+    "nitrat_mg_l": 12.88,
+    "nitrit_mg_l": 0.85,
+    "clorua_mg_l": 148.89,
+    "fe_mg_l": 0.092,
+    "mn_mg_l": 0.382,
+    "as_mg_l": 0.0162,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.879769,
+     11.604555
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT8-KH",
+    "ten": "Lỗ khoan QT8-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 3.127,
+    "vi_tri_hc": "Ninh Hòa",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 11:00",
+    "thoi_diem": "2026-10-06 11:00",
+    "h_ngam_m": -1.52,
+    "cao_do_mn_m": 1.607,
+    "nhiet_do_c": 29.5,
+    "thoi_diem_chat_luong": "2026-05-10",
+    "ph": 6.76,
+    "permanganat_mg_l": 1.2,
+    "tds_mg_l": 499.0,
+    "do_cung_mg_l": 217.0,
+    "amoni_mg_l": 0.744,
+    "nitrat_mg_l": 3.13,
+    "nitrit_mg_l": 0.023,
+    "clorua_mg_l": 157.398,
+    "fe_mg_l": 0.575,
+    "mn_mg_l": 0.0436,
+    "as_mg_l": 0.00456,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.152981,
+     12.499984
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT8a-NT",
+    "ten": "Lỗ khoan QT8a-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 20.97,
+    "vi_tri_hc": "Phước Dinh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -17.64,
+    "cao_do_mn_m": 3.33,
+    "nhiet_do_c": 32.2,
+    "thoi_diem_chat_luong": "2026-05-07",
+    "ph": 7.11,
+    "permanganat_mg_l": 0.4,
+    "tds_mg_l": 192.0,
+    "do_cung_mg_l": 35.0,
+    "amoni_mg_l": 0.013,
+    "nitrat_mg_l": 5.93,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 73.027,
+    "fe_mg_l": 1.197,
+    "mn_mg_l": 0.0113,
+    "as_mg_l": 0.00316,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.002285,
+     11.416043
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT8b-NT",
+    "ten": "Lỗ khoan QT8b-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "n",
+    "cao_do_mieng_lk_m": 20.963,
+    "vi_tri_hc": "Phước Dinh",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 09:00",
+    "thoi_diem": "2026-10-06 09:00",
+    "h_ngam_m": -18.01,
+    "cao_do_mn_m": 2.953,
+    "nhiet_do_c": 32.2,
+    "thoi_diem_chat_luong": "2026-05-07",
+    "ph": 7.36,
+    "permanganat_mg_l": 0.4,
+    "tds_mg_l": 337.0,
+    "do_cung_mg_l": 62.0,
+    "amoni_mg_l": 0.01,
+    "nitrat_mg_l": 5.71,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 160.234,
+    "fe_mg_l": 0.984,
+    "mn_mg_l": 0.0146,
+    "as_mg_l": 0.0015,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.002276,
+     11.416034
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT9-NT",
+    "ten": "Lỗ khoan QT9-NT",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 13.184,
+    "vi_tri_hc": "Phước Hữu",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 11:00",
+    "thoi_diem": "2026-10-06 11:00",
+    "h_ngam_m": -1.78,
+    "cao_do_mn_m": 11.404,
+    "nhiet_do_c": 30.1,
+    "thoi_diem_chat_luong": "2026-05-07",
+    "ph": 6.88,
+    "permanganat_mg_l": 0.8,
+    "tds_mg_l": 581.0,
+    "do_cung_mg_l": 288.0,
+    "amoni_mg_l": 0.01,
+    "nitrat_mg_l": 29.36,
+    "nitrit_mg_l": 0.19,
+    "clorua_mg_l": 249.568,
+    "fe_mg_l": 0.172,
+    "mn_mg_l": 0.799,
+    "as_mg_l": 0.0015,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.908384,
+     11.523755
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT9a-KH",
+    "ten": "Lỗ khoan QT9a-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "qp",
+    "cao_do_mieng_lk_m": 5.88,
+    "vi_tri_hc": "Tân Định",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 13:00",
+    "thoi_diem": "2026-10-06 13:00",
+    "h_ngam_m": -0.88,
+    "cao_do_mn_m": 5.0,
+    "nhiet_do_c": 29.5,
+    "thoi_diem_chat_luong": "2026-05-10",
+    "ph": 8.21,
+    "permanganat_mg_l": 5.6,
+    "tds_mg_l": 1582.0,
+    "do_cung_mg_l": 201.0,
+    "amoni_mg_l": 1.48,
+    "nitrat_mg_l": 0.079,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 1297.47,
+    "fe_mg_l": 0.201,
+    "mn_mg_l": 0.032,
+    "as_mg_l": 0.0034,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.114004,
+     12.484873
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "ma": "QT9b-KH",
+    "ten": "Lỗ khoan QT9b-KH",
+    "loai_tram": "Nước dưới đất",
+    "tang_chua_nuoc": "j",
+    "cao_do_mieng_lk_m": 5.895,
+    "vi_tri_hc": "Tân Định",
+    "ten_luu_vuc": null,
+    "mang_quan_trac": "Quốc gia",
+    "thiet_bi_do": "Bán tự động",
+    "ngay_bat_dau": "2024-01-01",
+    "thoi_diem_muc_nuoc": "2026-10-06 13:00",
+    "thoi_diem": "2026-10-06 13:00",
+    "h_ngam_m": -0.7,
+    "cao_do_mn_m": 5.195,
+    "nhiet_do_c": 28.0,
+    "thoi_diem_chat_luong": "2026-05-10",
+    "ph": 8.21,
+    "permanganat_mg_l": 3.2,
+    "tds_mg_l": 1251.0,
+    "do_cung_mg_l": 195.0,
+    "amoni_mg_l": 1.596,
+    "nitrat_mg_l": 0.07,
+    "nitrit_mg_l": 0.002,
+    "clorua_mg_l": 1325.83,
+    "fe_mg_l": 0.071,
+    "mn_mg_l": 0.0326,
+    "as_mg_l": 0.00294,
+    "coliform_mpn_100ml": 1.8,
+    "nguon_dl": "Mạng quan trắc nước dưới đất quốc gia, cơ sở dữ liệu phần mềm Quan trắc Quốc gia (QTQG). Số đo trong lớp này là số tại thời điểm xuất 27/10/2026; số mới nhất xem tab Quan trắc."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.114013,
+     12.484873
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+# Moi truong xu ly du lieu cho WebGIS Tai nguyen nuoc Khanh Hoa
+# Tao moi truong:  conda env create -f environment.yml
+# Kich hoat:       conda activate tainguyennuoc
+name: tainguyennuoc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - geopandas      # du lieu vector
+  - pandas         # du lieu bang
+  - shapely        # xu ly hinh hoc, don gian hoa
+  - pyproj         # chuyen he quy chieu VN-2000 <-> WGS84
+  - requests       # goi API quan trac
+  - openpyxl       # doc ghi Excel
+  - mapclassify    # phan loai du lieu cho ban do chuyen de
+  - pytest         # bo kiem thu tu dong, xem backend/tests/
+
+  # Backend trung gian lay so lieu tu CSDL Quan trac Quoc gia, xem backend/.
+  #
+  # Cac goi nay cai qua pip chu khong qua conda. Ly do: conda tren may phat
+  # trien la ban 4.10, bo giai (solver) picosat het bo nho khi phai giai lai
+  # ca moi truong co geopandas:
+  #     Solving environment: ... *** picosat: out of memory in 'new'
+  # Chung deu la goi Python thuan hoac co banh xe san cho Windows nen pip cai
+  # gon va khong dung den phan C cua geopandas.
+  - pip
+  - pip:
+      - fastapi            # khung dich vu API trung gian
+      - uvicorn[standard]  # may chu chay FastAPI
+      - psycopg[binary]    # noi PostgreSQL, phien ban 3, kem libpq
+      - python-dotenv      # doc backend/.env
+      - httpx              # TestClient cua FastAPI can goi nay

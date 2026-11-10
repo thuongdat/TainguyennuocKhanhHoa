@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebGIS Tài nguyên nước {ten}</title>
+<meta name="description" content="Hệ thống WebGIS kiểm kê, giám sát và hỗ trợ ra quyết định về tài nguyên nước mặt cấp tỉnh">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#128167;</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<!-- ======================= HEADER ======================= -->
+<header class="dau-trang">
+  <div class="dau-trang__thuong-hieu">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M16 2 C16 2 6 13.5 6 20 a10 10 0 0 0 20 0 C26 13.5 16 2 16 2 Z"
+            fill="currentColor" opacity="0.9"/>
+      <path d="M11 21 q2.5 -3 5 0 t5 0" stroke="#fff" stroke-width="1.8"
+            fill="none" stroke-linecap="round"/>
+    </svg>
+    <div class="dau-trang__chu">
+      <h1 data-tinh="ten_he_thong">Tài nguyên nước</h1>
+      <p>Hệ thống WebGIS kiểm kê và hỗ trợ ra quyết định</p>
+    </div>
+  </div>
+
+  <nav class="dau-trang__menu" aria-label="Điều hướng chính">
+    <a href="#" class="dang-chon" data-trang="ban-do">Bản đồ</a>
+    <a href="pages/quan-trac.html" data-trang="quan-trac">Quan trắc</a>
+    <a href="pages/thong-ke.html" data-trang="thong-ke">Thống kê</a>
+    <a href="#" data-trang="canh-bao">
+      Cảnh báo <span class="huy-hieu" id="so-canh-bao" hidden>0</span>
+    </a>
+    <a href="#" data-trang="huong-dan">Hướng dẫn</a>
+  </nav>
+
+  <div class="dau-trang__cong-cu">
+    <div class="o-tim-kiem">
+      <input type="search" id="o-tim-kiem" placeholder="Tìm sông, hồ, công trình..."
+             autocomplete="off" aria-label="Tìm kiếm đối tượng">
+      <ul class="ket-qua-tim" id="ket-qua-tim" hidden></ul>
+    </div>
+    <button class="nut-bieu-tuong" id="nut-giao-dien" title="Đổi nền sáng / tối"
+            aria-label="Đổi nền sáng tối">&#9681;</button>
+  </div>
+</header>
+
+<!-- Dải cảnh báo về nguồn gốc dữ liệu -->
+<div class="dai-thong-bao" id="dai-thong-bao">
+  <strong>Lớp sức chịu tải còn là mô phỏng.</strong>
+  Lớp lưu vực, sông suối, ao hồ hồ chứa, công trình khai thác, điểm xả thải và
+  trạm quan trắc là dữ liệu kiểm kê thật của tỉnh và mạng trạm quốc gia; lớp
+  trạm chỉ có vị trí và thông tin trạm, số đo thật xem ở trang
+  <a href="pages/quan-trac.html">Quan trắc</a>, lấy từ cơ sở dữ liệu phần mềm
+  Quan trắc Quốc gia, cùng lớp lỗ khoan nước dưới đất. Riêng lớp sức chịu tải
+  đoạn sông vẫn là dữ liệu mẫu dùng để kiểm thử giao diện, chưa phải kết quả
+  đánh giá chính thức.
+  Lớp hồ, ao, đầm không được san lấp là danh mục thật do tỉnh công bố.
+  <button class="dai-thong-bao__dong" id="dong-thong-bao" aria-label="Đóng">&times;</button>
+</div>
+
+<!-- ======================= NỘI DUNG ======================= -->
+<main class="than-trang">
+
+  <!-- ----- Bảng điều khiển trái: cây lớp dữ liệu ----- -->
+  <aside class="bang-trai" id="bang-trai">
+    <div class="bang__tieu-de">
+      <span>Lớp dữ liệu</span>
+      <button class="nut-thu-gon" id="thu-gon-trai" title="Thu gọn" aria-label="Thu gọn bảng trái">&#10094;</button>
+    </div>
+
+    <div class="bang__noi-dung">
+      <section class="khoi">
+        <h3 class="khoi__ten">Bản đồ nền</h3>
+        <div id="danh-sach-nen" class="danh-sach-nen"></div>
+      </section>
+
+      <section class="khoi">
+        <h3 class="khoi__ten">Lớp chuyên đề</h3>
+        <div id="cay-lop" class="cay-lop"></div>
+      </section>
+
+      <section class="khoi">
+        <h3 class="khoi__ten">Bộ lọc nhanh</h3>
+        <label class="nhan-nho" for="loc-luu-vuc">Lưu vực sông</label>
+        <select id="loc-luu-vuc">
+          <option value="">Tất cả lưu vực</option>
+        </select>
+
+        <label class="nhan-nho" for="loc-tu-khoa">Từ khóa trong tên</label>
+        <input type="text" id="loc-tu-khoa" placeholder="Nhập một phần tên đối tượng">
+
+        <div class="hang-nut">
+          <button class="nut nut--chinh" id="ap-dung-loc">Áp dụng</button>
+          <button class="nut" id="xoa-loc">Xóa lọc</button>
+        </div>
+        <p class="ghi-chu-nho" id="ket-qua-loc"></p>
+      </section>
+
+      <section class="khoi">
+        <h3 class="khoi__ten">Chú giải</h3>
+        <div id="chu-giai" class="chu-giai"></div>
+      </section>
+    </div>
+  </aside>
+
+  <!-- ----- Bản đồ ----- -->
+  <section class="khu-ban-do">
+    <div id="ban-do" role="application" aria-label="Bản đồ tài nguyên nước"></div>
+
+    <div class="thanh-cong-cu-noi">
+      <button class="nut-cc" id="cc-toan-tinh" title="Về toàn tỉnh">&#8962;</button>
+      <button class="nut-cc" id="cc-do-khoang-cach" title="Đo khoảng cách">&#8596;</button>
+      <button class="nut-cc" id="cc-chon-ban-kinh" title="Chọn đối tượng theo bán kính">&#9711;</button>
+      <button class="nut-cc" id="cc-toa-do" title="Xem toạ độ điểm">&#10010;</button>
+    </div>
+
+    <div class="hop-toa-do" id="hop-toa-do">
+      <span id="toa-do-chuot">--</span>
+      <span class="phan-cach">|</span>
+      <span id="ty-le-ban-do">--</span>
+    </div>
+
+    <div class="man-cho" id="man-cho">
+      <div class="vong-xoay"></div>
+      <p>Đang nạp dữ liệu...</p>
+    </div>
+  </section>
+
+  <!-- ----- Bảng điều khiển phải: thông tin đối tượng ----- -->
+  <aside class="bang-phai" id="bang-phai">
+    <div class="bang__tieu-de">
+      <span>Thông tin đối tượng</span>
+      <button class="nut-thu-gon" id="thu-gon-phai" title="Thu gọn" aria-label="Thu gọn bảng phải">&#10095;</button>
+    </div>
+
+    <div class="bang__noi-dung" id="noi-dung-phai">
+      <div class="trong-rong" id="huong-dan-click">
+        <svg viewBox="0 0 48 48" class="trong-rong__hinh" aria-hidden="true">
+          <circle cx="24" cy="24" r="14" fill="none" stroke="currentColor" stroke-width="2" opacity=".35"/>
+          <circle cx="24" cy="24" r="3.5" fill="currentColor"/>
+          <path d="M24 4v6M24 38v6M4 24h6M38 24h6" stroke="currentColor" stroke-width="2" opacity=".35"/>
+        </svg>
+        <p><strong>Nhấp vào một đối tượng trên bản đồ</strong></p>
+        <p class="ghi-chu-nho">
+          Nếu điểm nhấp trúng nhiều đối tượng, một danh sách thả xuống sẽ hiện ra
+          để bạn chọn đối tượng cần xem.
+        </p>
+      </div>
+
+      <!-- Danh sách thả xuống khi một điểm nhấp trúng nhiều đối tượng -->
+      <div class="chon-doi-tuong" id="chon-doi-tuong" hidden>
+        <label class="nhan-nho" for="danh-sach-trung">
+          Tìm thấy <strong id="so-doi-tuong-trung">0</strong> đối tượng tại vị trí nhấp
+        </label>
+        <select id="danh-sach-trung"></select>
+      </div>
+
+      <div id="chi-tiet-doi-tuong" hidden></div>
+    </div>
+  </aside>
+</main>
+
+<!-- ----- Bảng thuộc tính dưới ----- -->
+<section class="khu-bang" id="khu-bang">
+  <div class="khu-bang__dau">
+    <button class="nut-mo-bang" id="mo-bang" aria-expanded="false">
+      <span class="mui" id="mui-bang">&#9650;</span> Bảng thuộc tính
+    </button>
+    <select id="bang-chon-lop" aria-label="Chọn lớp để xem bảng"></select>
+    <span class="ghi-chu-nho" id="bang-tom-tat"></span>
+    <div class="khu-bang__nut">
+      <button class="nut" id="xuat-csv">Xuất CSV</button>
+      <button class="nut" id="xuat-geojson">Xuất GeoJSON</button>
+    </div>
+  </div>
+  <div class="khu-bang__than" id="khu-bang-than">
+    <table class="bang-tt" id="bang-tt">
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="chan-trang">
+  <div class="chan-trang__cot">
+    <strong data-tinh="don_vi">Sở Nông nghiệp và Môi trường</strong>
+    <span>Hệ thống thông tin tài nguyên nước mặt</span>
+  </div>
+  <div class="chan-trang__cot">
+    <span>Căn cứ: Luật Tài nguyên nước 2023; NĐ 53/2024/NĐ-CP;</span>
+    <span>TT 76/2017/TT-BTNMT (sửa đổi bởi TT 02/2022/TT-BTNMT)</span>
+  </div>
+  <div class="chan-trang__cot">
+    <span>Cập nhật quan trắc: <strong id="thoi-diem-cap-nhat">--</strong></span>
+    <span>Phiên bản 1.0.0 &middot; Dữ liệu nền: WGS84 (EPSG:4326)</span>
+  </div>
+</footer>
+
+<!-- Hộp thoại cảnh báo -->
+<div class="lop-mo" id="lop-mo" hidden></div>
+<div class="hop-thoai" id="hop-thoai" hidden role="dialog" aria-modal="true" aria-labelledby="hop-thoai-ten">
+  <div class="hop-thoai__dau">
+    <h2 id="hop-thoai-ten">Tiêu đề</h2>
+    <button class="nut-bieu-tuong" id="dong-hop-thoai" aria-label="Đóng">&times;</button>
+  </div>
+  <div class="hop-thoai__than" id="hop-thoai-than"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+<script>var GOC_TRANG = '';</script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/tinh.js"></script>
+<script src="assets/js/dung_chung.js"></script>
+<script src="assets/js/ky_hieu.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/js/layers.js"></script>
+<script src="assets/js/identify.js"></script>
+<script src="assets/js/xuat_tep.js"></script>
+<script src="assets/js/table.js"></script>
+<script src="assets/js/realtime.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quan trắc tài nguyên nước {ten}</title>
+<meta name="description" content="Vị trí công trình quan trắc và thông số mực nước, lưu lượng, chất lượng nước, lấy từ cơ sở dữ liệu Quan trắc Quốc gia">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#128225;</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<!-- Dung lai toan bo bien mau va cac lop tien ich cua trang ban do -->
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/thong-ke.css">
+<link rel="stylesheet" href="../assets/css/quan-trac.css">
+</head>
+
+<body class="trang-quan-trac">
+
+<!-- ======================= HEADER ======================= -->
+<header class="dau-trang">
+  <div class="dau-trang__thuong-hieu">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M16 2 C16 2 6 13.5 6 20 a10 10 0 0 0 20 0 C26 13.5 16 2 16 2 Z"
+            fill="currentColor" opacity="0.9"/>
+      <path d="M11 21 q2.5 -3 5 0 t5 0" stroke="#fff" stroke-width="1.8"
+            fill="none" stroke-linecap="round"/>
+    </svg>
+    <div class="dau-trang__chu">
+      <h1>Quan trắc tài nguyên nước</h1>
+      <p><span data-tinh="ten_tinh">Tỉnh</span> &middot; nguồn Quan trắc Quốc gia</p>
+    </div>
+  </div>
+
+  <nav class="dau-trang__menu" aria-label="Điều hướng chính">
+    <a href="../index.html">&#8592; Bản đồ</a>
+    <a href="#" class="dang-chon">Quan trắc</a>
+    <a href="thong-ke.html">Thống kê</a>
+  </nav>
+
+  <div class="dau-trang__cong-cu">
+    <div class="loc-dau-trang">
+      <label for="loc-loai-tram">Loại trạm</label>
+      <select id="loc-loai-tram">
+        <option value="">Tất cả</option>
+      </select>
+    </div>
+    <button class="nut-bieu-tuong" id="nut-giao-dien" title="Đổi nền sáng / tối"
+            aria-label="Đổi nền sáng tối">&#9681;</button>
+  </div>
+</header>
+
+<!-- ======================= NỘI DUNG ======================= -->
+<main class="khung-qt">
+
+  <div class="dai-thong-bao" id="dai-thong-bao" hidden>
+    <span id="noi-dung-thong-bao"></span>
+    <button class="dai-thong-bao__dong" id="dong-thong-bao" aria-label="Đóng">&times;</button>
+  </div>
+
+  <div class="man-cho-tk" id="man-cho">
+    <div class="vong-xoay"></div>
+    <p>Đang nối tới dịch vụ quan trắc...</p>
+  </div>
+
+  <div class="loi-nap" id="loi-nap" hidden></div>
+
+  <div id="noi-dung-qt" hidden>
+
+    <!-- ----- Thanh công cụ ----- -->
+    <section class="thanh-cong-cu-qt">
+      <button class="nut nut--chinh" id="nut-lam-moi">Làm mới</button>
+      <span class="ghi-chu-nho" id="dong-cap-nhat">--</span>
+      <span class="day-ra"></span>
+      <span id="nhan-che-do"></span>
+    </section>
+
+    <!-- ----- Thẻ chỉ tiêu ----- -->
+    <section class="the-so" id="hang-kpi-qt"></section>
+
+    <!-- ----- Bản đồ nhỏ và biểu đồ ----- -->
+    <section class="hang-qt">
+      <div class="khung-bieu-do">
+        <h3>Vị trí công trình quan trắc</h3>
+        <p class="chu-thich-bd">
+          Nhấp vào một điểm để xem số đo mới nhất. Viền đỏ là trạng thái cảnh
+          báo, viền vàng là cần theo dõi.
+        </p>
+        <div class="o-ban-do-qt" id="ban-do-qt" role="application"
+             aria-label="Bản đồ vị trí trạm quan trắc"></div>
+        <!-- Chu giai sinh tu chinh cac loai tram dang ve, xem
+             ve_chu_giai_qt() trong assets/js/quan_trac.js -->
+        <div class="chu-giai-qt" id="chu-giai-qt"></div>
+      </div>
+
+      <div class="khung-bieu-do">
+        <h3 id="ten-bieu-do">Diễn biến theo thời gian</h3>
+        <div class="hang-chon-bd">
+          <label class="nhan-nho" for="chon-tram">Trạm</label>
+          <select id="chon-tram"></select>
+          <label class="nhan-nho" for="chon-thong-so">Thông số</label>
+          <select id="chon-thong-so"></select>
+        </div>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-chuoi"></canvas></div>
+        <p class="chu-thich-bd" id="chu-thich-chuoi"></p>
+      </div>
+    </section>
+
+    <!-- ----- Bảng toàn bộ trạm ----- -->
+    <section class="khung-bang-tk">
+      <div class="khung-bang-tk__dau">
+        <span class="ghi-chu-nho" id="tom-tat-bang"></span>
+        <button class="nut nut--chinh" id="xuat-bang">Xuất CSV</button>
+      </div>
+      <div class="khung-bang-tk__than">
+        <table class="bang-tt" id="bang-quan-trac">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="chan-trang">
+  <div class="chan-trang__cot">
+    <strong data-tinh="don_vi">Sở Nông nghiệp và Môi trường</strong>
+    <span>Hệ thống thông tin tài nguyên nước mặt</span>
+  </div>
+  <div class="chan-trang__cot">
+    <span>Căn cứ: Luật Tài nguyên nước 2023; NĐ 53/2024/NĐ-CP;</span>
+    <span>TT 76/2017/TT-BTNMT (sửa đổi bởi TT 02/2022/TT-BTNMT);</span>
+    <span>QĐ 1460/QĐ-TCMT về chỉ số chất lượng nước WQI;</span>
+    <span>QCVN 09-MT:2015/BTNMT về chất lượng nước dưới đất</span>
+  </div>
+  <div class="chan-trang__cot">
+    <span>Cập nhật: <strong id="thoi-diem-cap-nhat">--</strong></span>
+    <span>Phiên bản 1.0.0 &middot; Dữ liệu nền: WGS84 (EPSG:4326)</span>
+  </div>
+</footer>
+
+<!-- Hộp thoại chi tiết trạm, dùng chung với mo_hop_thoai() -->
+<div class="lop-mo" id="lop-mo" hidden></div>
+<div class="hop-thoai" id="hop-thoai" hidden role="dialog" aria-modal="true" aria-labelledby="hop-thoai-ten">
+  <div class="hop-thoai__dau">
+    <h2 id="hop-thoai-ten">Tiêu đề</h2>
+    <button class="nut-bieu-tuong" id="dong-hop-thoai" aria-label="Đóng">&times;</button>
+  </div>
+  <div class="hop-thoai__than" id="hop-thoai-than"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+<script>var GOC_TRANG = '../';</script>
+<script src="../assets/js/config.js"></script>
+<script src="../assets/js/tinh.js"></script>
+<script src="../assets/js/dung_chung.js"></script>
+<script src="../assets/js/ky_hieu.js"></script>
+<script src="../assets/js/xuat_tep.js"></script>
+<script src="../assets/js/api_quan_trac.js"></script>
+<script src="../assets/js/quan_trac.js"></script>
+</body>
+</html>

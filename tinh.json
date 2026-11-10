@@ -1,0 +1,75 @@
+{
+  "ma": "khanh-hoa",
+  "ten_tinh": "Tỉnh Khánh Hòa",
+  "ten_ngan": "Khánh Hòa",
+  "ten_he_thong": "Tài nguyên nước Khánh Hòa",
+  "don_vi": "Sở Nông nghiệp và Môi trường tỉnh Khánh Hòa",
+  "hop_thanh_tu": "tỉnh Ninh Thuận và tỉnh Khánh Hòa",
+  "hieu_luc_sap_nhap": "01/07/2025",
+  "ban_do": {
+    "tam": [
+      12.05,
+      109.0
+    ],
+    "zoom": 9,
+    "pham_vi_dat_lien": [
+      [
+        11.3,
+        108.5
+      ],
+      [
+        12.92,
+        109.5
+      ]
+    ],
+    "pham_vi_toan_tinh": [
+      [
+        6.9,
+        108.5
+      ],
+      [
+        12.92,
+        117.45
+      ]
+    ],
+    "ghi_chu_pham_vi": "Địa giới tỉnh bao gồm huyện đảo Trường Sa nên kinh độ mở rộng tới khoảng 117,4 độ Đông. Nút về toàn tỉnh dùng phạm vi đất liền."
+  },
+  "khung_bao_nen": [
+    108.45,
+    11.25,
+    109.6,
+    12.98
+  ],
+  "epsg_chuyen_de": 9217,
+  "ghi_chu_epsg": "VN-2000 / TM-3 108-15, xác nhận từ bộ MapInfo SD_TLTT_DTHT_XA_THAI",
+  "co_du_lieu_mo_phong": true,
+  "lop_co_san": [
+    "ranh_gioi_tinh",
+    "ranh_gioi_xa",
+    "luu_vuc",
+    "song_suoi",
+    "khai_thac",
+    "ao_ho",
+    "xa_thai",
+    "doan_song",
+    "quan_trac",
+    "quan_trac_ndd"
+  ],
+  "ten_tinh_trong_qtqg": [
+    "Khánh Hòa",
+    "Ninh Thuận"
+  ],
+  "ghi_chu_ten_tinh_qtqg": "Ten tinh nhu CSDL Quan trac Quoc gia dang ghi. QTQG chua cap nhat viec sap nhap nen van la hai ten tinh cu. Khung bao cua tinh la hinh chu nhat nen trum ca mot phan cac tinh lan can (Phu Yen, Lam Dong, Binh Thuan, Dak Lak theo ten cu); danh sach nay dung de loc chinh xac theo don vi hanh chinh. QTQG ghi ten khong thong nhat giua cac bang nen phep so khop la theo chuoi con sau khi bo dau, xem khong_gian.thuoc_tinh_nay().",
+  "cong": {
+    "web": 8000,
+    "backend": 8001
+  },
+  "ghi_chu_cong": "Moi tinh mot cap cong rieng khi chay thu tren may ca nhan: Khanh Hoa 8000/8001, Gia Lai 8010/8011, tinh tiep theo 8020/8021. Khac cong la khac origin, nen cache cua trinh duyet khong bao gio lan giua hai du an - loi tung xay ra that: ban do ve ranh gioi tinh khac trong khi tieu de trang da dung. Cong backend luon la cong web cong 1. Khi len may chu that thi dat CAU_HINH.api.goc trong assets/js/config.js, hai so nay chi dung cho may ca nhan.",
+  "xuat_du_lieu": {
+    "yeu_cau_mat_khau": true,
+    "muoi": "8dbeed9b4485c4980bea9645dde27857",
+    "ma_bam": "d957dd4db02b4d4cbf452b8a0cbd82e17eca8b48d523f8b51b0bd0e21edd18db",
+    "so_vong": 200000,
+    "ghi_chu": "Mat khau xuat CSV/GeoJSON. Chi luu muoi va ma bam PBKDF2-SHA256, tao bang scripts/11_dat_mat_khau_xuat.py. De trong thi chuc nang tai bi khoa."
+  }
+}

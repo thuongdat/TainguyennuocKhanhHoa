@@ -1,0 +1,8 @@
+# Goi cho ban dong trong Docker. Tren may phat trien thi dung environment.yml.
+# Ghim phien ban toi thieu da kiem thu, khong ghim cung de con nhan ban va loi.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+psycopg[binary]>=3.2
+python-dotenv>=1.0
+httpx>=0.27
+pytest>=8.0

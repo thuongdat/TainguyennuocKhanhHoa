@@ -1,0 +1,83 @@
+﻿thoi_diem,ma,loai,ten,gia_tri_chinh,don_vi,trang_thai
+2026-10-23T15:29+07:00,HC01,ho_chua,Hồ Đá Bàn,55.12,m,canh_bao
+2026-10-23T15:29+07:00,HC02,ho_chua,Hồ Suối Dầu,34.87,m,binh_thuong
+2026-10-23T15:29+07:00,HC03,ho_chua,Hồ Cam Ranh,37.66,m,binh_thuong
+2026-10-23T15:29+07:00,HC04,ho_chua,Hồ Tà Rục,59.18,m,canh_bao
+2026-10-23T15:29+07:00,HC05,ho_chua,Hồ Hoa Sơn,34.57,m,canh_bao
+2026-10-23T15:29+07:00,HC06,ho_chua,Hồ Sông Chò 1,69.2,m,binh_thuong
+2026-10-23T15:29+07:00,HC07,ho_chua,Hồ Suối Hành,32.3,m,binh_thuong
+2026-10-23T15:29+07:00,HC08,ho_chua,Hồ Am Chúa,21.97,m,canh_bao
+2026-10-23T15:29+07:00,HC09,ho_chua,Hồ Sông Sắt,90.02,m,canh_bao
+2026-10-23T15:29+07:00,HC10,ho_chua,Hồ Sông Trâu,54.74,m,binh_thuong
+2026-10-23T15:29+07:00,HC11,ho_chua,Hồ Tân Giang,56.16,m,binh_thuong
+2026-10-23T15:29+07:00,HC12,ho_chua,Hồ Lanh Ra,48.71,m,binh_thuong
+2026-10-23T15:29+07:00,HC13,ho_chua,Hồ Sông Biêu,65.47,m,binh_thuong
+2026-10-23T15:29+07:00,HC14,ho_chua,Hồ Cho Mo,78.27,m,canh_bao
+2026-10-23T15:29+07:00,QT01,thuy_van,Trạm thủy văn Đồng Trăng,15.43,m3/s,binh_thuong
+2026-10-23T15:29+07:00,QT02,thuy_van,Trạm thủy văn Ninh Hòa,22.95,m3/s,binh_thuong
+2026-10-23T15:29+07:00,QT03,thuy_van,Trạm thủy văn Tân Mỹ,18.7,m3/s,binh_thuong
+2026-10-23T15:29+07:00,QT04,mua,Trạm mưa Khánh Vĩnh,0.6,mm,canh_bao
+2026-10-23T15:29+07:00,QT05,mua,Trạm mưa Nha Trang,0.4,mm,canh_bao
+2026-10-23T15:29+07:00,QT06,mua,Trạm mưa Khánh Sơn,0.4,mm,canh_bao
+2026-10-23T15:29+07:00,QT07,mua,Trạm mưa Phan Rang,19.5,mm,canh_bao
+2026-10-23T15:29+07:00,QT08,chat_luong_nuoc,Điểm quan trắc CLN Xóm Bóng,74,WQI,theo_doi
+2026-10-23T15:29+07:00,QT09,chat_luong_nuoc,Điểm quan trắc CLN Hà Dừa,89,WQI,binh_thuong
+2026-10-23T15:29+07:00,QT10,chat_luong_nuoc,Điểm quan trắc CLN Dinh Ninh Hòa,68,WQI,theo_doi
+2026-10-23T15:29+07:00,QT11,chat_luong_nuoc,Điểm quan trắc CLN Đạo Long,61,WQI,theo_doi
+2026-10-23T15:29+07:00,QT12,chat_luong_nuoc,Điểm quan trắc CLN Sông Lu,67,WQI,theo_doi
+2026-10-23T15:29+07:00,KT01,khai_thac,Trạm bơm Xuân Phong,340,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT02,khai_thac,Nhà máy nước Võ Cạnh,20183,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT03,khai_thac,Trạm bơm KCN Suối Dầu,11181,m3/ngày,theo_doi
+2026-10-23T15:29+07:00,KT04,khai_thac,Đập dâng Ninh Hòa,10042,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT05,khai_thac,Thủy điện Sông Giang 2,3180,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT06,khai_thac,Trạm bơm Diên Thọ,1254,m3/ngày,canh_bao
+2026-10-23T15:29+07:00,KT07,khai_thac,Nhà máy nước Cam Ranh,1650,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT08,khai_thac,Đập Nha Trinh,34089,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT09,khai_thac,Đập Lâm Cấm,899,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT10,khai_thac,Trạm bơm Phước Dân,1936,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT11,khai_thac,Nhà máy nước Phan Rang,10983,m3/ngày,theo_doi
+2026-10-23T15:29+07:00,KT12,khai_thac,Trạm bơm Thuận Bắc,435,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT13,khai_thac,Vùng nuôi tôm Đầm Nại,4365,m3/ngày,binh_thuong
+2026-10-23T15:29+07:00,KT14,khai_thac,Trạm bơm Vạn Ninh,10893,m3/ngày,theo_doi
+2026-10-23T15:29+07:00,KT15,khai_thac,Trạm bơm Khánh Sơn,1640,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,HC01,ho_chua,Hồ Đá Bàn,55.12,m,canh_bao
+2026-10-23T15:45+07:00,HC02,ho_chua,Hồ Suối Dầu,34.87,m,binh_thuong
+2026-10-23T15:45+07:00,HC03,ho_chua,Hồ Cam Ranh,37.66,m,binh_thuong
+2026-10-23T15:45+07:00,HC04,ho_chua,Hồ Tà Rục,59.18,m,canh_bao
+2026-10-23T15:45+07:00,HC05,ho_chua,Hồ Hoa Sơn,34.57,m,canh_bao
+2026-10-23T15:45+07:00,HC06,ho_chua,Hồ Sông Chò 1,69.19,m,binh_thuong
+2026-10-23T15:45+07:00,HC07,ho_chua,Hồ Suối Hành,32.29,m,binh_thuong
+2026-10-23T15:45+07:00,HC08,ho_chua,Hồ Am Chúa,21.97,m,canh_bao
+2026-10-23T15:45+07:00,HC09,ho_chua,Hồ Sông Sắt,90.01,m,canh_bao
+2026-10-23T15:45+07:00,HC10,ho_chua,Hồ Sông Trâu,54.73,m,binh_thuong
+2026-10-23T15:45+07:00,HC11,ho_chua,Hồ Tân Giang,56.15,m,binh_thuong
+2026-10-23T15:45+07:00,HC12,ho_chua,Hồ Lanh Ra,48.71,m,binh_thuong
+2026-10-23T15:45+07:00,HC13,ho_chua,Hồ Sông Biêu,65.46,m,binh_thuong
+2026-10-23T15:45+07:00,HC14,ho_chua,Hồ Cho Mo,78.26,m,canh_bao
+2026-10-23T15:45+07:00,QT01,thuy_van,Trạm thủy văn Đồng Trăng,15.4,m3/s,binh_thuong
+2026-10-23T15:45+07:00,QT02,thuy_van,Trạm thủy văn Ninh Hòa,22.92,m3/s,binh_thuong
+2026-10-23T15:45+07:00,QT03,thuy_van,Trạm thủy văn Tân Mỹ,18.67,m3/s,binh_thuong
+2026-10-23T15:45+07:00,QT04,mua,Trạm mưa Khánh Vĩnh,0.6,mm,canh_bao
+2026-10-23T15:45+07:00,QT05,mua,Trạm mưa Nha Trang,0.4,mm,canh_bao
+2026-10-23T15:45+07:00,QT06,mua,Trạm mưa Khánh Sơn,0.4,mm,canh_bao
+2026-10-23T15:45+07:00,QT07,mua,Trạm mưa Phan Rang,19.5,mm,canh_bao
+2026-10-23T15:45+07:00,QT08,chat_luong_nuoc,Điểm quan trắc CLN Xóm Bóng,74,WQI,theo_doi
+2026-10-23T15:45+07:00,QT09,chat_luong_nuoc,Điểm quan trắc CLN Hà Dừa,89,WQI,binh_thuong
+2026-10-23T15:45+07:00,QT10,chat_luong_nuoc,Điểm quan trắc CLN Dinh Ninh Hòa,68,WQI,theo_doi
+2026-10-23T15:45+07:00,QT11,chat_luong_nuoc,Điểm quan trắc CLN Đạo Long,61,WQI,theo_doi
+2026-10-23T15:45+07:00,QT12,chat_luong_nuoc,Điểm quan trắc CLN Sông Lu,67,WQI,theo_doi
+2026-10-23T15:45+07:00,KT01,khai_thac,Trạm bơm Xuân Phong,339,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT02,khai_thac,Nhà máy nước Võ Cạnh,20147,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT03,khai_thac,Trạm bơm KCN Suối Dầu,11164,m3/ngày,theo_doi
+2026-10-23T15:45+07:00,KT04,khai_thac,Đập dâng Ninh Hòa,10025,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT05,khai_thac,Thủy điện Sông Giang 2,3172,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT06,khai_thac,Trạm bơm Diên Thọ,1253,m3/ngày,canh_bao
+2026-10-23T15:45+07:00,KT07,khai_thac,Nhà máy nước Cam Ranh,1646,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT08,khai_thac,Đập Nha Trinh,34020,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT09,khai_thac,Đập Lâm Cấm,898,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT10,khai_thac,Trạm bơm Phước Dân,1932,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT11,khai_thac,Nhà máy nước Phan Rang,10966,m3/ngày,theo_doi
+2026-10-23T15:45+07:00,KT12,khai_thac,Trạm bơm Thuận Bắc,435,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT13,khai_thac,Vùng nuôi tôm Đầm Nại,4358,m3/ngày,binh_thuong
+2026-10-23T15:45+07:00,KT14,khai_thac,Trạm bơm Vạn Ninh,10875,m3/ngày,theo_doi
+2026-10-23T15:45+07:00,KT15,khai_thac,Trạm bơm Khánh Sơn,1636,m3/ngày,binh_thuong

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-50 -50 100 100">
+<!-- Sinh tu CSDL/symbol_QGIS/Ghenh_dangdiem.qml bang scripts/06_tao_ky_hieu.py.
+     Dung sua tay: chay lai script se ghi de. -->
+<path d="M -19.688,-19.688 L 0,0 L -19.688,19.688" fill="none" stroke="#ff0000" stroke-linecap="round" stroke-width="3.000"/>
+<g transform="translate(0.000,-30.000)"><line fill="none" stroke="#ff0000" stroke-linecap="round" stroke-width="3.000" x1="0" x2="0" y1="-30.000" y2="30.000"/></g>
+</svg>

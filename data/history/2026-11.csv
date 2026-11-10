@@ -1,0 +1,39 @@
+﻿thoi_diem,ma,loai,ten,gia_tri_chinh,don_vi,trang_thai
+2026-11-10T09:00+07:00,HC01,ho_chua,Hồ Đá Bàn,56.0,m,canh_bao
+2026-11-10T09:00+07:00,HC02,ho_chua,Hồ Suối Dầu,35.86,m,binh_thuong
+2026-11-10T09:00+07:00,HC03,ho_chua,Hồ Cam Ranh,38.6,m,binh_thuong
+2026-11-10T09:00+07:00,HC04,ho_chua,Hồ Tà Rục,60.0,m,canh_bao
+2026-11-10T09:00+07:00,HC05,ho_chua,Hồ Hoa Sơn,35.0,m,canh_bao
+2026-11-10T09:00+07:00,HC06,ho_chua,Hồ Sông Chò 1,70.96,m,binh_thuong
+2026-11-10T09:00+07:00,HC07,ho_chua,Hồ Suối Hành,33.19,m,binh_thuong
+2026-11-10T09:00+07:00,HC08,ho_chua,Hồ Am Chúa,22.0,m,canh_bao
+2026-11-10T09:00+07:00,HC09,ho_chua,Hồ Sông Sắt,92.0,m,canh_bao
+2026-11-10T09:00+07:00,HC10,ho_chua,Hồ Sông Trâu,56.27,m,binh_thuong
+2026-11-10T09:00+07:00,HC11,ho_chua,Hồ Tân Giang,57.52,m,canh_bao
+2026-11-10T09:00+07:00,HC12,ho_chua,Hồ Lanh Ra,49.89,m,canh_bao
+2026-11-10T09:00+07:00,HC13,ho_chua,Hồ Sông Biêu,67.12,m,binh_thuong
+2026-11-10T09:00+07:00,HC14,ho_chua,Hồ Cho Mo,80.0,m,canh_bao
+2026-11-10T09:00+07:00,QT01,thuy_van,Trạm thủy văn Đồng Trăng,16.35,m3/s,binh_thuong
+2026-11-10T09:00+07:00,QT02,thuy_van,Trạm thủy văn Ninh Hòa,24.32,m3/s,binh_thuong
+2026-11-10T09:00+07:00,QT03,thuy_van,Trạm thủy văn Tân Mỹ,19.82,m3/s,binh_thuong
+2026-11-10T09:00+07:00,QT04,mua,Trạm mưa Khánh Vĩnh,0.2,mm,canh_bao
+2026-11-10T09:00+07:00,QT05,mua,Trạm mưa Nha Trang,0.4,mm,canh_bao
+2026-11-10T09:00+07:00,QT06,mua,Trạm mưa Khánh Sơn,5.7,mm,canh_bao
+2026-11-10T09:00+07:00,QT07,mua,Trạm mưa Phan Rang,39.3,mm,canh_bao
+2026-11-10T09:00+07:00,QT08,chat_luong_nuoc,Điểm quan trắc CLN Xóm Bóng,75,WQI,binh_thuong
+2026-11-10T09:00+07:00,QT09,chat_luong_nuoc,Điểm quan trắc CLN Hà Dừa,91,WQI,binh_thuong
+2026-11-10T09:00+07:00,QT10,chat_luong_nuoc,Điểm quan trắc CLN Dinh Ninh Hòa,70,WQI,theo_doi
+2026-11-10T09:00+07:00,QT11,chat_luong_nuoc,Điểm quan trắc CLN Đạo Long,63,WQI,theo_doi
+2026-11-10T09:00+07:00,QT12,chat_luong_nuoc,Điểm quan trắc CLN Sông Lu,69,WQI,theo_doi
+2026-11-10T09:32+07:00,QT01,thuy_van,Trạm thủy văn Đồng Trăng,16.45,m3/s,binh_thuong
+2026-11-10T09:32+07:00,QT02,thuy_van,Trạm thủy văn Ninh Hòa,24.47,m3/s,binh_thuong
+2026-11-10T09:32+07:00,QT03,thuy_van,Trạm thủy văn Tân Mỹ,19.94,m3/s,binh_thuong
+2026-11-10T09:32+07:00,QT04,mua,Trạm mưa Khánh Vĩnh,0.2,mm,canh_bao
+2026-11-10T09:32+07:00,QT05,mua,Trạm mưa Nha Trang,0.4,mm,canh_bao
+2026-11-10T09:32+07:00,QT06,mua,Trạm mưa Khánh Sơn,5.7,mm,canh_bao
+2026-11-10T09:32+07:00,QT07,mua,Trạm mưa Phan Rang,39.3,mm,canh_bao
+2026-11-10T09:32+07:00,QT08,chat_luong_nuoc,Điểm quan trắc CLN Xóm Bóng,75,WQI,binh_thuong
+2026-11-10T09:32+07:00,QT09,chat_luong_nuoc,Điểm quan trắc CLN Hà Dừa,91,WQI,binh_thuong
+2026-11-10T09:32+07:00,QT10,chat_luong_nuoc,Điểm quan trắc CLN Dinh Ninh Hòa,70,WQI,theo_doi
+2026-11-10T09:32+07:00,QT11,chat_luong_nuoc,Điểm quan trắc CLN Đạo Long,63,WQI,theo_doi
+2026-11-10T09:32+07:00,QT12,chat_luong_nuoc,Điểm quan trắc CLN Sông Lu,69,WQI,theo_doi

@@ -1,0 +1,289 @@
+/* ==========================================================================
+   thong-ke.css - Lop trinh bay rieng cho trang thong ke
+   --------------------------------------------------------------------------
+   Nap SAU style.css va chi them phan rieng. Toan bo bien mau, dau trang,
+   chan trang, the so, nut va bang deu dung lai tu style.css nen hai trang
+   luon dong bo khi doi bang mau.
+   ========================================================================== */
+
+/* style.css khoa cuon trang vi trang ban do chiem tron man hinh.
+   Trang thong ke thi can cuon binh thuong. */
+body.trang-thong-ke {
+  display: block;
+  height: auto;
+  min-height: 100%;
+  overflow: auto;
+  background: var(--nen);
+}
+
+.khung-tk {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 18px 16px 28px;
+}
+
+/* ----- Dai thong bao ve nguon goc du lieu ----- */
+
+.trang-thong-ke .dai-thong-bao {
+  position: static;
+  margin-bottom: 18px;
+  padding: 11px 14px;
+  border: 1px solid #e8d08a;
+  border-radius: var(--bo-goc);
+  line-height: 1.6;
+}
+
+/* ----- Nhan phan biet du lieu that va du lieu mo phong ----- */
+
+.the-mp, .the-that {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  white-space: nowrap;
+}
+
+.the-mp {
+  background: #fdf0d5;
+  border: 1px solid #e0bb6a;
+  color: #8a5a06;
+}
+
+.the-that {
+  background: #e3f6ea;
+  border: 1px solid #8ccba4;
+  color: #166534;
+}
+
+:root[data-giao-dien="toi"] .the-mp {
+  background: #3b2f10; border-color: #6b5620; color: #f0cf84;
+}
+
+:root[data-giao-dien="toi"] .the-that {
+  background: #12301f; border-color: #2f6b45; color: #6ee7a0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-giao-dien="sang"]) .the-mp {
+    background: #3b2f10; border-color: #6b5620; color: #f0cf84;
+  }
+  :root:not([data-giao-dien="sang"]) .the-that {
+    background: #12301f; border-color: #2f6b45; color: #6ee7a0;
+  }
+}
+
+/* ----- Bo loc tren dau trang ----- */
+
+.loc-dau-trang {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.loc-dau-trang label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, .78);
+  white-space: nowrap;
+}
+
+.loc-dau-trang select {
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: var(--bo-goc);
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+  font-size: 13px;
+  outline: none;
+  max-width: 230px;
+}
+
+.loc-dau-trang select option {
+  background: var(--xanh-sau-dam);
+  color: #fff;
+}
+
+/* ----- Tieu de muc ----- */
+
+.tk-muc {
+  display: flex;
+  align-items: center;
+  margin: 26px 0 12px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid var(--vien);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--xanh-sau);
+}
+
+:root[data-giao-dien="toi"] .tk-muc { color: var(--xanh-nhan); }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-giao-dien="sang"]) .tk-muc { color: var(--xanh-nhan); }
+}
+
+/* ----- The chi tieu ----- */
+
+.trang-thong-ke .the-so {
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.trang-thong-ke .the-so__o {
+  position: relative;
+  background: var(--nen-the);
+  box-shadow: var(--bong-nho);
+}
+
+.trang-thong-ke .the-so__gt { font-size: 23px; }
+
+/* Vach mau ben trai de doc nhanh trang thai */
+.the-so__o--tot    { border-left: 3px solid var(--trang-thai-tot); }
+.the-so__o--theodoi{ border-left: 3px solid var(--trang-thai-theo-doi); }
+.the-so__o--xau    { border-left: 3px solid var(--trang-thai-xau); }
+
+.the-so__o .the-mp, .the-so__o .the-that {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  margin-left: 0;
+  transform: scale(.88);
+  transform-origin: top right;
+}
+
+.the-so__nhan { padding-right: 62px; }
+
+/* ----- Khung bieu do ----- */
+
+.hang-bieu-do {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 14px;
+}
+
+.hang-bieu-do--don { grid-template-columns: 1fr; }
+
+.khung-bieu-do {
+  padding: 16px 18px;
+  border: 1px solid var(--vien);
+  border-radius: var(--bo-goc);
+  background: var(--nen-the);
+  box-shadow: var(--bong-nho);
+  min-width: 0;
+}
+
+.khung-bieu-do h3 {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--chu);
+}
+
+.chu-thich-bd {
+  margin: 4px 0 12px;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--chu-mo);
+}
+
+.o-bieu-do { position: relative; height: 290px; }
+.o-bieu-do--cao { height: 360px; }
+
+/* ----- Bang trong trang thong ke ----- */
+
+.khung-bang-tk {
+  border: 1px solid var(--vien);
+  border-radius: var(--bo-goc);
+  background: var(--nen-the);
+  box-shadow: var(--bong-nho);
+  overflow: hidden;
+}
+
+.khung-bang-tk__dau {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--vien);
+  background: var(--nen-chim);
+}
+
+.khung-bang-tk__dau .nut { flex: 0 0 auto; }
+.khung-bang-tk__dau .ghi-chu-nho { margin: 0; }
+
+.khung-bang-tk__than { max-height: 420px; overflow: auto; }
+
+.trang-thong-ke .bang-tt tbody tr { cursor: default; }
+
+/* O danh dau tinh trang giay phep */
+.o-trang-thai {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 9px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.o-trang-thai--con  { background: #e7f8ee; color: #15803d; }
+.o-trang-thai--sap  { background: #fff4e0; color: #b45309; }
+.o-trang-thai--het  { background: #fdeaea; color: #b91c1c; }
+
+:root[data-giao-dien="toi"] .o-trang-thai--con { background: #12301f; color: #4ade80; }
+:root[data-giao-dien="toi"] .o-trang-thai--sap { background: #35260a; color: #fbbf24; }
+:root[data-giao-dien="toi"] .o-trang-thai--het { background: #381414; color: #f87171; }
+
+/* ----- Man cho va bao loi ----- */
+
+.man-cho-tk {
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  padding: 70px 16px;
+  color: var(--chu-mo);
+  font-size: 13px;
+}
+
+.man-cho-tk[hidden] { display: none; }
+
+.loi-nap {
+  padding: 16px 18px;
+  border-left: 3px solid var(--trang-thai-xau);
+  border-radius: 0 var(--bo-goc) var(--bo-goc) 0;
+  background: var(--nen-the);
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--chu);
+}
+
+.loi-nap[hidden] { display: none; }
+.loi-nap code {
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--nen-chim);
+  font-size: 12px;
+}
+
+/* ----- Man hinh nho ----- */
+
+@media (max-width: 860px) {
+  .trang-thong-ke .dau-trang { height: auto; flex-wrap: wrap; }
+  .dau-trang__cong-cu { margin-left: auto; }
+  .hang-bieu-do { grid-template-columns: 1fr; }
+  .o-bieu-do, .o-bieu-do--cao { height: 300px; }
+  .loc-dau-trang select { max-width: 170px; }
+  .trang-thong-ke .the-so { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media print {
+  .dau-trang__menu, .dau-trang__cong-cu, .khung-bang-tk__dau .nut { display: none; }
+  .khung-bieu-do, .the-so__o { break-inside: avoid; box-shadow: none; }
+  .khung-bang-tk__than { max-height: none; }
+}
+
+/* Muc bi an vi tinh dang xem chua co lop du lieu tuong ung */
+.muc-tk[hidden] { display: none; }

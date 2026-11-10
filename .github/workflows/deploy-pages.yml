@@ -1,0 +1,62 @@
+name: Trien khai GitHub Pages
+
+# Xuat ban trang web tinh len GitHub Pages moi khi nhanh main thay doi.
+# Chi dong goi nhung tep trang web thuc su can, khong day thu muc CSDL
+# (chua shapefile goc, dung luong lon va khong can cho trinh duyet).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  trien-khai:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.xuat-ban.outputs.page_url }}
+
+    steps:
+      - name: Lay ma nguon
+        uses: actions/checkout@v4
+
+      - name: Cau hinh Pages
+        uses: actions/configure-pages@v5
+
+      # Chi liet ke tuong minh nhung gi can xuat ban.
+      # CSDL/ va data_goc/ khong xuat ban vi rat nang.
+      # backend/ KHONG xuat ban va khong bao gio duoc xuat ban: do la dich vu
+      # chay tren may chu cua tinh, giu thong tin ket noi vao CSDL nganh.
+      # GitHub Pages la trang tinh cong khai, dat backend len do la lo ca ma
+      # nguon dich vu lan cau hinh cua no.
+      - name: Chuan bi thu muc xuat ban
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r assets _site/
+          cp -r data _site/
+          cp tinh.json _site/    # tham so cua tinh, trinh duyet doc truc tiep
+          if [ -d pages ]; then cp -r pages _site/; fi
+          if [ -f README.md ]; then cp README.md _site/; fi
+          echo "Danh sach tep se xuat ban:"
+          find _site -type f | sort
+          echo "Tong dung luong: $(du -sh _site | cut -f1)"
+
+      - name: Dong goi
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Xuat ban
+        id: xuat-ban
+        uses: actions/deploy-pages@v4

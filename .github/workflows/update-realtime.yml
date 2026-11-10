@@ -1,0 +1,56 @@
+name: Cap nhat du lieu quan trac
+
+# Day la co che "thoi gian thuc" tren mot trang tinh:
+# GitHub Actions chay dinh ky, goi script Python sinh/lay du lieu quan trac,
+# ghi ra data/realtime.json roi tu commit. Trang web chi can fetch tep do.
+# Nho vay khong can may chu rieng, khong ton phi, va co luon lich su nho git.
+
+on:
+  schedule:
+    # Moi gio mot lan, vao phut thu 5. Gio trong cron la UTC.
+    # Doi sang '*/15 * * * *' neu muon 15 phut mot lan.
+    - cron: '5 * * * *'
+  workflow_dispatch:        # cho phep chay tay tu tab Actions
+
+permissions:
+  contents: write           # can quyen ghi de commit du lieu moi
+
+concurrency:
+  group: cap-nhat-quan-trac
+  cancel-in-progress: false
+
+jobs:
+  cap-nhat:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Lay ma nguon
+        uses: actions/checkout@v4
+
+      - name: Cai Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Script hien tai chi dung thu vien chuan nen khong can buoc cai goi.
+      # Khi chuyen sang nguon that can requests, bo comment hai dong duoi.
+      # - name: Cai thu vien
+      #   run: pip install requests
+
+      - name: Sinh du lieu quan trac
+        env:
+          # Doi thanh 'that' khi da cai dat ham doc_tu_nguon_that()
+          CHE_DO: mo_phong
+        run: python scripts/03_lay_realtime.py
+
+      - name: Commit neu co thay doi
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "Khong co thay doi, bo qua commit."
+          else
+            git commit -m "Cap nhat du lieu quan trac $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

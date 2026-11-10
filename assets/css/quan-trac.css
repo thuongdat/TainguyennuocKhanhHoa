@@ -1,0 +1,240 @@
+/* ==========================================================================
+   quan-trac.css - Lop trinh bay rieng cho tab Quan trac
+   --------------------------------------------------------------------------
+   Nap SAU style.css va thong-ke.css.
+
+   Khong khai bao bien mau moi. Moi mau lay tu :root cua style.css, nen doi
+   bang mau o mot cho la ca ba trang cung doi. Cac lop dung lai tu thong-ke.css
+   gom: .khung-bieu-do, .chu-thich-bd, .o-bieu-do, .khung-bang-tk, .man-cho-tk,
+   .loi-nap, .loc-dau-trang, .the-mp, .the-that.
+
+   Mot so quy tac trong thong-ke.css gan voi selector .trang-thong-ke nen
+   khong voi tay sang trang nay; nhung quy tac do duoc viet lai o day cho
+   .trang-quan-trac.
+   ========================================================================== */
+
+/* style.css khoa cuon trang vi trang ban do chiem tron man hinh.
+   Trang quan trac thi can cuon binh thuong. */
+body.trang-quan-trac {
+  display: block;
+  height: auto;
+  min-height: 100%;
+  overflow: auto;
+  background: var(--nen);
+}
+
+.khung-qt {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 18px 16px 28px;
+  display: grid;
+  gap: 16px;
+}
+
+/* Mac dinh cua o luoi la min-width:auto, nghia la o khong bao gio hep hon noi
+   dung nho nhat cua no. Bang chin cot voi ten tram rat dai se keo cot luoi
+   rong ra qua ca man hinh va sinh thanh cuon ngang cho toan trang. Dat
+   min-width:0 de o co lai duoc, phan du thi cuon trong .khung-bang-tk__than. */
+.khung-qt > * { min-width: 0; }
+
+/* ----- Dai thong bao ----- */
+
+.trang-quan-trac .dai-thong-bao {
+  position: static;
+  margin: 0;
+  padding: 11px 14px;
+  border: 1px solid #e8d08a;
+  border-radius: var(--bo-goc);
+  line-height: 1.6;
+}
+
+/* ----- The chi tieu, giong trang thong ke ----- */
+
+.trang-quan-trac .the-so {
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin: 0;
+}
+
+.trang-quan-trac .the-so__o {
+  position: relative;
+  background: var(--nen-the);
+  box-shadow: var(--bong-nho);
+}
+
+.trang-quan-trac .the-so__gt { font-size: 23px; }
+
+/* ----- Thanh cong cu ----- */
+
+.thanh-cong-cu-qt {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px 14px;
+  border: 1px solid var(--vien);
+  border-radius: var(--bo-goc);
+  background: var(--nen-the);
+  box-shadow: var(--bong-nho);
+}
+
+.thanh-cong-cu-qt .nut { flex: 0 0 auto; }
+.thanh-cong-cu-qt .ghi-chu-nho { margin: 0; }
+
+/* Day cac phan tu con lai sang phai */
+.day-ra { flex: 1 1 auto; }
+
+/* ----- Hai o ngang: ban do nho va bieu do ----- */
+
+.hang-qt {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 14px;
+}
+
+.o-ban-do-qt {
+  height: 420px;
+  border: 1px solid var(--vien-nhat);
+  border-radius: var(--bo-goc);
+  overflow: hidden;
+}
+
+/* ----- Hang chon tram va thong so cho bieu do ----- */
+
+.hang-chon-bd {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 4px 0 10px;
+}
+
+.hang-chon-bd .nhan-nho { margin: 0; white-space: nowrap; }
+
+.hang-chon-bd select {
+  padding: 5px 8px;
+  border: 1px solid var(--vien);
+  border-radius: var(--bo-goc);
+  background: var(--nen-the);
+  color: var(--chu);
+  font-family: inherit;
+  font-size: 12.5px;
+  min-width: 0;
+}
+
+/* Hop chon tram dai hon vi ten tram rat dai */
+#chon-tram { flex: 1 1 190px; max-width: 280px; }
+#chon-thong-so { flex: 0 1 150px; }
+
+/* ----- Bang trong trang quan trac ----- */
+
+/* Dong bang bam duoc de chon tram, nen phai thay con tro tay */
+.trang-quan-trac .bang-tt tbody tr { cursor: pointer; }
+
+/* Ten tram rat dai, khong cho no keo rong ca bang */
+.trang-quan-trac #bang-quan-trac td:nth-child(2) {
+  max-width: 420px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* O trang thai trong bang, dung lai ba mau trang thai cua style.css */
+.o-tt {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 9px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.o-tt--binh_thuong { background: #e7f8ee; color: #15803d; }
+.o-tt--theo_doi    { background: #fff4e0; color: #b45309; }
+.o-tt--canh_bao    { background: #fdeaea; color: #b91c1c; }
+
+:root[data-giao-dien="toi"] .o-tt--binh_thuong { background: #12301f; color: #6ee7a0; }
+:root[data-giao-dien="toi"] .o-tt--theo_doi    { background: #3b2f10; color: #f0cf84; }
+:root[data-giao-dien="toi"] .o-tt--canh_bao    { background: #3a1416; color: #fca5a5; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-giao-dien="sang"]) .o-tt--binh_thuong { background: #12301f; color: #6ee7a0; }
+  :root:not([data-giao-dien="sang"]) .o-tt--theo_doi    { background: #3b2f10; color: #f0cf84; }
+  :root:not([data-giao-dien="sang"]) .o-tt--canh_bao    { background: #3a1416; color: #fca5a5; }
+}
+
+/* ----- Chu giai nho duoi ban do ----- */
+
+.chu-giai-qt {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 11.5px;
+  color: var(--chu-mo);
+}
+
+.chu-giai-qt span { display: inline-flex; align-items: center; gap: 5px; }
+
+.chu-giai-qt i {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px var(--vien);
+}
+
+/* ----- Man hinh nho ----- */
+
+@media (max-width: 860px) {
+  .trang-quan-trac .dau-trang { height: auto; flex-wrap: wrap; }
+  .hang-qt { grid-template-columns: 1fr; }
+  .o-ban-do-qt { height: 320px; }
+  .trang-quan-trac .the-so { grid-template-columns: repeat(2, 1fr); }
+  #chon-tram { max-width: 100%; }
+}
+
+@media print {
+  .dau-trang__menu, .dau-trang__cong-cu, .thanh-cong-cu-qt,
+  .khung-bang-tk__dau .nut { display: none; }
+  .khung-bieu-do, .the-so__o { break-inside: avoid; box-shadow: none; }
+  .khung-bang-tk__than { max-height: none; }
+}
+
+/* ----- Chu giai ky hieu cua ban do nho -----
+   Tab nay ve ba loai ky hieu khac nhau (tram thuy van, diem chat luong nuoc,
+   lo khoan nuoc duoi dat) nen phai co chu giai. Noi dung do
+   ve_chu_giai_qt() trong quan_trac.js sinh tu chinh cac loai dang ve. */
+
+.chu-giai-qt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--chu-mo);
+}
+
+.cg-qt__hang {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.cg-qt__o {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+}
+
+/* Du phong khi lop chua co ky hieu SVG rieng: ve o tron theo mau cua kieu_ve */
+.cg-qt__o--tron {
+  width: 13px;
+  height: 13px;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--vien-nhat);
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thống kê tài nguyên nước {ten}</title>
+<meta name="description" content="Trang thống kê tổng hợp về kiểm kê, khai thác, xả thải và sức chịu tải nguồn nước mặt cấp tỉnh">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#128200;</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Dung lai toan bo bien mau va cac lop tien ich cua trang ban do -->
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/thong-ke.css">
+</head>
+
+<body class="trang-thong-ke">
+
+<!-- ======================= HEADER ======================= -->
+<header class="dau-trang">
+  <div class="dau-trang__thuong-hieu">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M16 2 C16 2 6 13.5 6 20 a10 10 0 0 0 20 0 C26 13.5 16 2 16 2 Z"
+            fill="currentColor" opacity="0.9"/>
+      <path d="M11 21 q2.5 -3 5 0 t5 0" stroke="#fff" stroke-width="1.8"
+            fill="none" stroke-linecap="round"/>
+    </svg>
+    <div class="dau-trang__chu">
+      <h1>Thống kê tài nguyên nước</h1>
+      <p><span data-tinh="ten_tinh">Tỉnh</span> &middot; tổng hợp từ các lớp kiểm kê</p>
+    </div>
+  </div>
+
+  <nav class="dau-trang__menu" aria-label="Điều hướng chính">
+    <a href="../index.html">&#8592; Bản đồ</a>
+    <a href="quan-trac.html">Quan trắc</a>
+    <a href="#" class="dang-chon">Thống kê</a>
+  </nav>
+
+  <div class="dau-trang__cong-cu">
+    <div class="loc-dau-trang">
+      <label for="loc-luu-vuc">Lưu vực</label>
+      <select id="loc-luu-vuc">
+        <option value="">Toàn tỉnh</option>
+      </select>
+    </div>
+    <button class="nut-bieu-tuong" id="nut-giao-dien" title="Đổi nền sáng / tối"
+            aria-label="Đổi nền sáng tối">&#9681;</button>
+  </div>
+</header>
+
+<!-- ======================= NỘI DUNG ======================= -->
+<main class="khung-tk">
+
+  <div class="dai-thong-bao" id="dai-thong-bao">
+    <strong>Đọc trước khi dùng số liệu.</strong>
+    Chỉ tiêu khai thác và xả thải lấy từ kết quả kiểm kê thật của tỉnh; lưu lượng
+    khai thác là giá trị quy đổi từ lưu lượng tưới (m³/s nhân 86.400), sản xuất và mục đích
+    khác ghi trong bảng kiểm kê, nên phản ánh công suất lấy nước tối đa chứ chưa phải
+    lượng khai thác thực tế. Chỉ tiêu sức chịu tải vẫn dựa trên dữ liệu
+    mô phỏng dùng để kiểm thử. Mọi thẻ số và biểu đồ đều mang nhãn
+    <span class="the-mp">mô phỏng</span> hoặc <span class="the-that">dữ liệu thật</span>.
+  </div>
+
+  <div class="man-cho-tk" id="man-cho">
+    <div class="vong-xoay"></div>
+    <p>Đang nạp dữ liệu...</p>
+  </div>
+
+  <div id="noi-dung-tk" hidden>
+
+    <!-- ----- Thẻ chỉ tiêu ----- -->
+    <section class="the-so muc-tk" id="hang-kpi"
+             data-can-lop="khai_thac xa_thai"></section>
+
+    <!-- ----- Khai thác và xả thải ----- -->
+    <div class="muc-tk" data-can-lop="khai_thac xa_thai luu_vuc">
+    <h2 class="tk-muc">
+      Khai thác và xả thải <span class="the-that">dữ liệu thật</span>
+    </h2>
+
+    <section class="hang-bieu-do">
+      <div class="khung-bieu-do">
+        <h3>Khai thác và xả thải theo lưu vực</h3>
+        <p class="chu-thich-bd">Đơn vị m³/ngày. Khai thác là lưu lượng quy đổi từ bảng kiểm kê (lưu lượng tưới m³/s nhân 86.400 cộng lưu lượng sản xuất và mục đích khác).</p>
+        <div class="o-bieu-do"><canvas id="bd-luu-vuc"></canvas></div>
+      </div>
+
+      <div class="khung-bieu-do">
+        <h3>Cơ cấu khai thác theo loại hình</h3>
+        <p class="chu-thich-bd">Theo lưu lượng khai thác quy đổi, đơn vị m³/ngày.</p>
+        <div class="o-bieu-do"><canvas id="bd-loai-hinh"></canvas></div>
+      </div>
+    </section>
+
+    </div>
+
+    <!-- ----- Hồ chứa và sức chịu tải ----- -->
+    <div class="muc-tk" data-can-lop="doan_song">
+    <h2 class="tk-muc">
+      Sức chịu tải đoạn sông <span class="the-mp">mô phỏng</span>
+    </h2>
+
+    <section class="hang-bieu-do">
+      <div class="khung-bieu-do">
+        <h3>Khả năng tiếp nhận nước thải của đoạn sông</h3>
+        <p class="chu-thich-bd">
+          Số đoạn sông theo kết luận đánh giá, thông số BOD5,
+          theo TT 76/2017/TT-BTNMT. <span hidden><strong id="thoi-diem-qt">--</strong></span>Kết quả đánh giá mô phỏng, chưa phải số liệu chính thức.
+        </p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-suc-chiu-tai"></canvas></div>
+      </div>
+    </section>
+
+    </div>
+
+    <!-- ----- Bảng công trình khai thác ----- -->
+    <div class="muc-tk" data-can-lop="khai_thac">
+    <h2 class="tk-muc">
+      Danh sách công trình khai thác <span class="the-that">dữ liệu thật</span>
+    </h2>
+
+    <section class="khung-bang-tk">
+      <div class="khung-bang-tk__dau">
+        <span class="ghi-chu-nho" id="tom-tat-bang"></span>
+        <button class="nut nut--chinh" id="xuat-bang">Xuất CSV</button>
+      </div>
+      <div class="khung-bang-tk__than">
+        <table class="bang-tt" id="bang-khai-thac">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    </div>
+
+    <!-- ----- Dữ liệu hành chính, nguồn thật ----- -->
+    <div class="muc-tk" data-can-lop="ranh_gioi_xa">
+    <h2 class="tk-muc">
+      Đơn vị hành chính <span class="the-that">dữ liệu thật</span>
+    </h2>
+
+    <section class="the-so" id="hang-kpi-hc"></section>
+
+    <section class="hang-bieu-do">
+      <div class="khung-bieu-do">
+        <h3>Mười xã, phường đông dân nhất</h3>
+        <p class="chu-thich-bd">Nguồn: bộ ranh giới xã sau sáp nhập, hiệu lực 01/07/2025.</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-dan-so"></canvas></div>
+      </div>
+
+      <div class="khung-bieu-do">
+        <h3>Mười xã, phường có diện tích lớn nhất</h3>
+        <p class="chu-thich-bd">Đơn vị km².</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-dien-tich"></canvas></div>
+      </div>
+    </section>
+    </div>
+
+  </div>
+
+  <div class="loi-nap" id="loi-nap" hidden></div>
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="chan-trang">
+  <div class="chan-trang__cot">
+    <strong data-tinh="don_vi">Sở Nông nghiệp và Môi trường</strong>
+    <span>Hệ thống thông tin tài nguyên nước mặt</span>
+  </div>
+  <div class="chan-trang__cot">
+    <span>Căn cứ: Luật Tài nguyên nước 2023; NĐ 53/2024/NĐ-CP;</span>
+    <span>TT 76/2017/TT-BTNMT (sửa đổi bởi TT 02/2022/TT-BTNMT)</span>
+  </div>
+  <div class="chan-trang__cot">
+    <span>Cập nhật quan trắc: <strong id="thoi-diem-cap-nhat">--</strong></span>
+    <span>Phiên bản 1.0.0 &middot; Dữ liệu nền: WGS84 (EPSG:4326)</span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>var GOC_TRANG = '../';</script>
+<script src="../assets/js/config.js"></script>
+<script src="../assets/js/tinh.js"></script>
+<script src="../assets/js/dung_chung.js"></script>
+<script src="../assets/js/xuat_tep.js"></script>
+<script src="../assets/js/thong-ke.js"></script>
+</body>
+</html>
