@@ -1128,8 +1128,6 @@ button, input, select { font-family: inherit; font-size: inherit; color: inherit
 }
 
 @media (max-width: 860px) {
-  body { overflow: auto; }
-
   .dau-trang {
     height: auto;
     flex-wrap: wrap;
@@ -1141,38 +1139,126 @@ button, input, select { font-family: inherit; font-size: inherit; color: inherit
   .dau-trang__cong-cu { margin-left: auto; }
   .o-tim-kiem input { width: 150px; }
 
-  .than-trang,
-  .than-trang.thu-trai,
-  .than-trang.thu-phai,
-  .than-trang.thu-trai.thu-phai {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 56vh auto;
-  }
-
-  /* Hai bang tro thanh khoi gap/mo xep doc duoi ban do */
-  .bang-trai, .bang-phai {
-    border: none;
-    border-top: 1px solid var(--vien);
-    max-height: 48vh;
-  }
-
-  .bang-trai { order: 2; }
-  .khu-ban-do { order: 1; min-height: 56vh; }
-  .bang-phai { order: 3; }
-
-  .thu-trai .bang-trai .bang__tieu-de span,
-  .thu-phai .bang-phai .bang__tieu-de span { display: inline; }
-
-  .thu-trai .bang-trai .bang__tieu-de,
-  .thu-phai .bang-phai .bang__tieu-de { justify-content: space-between; padding: 10px 12px; }
-
-  .khu-bang.mo .khu-bang__than { height: 300px; }
-  .khu-bang__dau { flex-wrap: wrap; }
-  .khu-bang__nut { margin-left: 0; width: 100%; }
-  .khu-bang__nut .nut { flex: 1 1 auto; }
-
   .chan-trang__cot:last-child { margin-left: 0; text-align: left; }
   .hop-toa-do { display: none; }
+
+  /* ----- Trang ban do tren dien thoai -----
+     Ban do chiem tron phan duoi header. Ba thanh (lop du lieu, thong tin,
+     bang thuoc tinh) mac dinh an va truot de len ban do khi <body> mang lop
+     dt-mo-trai / dt-mo-phai / dt-mo-bang, do app.js dat. */
+
+  /* 100dvh tru di thanh dia chi cua trinh duyet dien thoai */
+  body.trang-ban-do { height: 100dvh; }
+
+  /* Header gon lai con hai hang: ten he thong + o tim, roi den menu */
+  .trang-ban-do .dau-trang { gap: 4px 8px; padding: 6px 10px; }
+  .trang-ban-do .dau-trang__thuong-hieu { flex: 1 1 0; min-width: 0; gap: 8px; }
+  .trang-ban-do .logo { width: 24px; height: 24px; }
+  .trang-ban-do .dau-trang__chu { min-width: 0; }
+
+  .trang-ban-do .dau-trang__chu h1 {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .trang-ban-do .o-tim-kiem input { width: 124px; padding: 5px 9px; }
+  .trang-ban-do .ket-qua-tim { width: min(320px, 92vw); }
+
+  .trang-ban-do .dau-trang__menu { margin-left: 0; scrollbar-width: none; }
+  .trang-ban-do .dau-trang__menu::-webkit-scrollbar { display: none; }
+  .trang-ban-do .dau-trang__menu a { padding: 5px 10px; }
+
+  .trang-ban-do .than-trang,
+  .trang-ban-do .than-trang.thu-trai,
+  .trang-ban-do .than-trang.thu-phai,
+  .trang-ban-do .than-trang.thu-trai.thu-phai {
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+  }
+
+  .trang-ban-do .bang-trai,
+  .trang-ban-do .bang-phai {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: min(86vw, 340px);
+    border: none;
+    box-shadow: var(--bong-vua);
+    z-index: 1000;
+    visibility: hidden;
+    transition: transform .2s, visibility .2s;
+  }
+
+  .trang-ban-do .bang-trai { left: 0; transform: translateX(-100%); }
+  .trang-ban-do .bang-phai { right: 0; transform: translateX(100%); }
+
+  .dt-mo-trai .bang-trai,
+  .dt-mo-phai .bang-phai { transform: none; visibility: visible; }
+
+  /* Lop thu-trai / thu-phai cua man hinh rong khong co nghia o day */
+  .trang-ban-do .bang-trai .bang__noi-dung,
+  .trang-ban-do .bang-phai .bang__noi-dung { display: block; }
+
+  .trang-ban-do .bang__tieu-de span { display: inline; }
+  .trang-ban-do .bang__tieu-de { justify-content: space-between; padding: 10px 12px; }
+  .trang-ban-do .nut-thu-gon { width: 32px; height: 32px; font-size: 13px; }
+
+  /* Bang thuoc tinh noi len tu day man hinh */
+  .trang-ban-do .khu-bang {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: var(--bong-vua);
+  }
+
+  .dt-mo-bang .khu-bang { display: flex; }
+  .trang-ban-do .khu-bang.mo .khu-bang__than { height: 34vh; }
+  .trang-ban-do .khu-bang__dau { flex-wrap: wrap; }
+  .trang-ban-do .khu-bang__nut { margin-left: 0; width: 100%; }
+  .trang-ban-do .khu-bang__nut .nut { flex: 1 1 auto; }
+
+  .trang-ban-do .chan-trang { display: none; }
+
+  /* Ba nut an/hien thanh, dat giua canh duoi ban do */
+  .trang-ban-do .nut-dt {
+    position: absolute;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    z-index: 800;
+  }
+}
+
+/* ----- Ba nut an/hien thanh ben tren dien thoai ----- */
+
+.nut-dt { display: none; }
+
+.nut-dt__nut {
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--vien);
+  border-radius: 20px;
+  background: var(--nen-the);
+  color: var(--chu);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: var(--bong-nho);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.nut-dt__nut.dang-bat {
+  background: var(--xanh-sau);
+  border-color: var(--xanh-sau);
+  color: #fff;
 }
 
 /* ----- Nen ban do dung tu du lieu dia phuong ----- */

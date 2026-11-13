@@ -44,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('man-cho').hidden = true;
       document.getElementById('noi-dung-tk').hidden = false;
       an_muc_thieu_du_lieu();
-      cap_nhat_dai_thong_bao();
       dung_bo_loc_luu_vuc();
       ve_tat_ca();
       ve_phan_hanh_chinh();   /* du lieu that, khong chiu anh huong bo loc */
@@ -117,12 +116,6 @@ function an_muc_thieu_du_lieu() {
   }
 }
 
-/* Dai canh bao chi co nghia voi tinh dang dung du lieu mo phong */
-function cap_nhat_dai_thong_bao() {
-  var dai = document.getElementById('dai-thong-bao');
-  if (dai && !TINH.co_du_lieu_mo_phong) dai.hidden = true;
-}
-
 function bao_loi(html) {
   document.getElementById('man-cho').hidden = true;
   var o = document.getElementById('loi-nap');
@@ -151,9 +144,39 @@ function loc(ma_lop) {
   return ds.filter(function (p) { return p.ma_luu_vuc === MA_LUU_VUC_LOC; });
 }
 
-/* Cong trinh khai thac day du = khai_thac + ao_ho (ho tach ra lop rieng de hien tren ban do) */
+/* Ho la CONG TRINH KHAI THAC trong lop ao_ho: chi cac doi tuong mang luu luong.
+
+   ao_ho.geojson co hai kieu. Kieu cu do scripts/05 tach tu bang khai thac,
+   moi ho mang q_khai_thac_m3_ngay va phai cong vao khai thac. Kieu moi do
+   scripts/12 nap tu ban ra soat kiem ke la danh muc NGUON NUOC, khong co luu
+   luong; khi do cac ho khai thac da nam san trong khai_thac.geojson, cong
+   them ao_ho la dem trung.
+
+   Phan biet bang viec doi tuong CO KHOA q_khai_thac_m3_ngay hay khong, chu
+   khong xet gia tri: tep kieu cu luon ghi khoa do (ke ca khi gia tri rong),
+   tep kieu moi khong bao gio co. */
+function ho_khai_thac_trong_ao_ho(ds) {
+  return (ds || []).filter(function (p) {
+    return Object.prototype.hasOwnProperty.call(p, 'q_khai_thac_m3_ngay');
+  });
+}
+
+/* Cong trinh khai thac day du, khong phu thuoc ho dang nam o lop nao */
+function gop_khai_thac(ds_khai_thac, ds_ao_ho) {
+  return (ds_khai_thac || []).concat(ho_khai_thac_trong_ao_ho(ds_ao_ho));
+}
+
 function khai_thac_day_du() {
-  return loc('khai_thac').concat(loc('ao_ho'));
+  return gop_khai_thac(loc('khai_thac'), loc('ao_ho'));
+}
+
+/* So ho chua trong danh muc khai thac: ho con nam o ao_ho kieu cu, cong voi
+   cong trinh loai "Ho..." nam trong khai_thac */
+function dem_ho_khai_thac() {
+  var trong_khai_thac = loc('khai_thac').filter(function (p) {
+    return String(p.loai_hinh || '').indexOf('Hồ') === 0;
+  }).length;
+  return ho_khai_thac_trong_ao_ho(loc('ao_ho')).length + trong_khai_thac;
 }
 
 function tong(ds, truong) {
@@ -194,7 +217,7 @@ function ve_kpi() {
 
   var q_khai_thac = tong(kt, 'q_khai_thac_m3_ngay');
   var q_xa = tong(xt, 'q_xa_m3_ngay');
-  var so_ho = loc('ao_ho').length;
+  var so_ho = dem_ho_khai_thac();
 
   var het_kha_nang = ds_song.filter(function (p) {
     return p.trang_thai === 'Không còn khả năng tiếp nhận';
@@ -248,7 +271,7 @@ function ve_bd_luu_vuc() {
   });
 
   var kt = ds_lv.map(function (lv) {
-    return tong((DL.khai_thac || []).concat(DL.ao_ho || []).filter(function (p) {
+    return tong(gop_khai_thac(DL.khai_thac, DL.ao_ho).filter(function (p) {
       return p.ma_luu_vuc === lv.ma;
     }), 'q_khai_thac_m3_ngay');
   });

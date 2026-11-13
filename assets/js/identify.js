@@ -204,6 +204,9 @@ function hien_chi_tiet(danh_sach, vi_tri_chon) {
   ve_bieu_do_realtime(dt.thuoc_tinh[l.dn.khoa]);
   nhay_sang_doi_tuong(dt);
   chon_hang_bang(chon.ma_lop, chon.chi_so);
+
+  /* Tren dien thoai thanh thong tin mac dinh an, nen mo ra de thay ket qua */
+  if (la_dien_thoai()) dat_thanh_dt('phai');
 }
 
 function dung_html_chi_tiet(ma_lop, dt) {

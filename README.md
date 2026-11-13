@@ -59,8 +59,8 @@ rồi sửa `tinh.json`, không thêm tỉnh vào đây. Dự án Gia Lai đặt
 | Hồ, ao, đầm không được san lấp | Danh mục tỉnh công bố, qua `scripts/09_chuan_hoa_ao_ho_khong_san_lap.py` | **Dữ liệu thật**, chờ bản xuất CSV |
 
 Các lớp mô phỏng dùng để kiểm thử giao diện trước khi có dữ liệu kiểm kê chính
-thức. Mọi đối tượng mô phỏng đều mang trường `nguon_dl` ghi rõ điều đó, và trang
-web hiển thị một dải cảnh báo ở đầu trang. Vị trí hình học chỉ gần đúng.
+thức. Mọi đối tượng mô phỏng đều mang trường `nguon_dl` ghi rõ điều đó. Vị trí
+hình học chỉ gần đúng.
 
 Số liệu trên **tab Quan trắc** thì khác: nó không đi qua `data/`, mà lấy trực
 tiếp từ cơ sở dữ liệu phần mềm Quan trắc Quốc gia qua một backend trung gian.
