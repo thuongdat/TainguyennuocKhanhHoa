@@ -22,17 +22,6 @@ body.trang-thong-ke {
   padding: 18px 16px 28px;
 }
 
-/* ----- Dai thong bao ve nguon goc du lieu ----- */
-
-.trang-thong-ke .dai-thong-bao {
-  position: static;
-  margin-bottom: 18px;
-  padding: 11px 14px;
-  border: 1px solid #e8d08a;
-  border-radius: var(--bo-goc);
-  line-height: 1.6;
-}
-
 /* ----- Nhan phan biet du lieu that va du lieu mo phong ----- */
 
 .the-mp, .the-that {

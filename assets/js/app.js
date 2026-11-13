@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
       ve_toan_tinh();
       bat_lam_moi_dinh_ky();
       bao_cao_lop_loi();
-      cap_nhat_dai_thong_bao();
     })
     .catch(function (e) {
       document.getElementById('man-cho').hidden = true;
@@ -41,11 +40,41 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-/* Tinh nao chua co lop chuyen de mo phong thi khong hien dai canh bao */
-function cap_nhat_dai_thong_bao() {
-  var dai = document.getElementById('dai-thong-bao');
-  if (!dai) return;
-  if (!TINH.co_du_lieu_mo_phong) dai.hidden = true;
+/* --------------------------------------------------------------------------
+   An/hien ba thanh tren dien thoai
+   Man hinh hep (cung nguong 860px voi style.css) thi ban do chiem tron man
+   hinh, ba thanh (lop du lieu, thong tin, bang thuoc tinh) truot de len ban do.
+   Trang thai nam o lop dt-mo-<ten> tren <body>; moi luc chi mo mot thanh.
+   -------------------------------------------------------------------------- */
+var MQ_DIEN_THOAI = window.matchMedia ? window.matchMedia('(max-width: 860px)') : null;
+var CAC_THANH_DT = ['trai', 'phai', 'bang'];
+
+function la_dien_thoai() {
+  return !!MQ_DIEN_THOAI && MQ_DIEN_THOAI.matches;
+}
+
+/* Mo dung mot thanh, dong cac thanh con lai. Truyen null de dong het. */
+function dat_thanh_dt(ten) {
+  CAC_THANH_DT.forEach(function (t) {
+    document.body.classList.toggle('dt-mo-' + t, t === ten);
+  });
+
+  var cac_nut = document.querySelectorAll('.nut-dt__nut');
+  for (var i = 0; i < cac_nut.length; i++) {
+    cac_nut[i].classList.toggle('dang-bat', cac_nut[i].dataset.thanh === ten);
+  }
+
+  /* table.js xet lop "mo" cua khu bang, nen giu lop do dong bo voi thanh */
+  var khu = document.getElementById('khu-bang');
+  khu.classList.toggle('mo', ten === 'bang');
+  document.getElementById('mo-bang')
+    .setAttribute('aria-expanded', ten === 'bang' ? 'true' : 'false');
+}
+
+/* Bam lai nut cua thanh dang mo thi dong thanh do */
+function bat_tat_thanh_dt(ten) {
+  var dang_mo = document.body.classList.contains('dt-mo-' + ten);
+  dat_thanh_dt(dang_mo ? null : ten);
 }
 
 /* --------------------------------------------------------------------------
@@ -55,6 +84,7 @@ function gan_su_kien_giao_dien() {
 
   /* ----- Thu gon hai bang hai ben ----- */
   document.getElementById('thu-gon-trai').addEventListener('click', function () {
+    if (la_dien_thoai()) { dat_thanh_dt(null); return; }
     var than = document.querySelector('.than-trang');
     than.classList.toggle('thu-trai');
     this.innerHTML = than.classList.contains('thu-trai') ? '&#10095;' : '&#10094;';
@@ -62,11 +92,20 @@ function gan_su_kien_giao_dien() {
   });
 
   document.getElementById('thu-gon-phai').addEventListener('click', function () {
+    if (la_dien_thoai()) { dat_thanh_dt(null); return; }
     var than = document.querySelector('.than-trang');
     than.classList.toggle('thu-phai');
     this.innerHTML = than.classList.contains('thu-phai') ? '&#10094;' : '&#10095;';
     setTimeout(function () { ban_do.invalidateSize(); }, 220);
   });
+
+  /* ----- Ba nut an/hien thanh ben tren dien thoai ----- */
+  var cac_nut_dt = document.querySelectorAll('.nut-dt__nut');
+  for (var k = 0; k < cac_nut_dt.length; k++) {
+    cac_nut_dt[k].addEventListener('click', function () {
+      bat_tat_thanh_dt(this.dataset.thanh);
+    });
+  }
 
   /* ----- Bo loc ----- */
   document.getElementById('ap-dung-loc').addEventListener('click', ap_dung_loc);
@@ -102,11 +141,15 @@ function gan_su_kien_giao_dien() {
     if (cong_cu_dang_bat) {
       document.getElementById(cong_cu_dang_bat.id_nut).classList.remove('dang-bat');
       huy_cong_cu();
+      return;
     }
+    if (la_dien_thoai()) dat_thanh_dt(null);
   });
 
   /* ----- Bang thuoc tinh ----- */
   document.getElementById('mo-bang').addEventListener('click', function () {
+    /* Tren dien thoai nut nay dong ca thanh bang, vi thanh da che ba nut noi */
+    if (la_dien_thoai()) { dat_thanh_dt(null); return; }
     var khu = document.getElementById('khu-bang');
     khu.classList.toggle('mo');
     this.setAttribute('aria-expanded', khu.classList.contains('mo') ? 'true' : 'false');
@@ -167,12 +210,6 @@ function gan_su_kien_giao_dien() {
 
   /* ----- Doi nen sang / toi ----- */
   document.getElementById('nut-giao-dien').addEventListener('click', doi_giao_dien);
-
-  /* ----- Dong dai thong bao ----- */
-  document.getElementById('dong-thong-bao').addEventListener('click', function () {
-    document.getElementById('dai-thong-bao').hidden = true;
-    setTimeout(function () { ban_do.invalidateSize(); }, 50);
-  });
 
   /* ----- Hop thoai ----- */
   document.getElementById('dong-hop-thoai').addEventListener('click', dong_hop_thoai);

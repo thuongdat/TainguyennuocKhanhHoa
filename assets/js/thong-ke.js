@@ -44,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('man-cho').hidden = true;
       document.getElementById('noi-dung-tk').hidden = false;
       an_muc_thieu_du_lieu();
-      cap_nhat_dai_thong_bao();
       dung_bo_loc_luu_vuc();
       ve_tat_ca();
       ve_phan_hanh_chinh();   /* du lieu that, khong chiu anh huong bo loc */
@@ -115,12 +114,6 @@ function an_muc_thieu_du_lieu() {
       + 'Khi đưa dữ liệu kiểm kê vào <code>data_goc/</code> và chạy script chuẩn hóa, '
       + 'các mục thống kê tương ứng sẽ tự hiện.';
   }
-}
-
-/* Dai canh bao chi co nghia voi tinh dang dung du lieu mo phong */
-function cap_nhat_dai_thong_bao() {
-  var dai = document.getElementById('dai-thong-bao');
-  if (dai && !TINH.co_du_lieu_mo_phong) dai.hidden = true;
 }
 
 function bao_loi(html) {

@@ -536,8 +536,24 @@ Phải nắm rõ trước khi sửa bất cứ thứ gì liên quan đến số 
 | `data/quan_trac_dia_phuong.geojson` (111 vị trí WQI) | Dữ liệu thật. **Chưa sinh**, chờ cột tọa độ trong sheet `Biểu 10`; chưa có trong `lop_co_san` |
 
 Dữ liệu mô phỏng do `scripts/00_tao_du_lieu_mau.py` sinh ra, mỗi đối tượng mang
-trường `nguon_dl` ghi rõ điều đó, và `index.html` có dải cảnh báo ở đầu trang.
-**Không gỡ dải cảnh báo đó chừng nào các lớp chuyên đề còn là dữ liệu mô phỏng.**
+trường `nguon_dl` ghi rõ điều đó.
+
+Dải cảnh báo nền vàng ở đầu `index.html` và `pages/thong-ke.html` **đã được gỡ
+ngày 13/11/2026 theo quyết định của chủ đầu tư**, vì nó chiếm nhiều chỗ khi mở
+trên điện thoại. Đừng thêm lại. Nguồn gốc dữ liệu vẫn thể hiện qua `nguon_dl`
+của từng đối tượng, nhãn `the-mp` / `the-that` cạnh từng thẻ số ở trang Thống
+kê và chữ "(mô phỏng)" ở chân trang. Luật CSS `.dai-thong-bao` còn giữ vì tab
+Quan trắc dùng nó để báo số đo cũ bị ẩn.
+
+### Giao diện trên điện thoại
+
+Dưới 860px, trang bản đồ (`body.trang-ban-do`) cho bản đồ chiếm trọn màn hình;
+ba thanh (Lớp dữ liệu, Thông tin đối tượng, Bảng thuộc tính) mặc định ẩn và
+trượt đè lên bản đồ. Ba nút nổi `.nut-dt__nut` gọi `bat_tat_thanh_dt()` trong
+`app.js`, trạng thái nằm ở lớp `dt-mo-trai` / `dt-mo-phai` / `dt-mo-bang` trên
+`<body>`, mỗi lúc chỉ mở một thanh. `hien_chi_tiet()` tự mở thanh Thông tin.
+Ngưỡng 860px khai ở hai nơi phải khớp nhau: `@media` trong `style.css` và
+`MQ_DIEN_THOAI` trong `app.js`. Chân trang ẩn trên điện thoại.
 
 ### Lớp lỗ khoan nước dưới đất đã nạp
 

@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="trang-ban-do">
 
 <!-- ======================= HEADER ======================= -->
 <header class="dau-trang">
@@ -53,20 +53,6 @@
             aria-label="Đổi nền sáng tối">&#9681;</button>
   </div>
 </header>
-
-<!-- Dải cảnh báo về nguồn gốc dữ liệu -->
-<div class="dai-thong-bao" id="dai-thong-bao">
-  <strong>Lớp sức chịu tải còn là mô phỏng.</strong>
-  Lớp lưu vực, sông suối, ao hồ hồ chứa, công trình khai thác, điểm xả thải và
-  trạm quan trắc là dữ liệu kiểm kê thật của tỉnh và mạng trạm quốc gia; lớp
-  trạm chỉ có vị trí và thông tin trạm, số đo thật xem ở trang
-  <a href="pages/quan-trac.html">Quan trắc</a>, lấy từ cơ sở dữ liệu phần mềm
-  Quan trắc Quốc gia, cùng lớp lỗ khoan nước dưới đất. Riêng lớp sức chịu tải
-  đoạn sông vẫn là dữ liệu mẫu dùng để kiểm thử giao diện, chưa phải kết quả
-  đánh giá chính thức.
-  Lớp hồ, ao, đầm không được san lấp là danh mục thật do tỉnh công bố.
-  <button class="dai-thong-bao__dong" id="dong-thong-bao" aria-label="Đóng">&times;</button>
-</div>
 
 <!-- ======================= NỘI DUNG ======================= -->
 <main class="than-trang">
@@ -122,6 +108,13 @@
       <button class="nut-cc" id="cc-do-khoang-cach" title="Đo khoảng cách">&#8596;</button>
       <button class="nut-cc" id="cc-chon-ban-kinh" title="Chọn đối tượng theo bán kính">&#9711;</button>
       <button class="nut-cc" id="cc-toa-do" title="Xem toạ độ điểm">&#10010;</button>
+    </div>
+
+    <!-- Ba nut an/hien thanh ben, chi hien tren dien thoai -->
+    <div class="nut-dt" id="nut-dt">
+      <button class="nut-dt__nut" data-thanh="trai">Lớp</button>
+      <button class="nut-dt__nut" data-thanh="phai">Thông tin</button>
+      <button class="nut-dt__nut" data-thanh="bang">Bảng</button>
     </div>
 
     <div class="hop-toa-do" id="hop-toa-do">
