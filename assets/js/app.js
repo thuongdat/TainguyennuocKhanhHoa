@@ -307,8 +307,12 @@ function doi_giao_dien() {
   document.documentElement.setAttribute('data-giao-dien', moi);
   try { localStorage.setItem('giao_dien', moi); } catch (e) { /* bo qua */ }
 
-  /* Doi ban do nen cho khop voi nen giao dien */
-  dat_lop_nen(moi === 'toi' ? 'toi' : 'sang');
+  /* Doi ban do nen cho khop voi nen giao dien, nhung chi khi dang dung nen
+     sang hoac nen toi. Nguoi dung dang xem anh ve tinh, duong pho hay nen dia
+     phuong thi giu nguyen, doi giao dien khong duoc keo ho ve nen khac. */
+  if (ma_nen_dang_dung === 'sang' || ma_nen_dang_dung === 'toi') {
+    dat_lop_nen(moi === 'toi' ? 'toi' : 'sang');
+  }
 
   /* Ve lai bieu do de doi mau chu va luoi */
   if (KET_QUA_TRUNG.length > 0) {

@@ -5,6 +5,7 @@
 /* Bien toan cuc dung chung cho cac tep khac */
 var ban_do = null;              /* doi tuong Leaflet Map */
 var lop_nen_dang_dung = null;   /* lop tile dang hien */
+var ma_nen_dang_dung = null;    /* ma nen dang chon, ke ca nen vector */
 var nhom_ve_phu = null;         /* nhom chua hinh ve tam: do khoang cach, vong chon */
 var cong_cu_dang_bat = null;    /* 'do_khoang_cach' | 'chon_ban_kinh' | 'toa_do' | null */
 
@@ -81,6 +82,7 @@ function dat_lop_nen(ma_nen) {
   lop_nen_dang_dung = null;
   tat_nen_vector();
   danh_dau_the_nen(ma_nen);
+  ma_nen_dang_dung = ma_nen;
 
   /* Nen dung tu du lieu dia phuong, khong phai tile */
   if (dn.kieu === 'vector') {
