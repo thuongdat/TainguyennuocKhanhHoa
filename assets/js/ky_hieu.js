@@ -132,7 +132,7 @@ function duong_hinh(ten_hinh, nua) {
    day keo chung ve cung muc dam nhat voi hinh tron cu. */
 var HE_SO_HINH = {
   tron: 1.0,
-  vuong: 0.86,
+  vuong: 0.7,
   thoi: 1.12,
   tam_giac: 1.18,
 };
