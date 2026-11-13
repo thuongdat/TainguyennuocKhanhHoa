@@ -124,7 +124,7 @@ const CAU_HINH = {
        basemaps) nay da yeu cau API key. Cac nguon duoi day dung duoc truc tiep
        khong can dang ky, phu hop cho mot trang tinh tren GitHub Pages. */
     {
-      ma: 'sang', ten: 'Nền sáng', mac_dinh: true,
+      ma: 'sang', ten: 'Nền sáng',
       url: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
       ghi_nguon: 'Nền bản đồ: Esri, HERE, Garmin, &copy; OpenStreetMap contributors',
       zoom_max: 16,
@@ -136,7 +136,7 @@ const CAU_HINH = {
       zoom_max: 19,
     },
     {
-      ma: 've_tinh', ten: 'Ảnh vệ tinh',
+      ma: 've_tinh', ten: 'Ảnh vệ tinh', mac_dinh: true,
       url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
       ghi_nguon: 'Nguồn ảnh: Esri, Maxar, Earthstar Geographics',
       zoom_max: 18,
