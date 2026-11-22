@@ -27,6 +27,12 @@ const MAU = {
      nam canh nhau trong cung mot nhom ma mot ben la du lieu that, mot ben la
      mo phong, trung mau la nguoi xem khong phan biet duoc. */
   ao_ho_giu: '#0f766e',
+  /* Ba lop du lieu that bo sung (scripts/14_nap_bo_sung_mapinfo.py) */
+  luu_luong: '#0369a1',
+  vet_lu_thap: '#facc15',   // duoi 1 m
+  vet_lu_vua: '#f97316',    // 1 - 2 m
+  vet_lu_cao: '#b91c1c',    // tren 2 m
+  sat_lo: '#c2410c',
 };
 
 /* Mau theo phan loai WQI, dung NGUYEN ma mau RGB cua bang o muc 1.4 Quyet dinh
@@ -225,7 +231,10 @@ const CAU_HINH = {
     { ma: 'khai_thac_xa_thai', ten: 'Khai thác và xả thải', mo: true,
       lop: ['khai_thac', 'xa_thai'] },
     { ma: 'giam_sat', ten: 'Quan trắc và sức chịu tải', mo: true,
-      lop: ['doan_song', 'quan_trac', 'quan_trac_dia_phuong', 'quan_trac_ndd'] },
+      lop: ['doan_song', 'quan_trac', 'quan_trac_dia_phuong', 'quan_trac_ndd',
+            'luu_luong'] },
+    { ma: 'thien_tai', ten: 'Lũ lụt và sạt lở bờ sông', mo: true,
+      lop: ['vet_lu', 'sat_lo'] },
   ],
 
   /* ---------------- Dinh nghia tung lop ---------------- */
@@ -430,7 +439,7 @@ const CAU_HINH = {
       khoa: 'ma',
       truong_nhan: 'ten',
       du_lieu_that: true,
-      mo_ta: 'Danh mục hồ, ao, đầm không được san lấp do tỉnh công bố',
+      mo_ta: 'Danh mục hồ, ao, đầm không được san lấp (kết quả kiểm kê, dữ liệu bổ sung)',
       /* Ban kinh theo dien tich mat nuoc, cung cach ho_chua lam voi dung tich.
          Dien tich trai rong tu vai ha den hang nghin ha nen lay can bac hai,
          neu khong thi mot cai dam lam moi diem con lai thanh cham nho. */
@@ -444,14 +453,18 @@ const CAU_HINH = {
         { ma: 'ten', ten: 'Tên hồ, ao, đầm' },
         { ma: 'vi_tri_hc', ten: 'Vị trí, địa điểm' },
         { ma: 'dien_tich_ha', ten: 'Diện tích mặt nước', dinh_dang: 'so_le', don_vi: 'ha' },
+        { ma: 'dung_tich_trieu_m3', ten: 'Dung tích toàn bộ', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'dung_tich_huu_ich_trieu_m3', ten: 'Dung tích hữu ích', dinh_dang: 'so_le', don_vi: 'triệu m³' },
         { ma: 'chuc_nang', ten: 'Mục đích sử dụng' },
         { ma: 'don_vi_quan_ly', ten: 'Đơn vị quản lý' },
         { ma: 'nam_xd', ten: 'Năm xây dựng, hoàn thành' },
         { ma: 'quyet_dinh', ten: 'Căn cứ pháp lý' },
+        { ma: 'luu_vuc_kiem_ke', ten: 'Thuộc lưu vực sông' },
+        { ma: 'ten_luu_vuc', ten: 'Lưu vực' },
         { ma: 'ghi_chu', ten: 'Ghi chú' },
       ],
-      cot_bang: ['ma', 'ten', 'vi_tri_hc', 'dien_tich_ha', 'chuc_nang',
-                 'don_vi_quan_ly'],
+      cot_bang: ['ma', 'ten', 'vi_tri_hc', 'dien_tich_ha', 'dung_tich_trieu_m3',
+                 'luu_vuc_kiem_ke'],
       chu_giai: [
         { kieu: 'diem', mau: MAU.ao_ho_giu,
           nhan: 'Hồ, ao, đầm không được san lấp' },
@@ -819,13 +832,14 @@ const CAU_HINH = {
       khoa: 'ma',
       truong_nhan: 'ten',
       du_lieu_that: true,
-      mo_ta: 'Vị trí quan trắc chất lượng nước mặt của tỉnh, chỉ số WQI theo kết quả kiểm kê (Biểu 10)',
+      mo_ta: 'Vị trí quan trắc chất lượng nước mặt của tỉnh, WQI theo tháng năm 2025 và đợt bổ sung 7/2026',
       kieu_ve: function (p) {
         return { radius: 6, fillColor: MAU_WQI[p.phan_loai_wqi] || MAU.trung_tinh,
                  color: '#1e293b', weight: 1.2, opacity: 1, fillOpacity: 0.95 };
       },
       truong: [
         { ma: 'ten', ten: 'Vị trí quan trắc' },
+        { ma: 'nguon_nuoc', ten: 'Nguồn nước' },
         { ma: 'xa_phuong', ten: 'Xã, phường' },
         { ma: 'xa_cu', ten: 'Xã (cũ)' },
         { ma: 'huyen_cu', ten: 'Huyện (cũ)' },
@@ -835,6 +849,7 @@ const CAU_HINH = {
         { ma: 'wqi', ten: 'WQI kỳ mới nhất', dinh_dang: 'so' },
         { ma: 'phan_loai_wqi', ten: 'Phân loại' },
         { ma: 'thoi_diem_wqi', ten: 'Kỳ quan trắc mới nhất' },
+        { ma: 'wqi_tb', ten: 'WQI trung bình', dinh_dang: 'so_le' },
         { ma: 'wqi_thap_nhat', ten: 'WQI thấp nhất', dinh_dang: 'so' },
         { ma: 'ky_wqi_thap_nhat', ten: 'Kỳ có WQI thấp nhất' },
         { ma: 'so_ky', ten: 'Số kỳ quan trắc', dinh_dang: 'so' },
@@ -850,6 +865,117 @@ const CAU_HINH = {
         { kieu: 'diem', mau: MAU_WQI['Xấu'], nhan: 'WQI 26 - 50: Xấu' },
         { kieu: 'diem', mau: MAU_WQI['Kém'], nhan: 'WQI 10 - 25: Kém' },
         { kieu: 'diem', mau: MAU_WQI['Ô nhiễm rất nặng'], nhan: 'WQI dưới 10: Ô nhiễm rất nặng' },
+      ],
+    },
+
+    /* ===== Luu luong dong chay (DU LIEU THAT, scripts/14) =====
+       Tong luong dong chay theo thang va theo mua tai cac diem tinh toan,
+       don vi trieu m3. Ban kinh theo can bac hai tong luong ca nam. */
+    luu_luong: {
+      ten: 'Lưu lượng dòng chảy',
+      tep: 'luu_luong.geojson',
+      kieu: 'diem',
+      hien: true,
+      z: 470,
+      khoa: 'ma',
+      truong_nhan: 'luu_vuc_kiem_ke',
+      du_lieu_that: true,
+      mo_ta: 'Tổng lượng dòng chảy theo tháng, mùa mưa, mùa khô và cả năm tại các điểm tính toán',
+      kieu_ve: function (p) {
+        var q = p.q_ca_nam || 0;
+        var bk = Math.max(5, Math.min(14, 4 + Math.sqrt(q) * 0.6));
+        return { radius: bk, fillColor: MAU.luu_luong, color: '#ffffff',
+                 weight: 1.6, opacity: 1, fillOpacity: 0.85 };
+      },
+      truong: [
+        { ma: 'luu_vuc_kiem_ke', ten: 'Lưu vực sông' },
+        { ma: 'xa_phuong', ten: 'Xã, phường' },
+        { ma: 'q_ca_nam', ten: 'Tổng lượng cả năm', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_mua_mua', ten: 'Tổng lượng mùa mưa', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_mua_kho', ten: 'Tổng lượng mùa khô', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_1', ten: 'Tháng 1', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_2', ten: 'Tháng 2', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_3', ten: 'Tháng 3', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_4', ten: 'Tháng 4', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_5', ten: 'Tháng 5', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_6', ten: 'Tháng 6', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_7', ten: 'Tháng 7', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_8', ten: 'Tháng 8', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_9', ten: 'Tháng 9', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_10', ten: 'Tháng 10', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_11', ten: 'Tháng 11', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'q_thang_12', ten: 'Tháng 12', dinh_dang: 'so_le', don_vi: 'triệu m³' },
+        { ma: 'ten_luu_vuc', ten: 'Lưu vực' },
+      ],
+      cot_bang: ['ma', 'luu_vuc_kiem_ke', 'xa_phuong', 'q_mua_mua', 'q_mua_kho',
+                 'q_ca_nam'],
+      chu_giai: [
+        { kieu: 'diem', mau: MAU.luu_luong,
+          nhan: 'Điểm tính lưu lượng (kích thước theo tổng lượng năm)' },
+      ],
+    },
+
+    /* ===== Vet lu (DU LIEU THAT, scripts/14) ===== */
+    vet_lu: {
+      ten: 'Vết lũ',
+      tep: 'vet_lu.geojson',
+      kieu: 'diem',
+      hien: true,
+      z: 472,
+      khoa: 'ma',
+      truong_nhan: 'thon',
+      du_lieu_that: true,
+      mo_ta: 'Điểm điều tra vết lũ, chiều cao vết lũ quan sát trên công trình',
+      kieu_ve: function (p) {
+        var h = p.chieu_cao_vet_lu_m || 0;
+        var mau = h > 2 ? MAU.vet_lu_cao : (h >= 1 ? MAU.vet_lu_vua : MAU.vet_lu_thap);
+        return { radius: 6, fillColor: mau, color: '#1e293b', weight: 1.2,
+                 opacity: 1, fillOpacity: 0.95 };
+      },
+      truong: [
+        { ma: 'chieu_cao_vet_lu_m', ten: 'Chiều cao vết lũ', dinh_dang: 'so_le', don_vi: 'm' },
+        { ma: 'doi_tuong_quan_sat', ten: 'Đối tượng quan sát' },
+        { ma: 'thon', ten: 'Thôn' },
+        { ma: 'xa_phuong', ten: 'Xã, phường' },
+        { ma: 'luu_vuc_kiem_ke', ten: 'Thuộc lưu vực sông' },
+        { ma: 'ten_luu_vuc', ten: 'Lưu vực' },
+      ],
+      cot_bang: ['ma', 'thon', 'xa_phuong', 'luu_vuc_kiem_ke',
+                 'chieu_cao_vet_lu_m', 'doi_tuong_quan_sat'],
+      chu_giai: [
+        { kieu: 'diem', mau: MAU.vet_lu_thap, nhan: 'Vết lũ dưới 1 m' },
+        { kieu: 'diem', mau: MAU.vet_lu_vua, nhan: 'Vết lũ 1 - 2 m' },
+        { kieu: 'diem', mau: MAU.vet_lu_cao, nhan: 'Vết lũ trên 2 m' },
+      ],
+    },
+
+    /* ===== Sat lo bo song (DU LIEU THAT, scripts/14) ===== */
+    sat_lo: {
+      ten: 'Sạt lở bờ sông',
+      tep: 'sat_lo.geojson',
+      kieu: 'duong',
+      hien: true,
+      z: 465,
+      khoa: 'ma',
+      truong_nhan: 'ten_song',
+      du_lieu_that: true,
+      mo_ta: 'Đoạn bờ sông bị sạt lở theo kết quả điều tra',
+      kieu_ve: function () {
+        return { color: MAU.sat_lo, weight: 5, opacity: 0.95, lineCap: 'round' };
+      },
+      truong: [
+        { ma: 'ten_song', ten: 'Tên sông' },
+        { ma: 'bo_song', ten: 'Bờ sông' },
+        { ma: 'chieu_dai_m', ten: 'Chiều dài sạt lở', dinh_dang: 'so', don_vi: 'm' },
+        { ma: 'thon', ten: 'Thôn' },
+        { ma: 'xa_phuong', ten: 'Xã, phường' },
+        { ma: 'luu_vuc_kiem_ke', ten: 'Thuộc lưu vực sông' },
+        { ma: 'mo_ta', ten: 'Mô tả' },
+        { ma: 'ten_luu_vuc', ten: 'Lưu vực' },
+      ],
+      cot_bang: ['ma', 'ten_song', 'bo_song', 'chieu_dai_m', 'thon', 'xa_phuong'],
+      chu_giai: [
+        { kieu: 'duong', mau: MAU.sat_lo, nhan: 'Đoạn bờ sông sạt lở', day: 5 },
       ],
     },
   },

@@ -1,0 +1,3234 @@
+{
+ "type": "FeatureCollection",
+ "name": "quan_trac_dia_phuong",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "sinh_boi": "14_nap_bo_sung_mapinfo",
+ "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo)",
+ "thoi_diem_xuat": "2026-11-22T13:48+07:00",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9992831,
+     12.2832526
+    ]
+   },
+   "properties": {
+    "ma": "QD-001",
+    "ten": "Đồng Trăng",
+    "nguon_nuoc": "Sông Cái Nha Trang",
+    "xa_phuong": "Xã Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 92,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "1/2025: 98; 2/2025: 98; 3/2025: 98; 4/2025: 99; 5/2025: 97; 6/2025: 97; 7/2025: 98; 8/2025: 99; 9/2025: 92; 10/2025: 96; 11/2025: 98; 12/2025: 98",
+    "wqi_tb": 97.3,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1100875,
+     12.2625768
+    ]
+   },
+   "properties": {
+    "ma": "QD-002",
+    "ten": "Cầu Sông Cái",
+    "nguon_nuoc": "Sông Cái Nha Trang",
+    "xa_phuong": "Xã Diên Khánh / Xã Diên Điền",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 45,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 45,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 98; 3/2025: 95; 4/2025: 98; 5/2025: 98; 6/2025: 93; 7/2025: 99; 8/2025: 99; 9/2025: 90; 10/2025: 90; 11/2025: 87; 12/2025: 45",
+    "wqi_tb": 90.8,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0883215,
+     12.258786
+    ]
+   },
+   "properties": {
+    "ma": "QD-003",
+    "ten": "Thanh Minh",
+    "nguon_nuoc": "Sông Cái Nha Trang",
+    "xa_phuong": "Xã Diên Lạc",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 97,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 95,
+    "ky_wqi_thap_nhat": "10/2025",
+    "chuoi_wqi": "1/2025: 98; 2/2025: 98; 3/2025: 97; 4/2025: 98; 5/2025: 97; 6/2025: 97; 7/2025: 99; 8/2025: 98; 9/2025: 96; 10/2025: 95; 11/2025: 98; 12/2025: 97",
+    "wqi_tb": 97.3,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1487564,
+     12.2697335
+    ]
+   },
+   "properties": {
+    "ma": "QD-004",
+    "ten": "Võ Cạnh",
+    "nguon_nuoc": "Sông Cái Nha Trang",
+    "xa_phuong": "Phường Tây Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 45,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 45,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 98; 3/2025: 97; 4/2025: 97; 5/2025: 95; 6/2025: 97; 7/2025: 99; 8/2025: 99; 9/2025: 94; 10/2025: 94; 11/2025: 94; 12/2025: 45",
+    "wqi_tb": 92.2,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1766872,
+     12.2678564
+    ]
+   },
+   "properties": {
+    "ma": "QD-005",
+    "ten": "Cầu sắt NT",
+    "nguon_nuoc": "Sông Cái Nha Trang",
+    "xa_phuong": "Phường Tây Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 96,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 91,
+    "ky_wqi_thap_nhat": "10/2025",
+    "chuoi_wqi": "1/2025: 93; 2/2025: 98; 3/2025: 97; 4/2025: 99; 5/2025: 98; 6/2025: 97; 7/2025: 95; 8/2025: 95; 9/2025: 92; 10/2025: 91; 11/2025: 93; 12/2025: 96",
+    "wqi_tb": 95.3,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9131884,
+     12.2778581
+    ]
+   },
+   "properties": {
+    "ma": "QD-006",
+    "ten": "Sông Khế",
+    "nguon_nuoc": "Sông Khế",
+    "xa_phuong": "Xã Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 45,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 45,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 98; 3/2025: 98; 4/2025: 96; 5/2025: 98; 6/2025: 99; 7/2025: 97; 8/2025: 99; 9/2025: 99; 10/2025: 98; 11/2025: 95; 12/2025: 45",
+    "wqi_tb": 93.2,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9781804,
+     12.3185267
+    ]
+   },
+   "properties": {
+    "ma": "QD-007",
+    "ten": "Sông Chò",
+    "nguon_nuoc": "Sông Chò",
+    "xa_phuong": "Xã Trung Khánh Vĩnh / Xã Bắc Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 97,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 83,
+    "ky_wqi_thap_nhat": "7/2025",
+    "chuoi_wqi": "1/2025: 98; 2/2025: 98; 3/2025: 99; 4/2025: 99; 5/2025: 97; 6/2025: 95; 7/2025: 83; 8/2025: 88; 9/2025: 89; 10/2025: 91; 11/2025: 95; 12/2025: 97",
+    "wqi_tb": 94.1,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9303901,
+     12.546468
+    ]
+   },
+   "properties": {
+    "ma": "QD-008",
+    "ten": "Cầu Dục Mỹ",
+    "nguon_nuoc": "Sông Dinh Ninh Hòa",
+    "xa_phuong": "Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 98,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 86,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "1/2025: 96; 2/2025: 98; 3/2025: 97; 4/2025: 99; 5/2025: 96; 6/2025: 96; 7/2025: 95; 8/2025: 96; 9/2025: 86; 10/2025: 96; 11/2025: 97; 12/2025: 98",
+    "wqi_tb": 95.8,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0801892,
+     12.495057
+    ]
+   },
+   "properties": {
+    "ma": "QD-009",
+    "ten": "Đập Bảy Xã",
+    "nguon_nuoc": "Sông Dinh Ninh Hòa",
+    "xa_phuong": "Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 69,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 69,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 94; 2/2025: 98; 3/2025: 94; 4/2025: 96; 5/2025: 95; 6/2025: 96; 7/2025: 94; 8/2025: 94; 9/2025: 95; 10/2025: 93; 11/2025: 97; 12/2025: 69",
+    "wqi_tb": 92.9,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.130889,
+     12.4938167
+    ]
+   },
+   "properties": {
+    "ma": "QD-010",
+    "ten": "Cầu Dinh NH",
+    "nguon_nuoc": "Sông Dinh Ninh Hòa",
+    "xa_phuong": "Phường Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 69,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 69,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 93; 2/2025: 94; 3/2025: 97; 4/2025: 93; 5/2025: 93; 6/2025: 95; 7/2025: 96; 8/2025: 90; 9/2025: 90; 10/2025: 86; 11/2025: 86; 12/2025: 69",
+    "wqi_tb": 90.2,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1261891,
+     12.5025767
+    ]
+   },
+   "properties": {
+    "ma": "QD-011",
+    "ten": "Sông Đá Bàn",
+    "nguon_nuoc": "Sông Đá Bàn",
+    "xa_phuong": "Xã Bắc Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 79,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 79,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 95; 2/2025: 97; 3/2025: 97; 4/2025: 97; 5/2025: 97; 6/2025: 97; 7/2025: 97; 8/2025: 90; 9/2025: 93; 10/2025: 94; 11/2025: 93; 12/2025: 79",
+    "wqi_tb": 93.8,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2917905,
+     12.7965155
+    ]
+   },
+   "properties": {
+    "ma": "QD-012",
+    "ten": "Hồ Hoa Sơn",
+    "nguon_nuoc": "Hồ Hoa Sơn",
+    "xa_phuong": "Xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "wqi": 98,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "1/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 97; 3/2025: 97; 4/2025: 98; 5/2025: 99; 6/2025: 98; 7/2025: 98; 8/2025: 99; 9/2025: 99; 10/2025: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1085901,
+     12.6400768
+    ]
+   },
+   "properties": {
+    "ma": "QD-013",
+    "ten": "Hồ Đá Bàn",
+    "nguon_nuoc": "Hồ Đá Bàn",
+    "xa_phuong": "Xã Bắc Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 99,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "1/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 97; 3/2025: 98; 4/2025: 97; 5/2025: 97; 6/2025: 99; 7/2025: 97; 8/2025: 99; 9/2025: 98; 10/2025: 99",
+    "wqi_tb": 97.8,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0954864,
+     12.096597
+    ]
+   },
+   "properties": {
+    "ma": "QD-014",
+    "ten": "Hồ Cam Ranh",
+    "nguon_nuoc": "Hồ Cam Ranh",
+    "xa_phuong": "Xã Cam Hiệp",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Suối Cốc",
+    "wqi": 99,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "1/2025",
+    "chuoi_wqi": "1/2025: 98; 2/2025: 98; 3/2025: 98; 4/2025: 99; 5/2025: 98; 6/2025: 98; 7/2025: 98; 8/2025: 98; 9/2025: 99; 10/2025: 99",
+    "wqi_tb": 98.3,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV08",
+    "ten_luu_vuc": "Lưu vực suối Cốc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2345883,
+     12.456396
+    ]
+   },
+   "properties": {
+    "ma": "QD-015",
+    "ten": "Hồ Tiên Du",
+    "nguon_nuoc": "Hồ Tiên Du",
+    "xa_phuong": "Phường Hòa Thắng",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": null,
+    "wqi": 98,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "1/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 97; 3/2025: 98; 4/2025: 99; 5/2025: 99; 6/2025: 98; 7/2025: 98; 8/2025: 99; 9/2025: 97; 10/2025: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0652857,
+     11.9822371
+    ]
+   },
+   "properties": {
+    "ma": "QD-016",
+    "ten": "Hồ Tà Rục",
+    "nguon_nuoc": "Hồ Tà Rục",
+    "xa_phuong": "Xã Cam An",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Lạch Cầu 1",
+    "wqi": 98,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "1/2025",
+    "chuoi_wqi": "1/2025: 98; 2/2025: 98; 3/2025: 99; 4/2025: 99; 5/2025: 99; 6/2025: 98; 7/2025: 98; 8/2025: 99; 9/2025: 99; 10/2025: 98",
+    "wqi_tb": 98.5,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0624855,
+     11.9335372
+    ]
+   },
+   "properties": {
+    "ma": "QD-017",
+    "ten": "Hồ Suối Hành",
+    "nguon_nuoc": "Hồ Suối Hành",
+    "xa_phuong": "Phường Ba Ngòi",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Lạch Cầu 1",
+    "wqi": 99,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 96,
+    "ky_wqi_thap_nhat": "2/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 96; 3/2025: 97; 4/2025: 99; 5/2025: 98; 6/2025: 97; 7/2025: 97; 8/2025: 99; 9/2025: 99; 10/2025: 99",
+    "wqi_tb": 97.8,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0539871,
+     12.1638872
+    ]
+   },
+   "properties": {
+    "ma": "QD-018",
+    "ten": "Hồ Suối Dầu",
+    "nguon_nuoc": "Hồ Suối Dầu",
+    "xa_phuong": "Xã Suối Dầu",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Lư Cẩm",
+    "wqi": 99,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 96,
+    "ky_wqi_thap_nhat": "1/2025",
+    "chuoi_wqi": "1/2025: 96; 2/2025: 99; 3/2025: 98; 4/2025: 99; 5/2025: 98; 6/2025: 99; 7/2025: 99; 8/2025: 99; 9/2025: 99; 10/2025: 99",
+    "wqi_tb": 98.5,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV07",
+    "ten_luu_vuc": "Lưu vực sông Lư Cẩm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9448905,
+     12.5984079
+    ]
+   },
+   "properties": {
+    "ma": "QD-019",
+    "ten": "Hồ thủy điện Earong Rou",
+    "nguon_nuoc": "Hồ thủy điện Earong Rou",
+    "xa_phuong": "Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 98,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 96,
+    "ky_wqi_thap_nhat": "3/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 98; 3/2025: 96; 4/2025: 99; 5/2025: 97; 6/2025: 97; 7/2025: 97; 8/2025: 97; 9/2025: 98; 10/2025: 98",
+    "wqi_tb": 97.4,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0395894,
+     12.5017473
+    ]
+   },
+   "properties": {
+    "ma": "QD-020",
+    "ten": "Hồ Suối Trầu",
+    "nguon_nuoc": "Hồ Suối Trầu",
+    "xa_phuong": "Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 93,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 89,
+    "ky_wqi_thap_nhat": "8/2025",
+    "chuoi_wqi": "1/2025: 90; 2/2025: 93; 3/2025: 97; 4/2025: 99; 5/2025: 99; 6/2025: 99; 7/2025: 94; 8/2025: 89; 9/2025: 91; 10/2025: 93",
+    "wqi_tb": 94.4,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0984879,
+     12.3106369
+    ]
+   },
+   "properties": {
+    "ma": "QD-021",
+    "ten": "Hồ Am Chúa",
+    "nguon_nuoc": "Hồ Am Chúa",
+    "xa_phuong": "Xã Diên Điền",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 95,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 95,
+    "ky_wqi_thap_nhat": "10/2025",
+    "chuoi_wqi": "1/2025: 96; 2/2025: 99; 3/2025: 98; 4/2025: 99; 5/2025: 97; 6/2025: 97; 7/2025: 99; 8/2025: 98; 9/2025: 98; 10/2025: 95",
+    "wqi_tb": 97.6,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9848877,
+     12.2311876
+    ]
+   },
+   "properties": {
+    "ma": "QD-022",
+    "ten": "Hồ Láng Nhớt",
+    "nguon_nuoc": "Hồ Láng Nhớt",
+    "xa_phuong": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 89,
+    "thoi_diem_wqi": "10/2025",
+    "so_ky": 10,
+    "wqi_thap_nhat": 59,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 65; 2/2025: 69; 3/2025: 73; 4/2025: 63; 5/2025: 65; 6/2025: 59; 7/2025: 62; 8/2025: 75; 9/2025: 79; 10/2025: 89",
+    "wqi_tb": 69.9,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.3120902,
+     12.7753554
+    ]
+   },
+   "properties": {
+    "ma": "QD-023",
+    "ten": "Sông Tu Bông",
+    "nguon_nuoc": "Sông Tu Bông",
+    "xa_phuong": "Xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "wqi": 45,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 45,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 95; 2/2025: 96; 3/2025: 97; 4/2025: 97; 5/2025: 97; 6/2025: 97; 7/2025: 97; 8/2025: 99; 9/2025: 94; 10/2025: 97; 11/2025: 97; 12/2025: 45",
+    "wqi_tb": 92.3,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2381901,
+     12.7195259
+    ]
+   },
+   "properties": {
+    "ma": "QD-024",
+    "ten": "Sông Đồng Điền",
+    "nguon_nuoc": "Sông Đồng Điền",
+    "xa_phuong": "Xã Vạn Thắng / Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Đông Điền",
+    "wqi": 45,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 45,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 98; 3/2025: 96; 4/2025: 98; 5/2025: 97; 6/2025: 99; 7/2025: 97; 8/2025: 97; 9/2025: 93; 10/2025: 94; 11/2025: 88; 12/2025: 45",
+    "wqi_tb": 91.6,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV14",
+    "ten_luu_vuc": "Lưu vực sông Đông Điền"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.21429,
+     12.6844461
+    ]
+   },
+   "properties": {
+    "ma": "QD-025",
+    "ten": "Sông Hiền Lương",
+    "nguon_nuoc": "Sông Hiền Lương",
+    "xa_phuong": "Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Hiền Lương",
+    "wqi": 95,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 91,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 97; 3/2025: 92; 4/2025: 98; 5/2025: 97; 6/2025: 91; 7/2025: 98; 8/2025: 92; 9/2025: 92; 10/2025: 94; 11/2025: 99; 12/2025: 95",
+    "wqi_tb": 95.2,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1497455,
+     12.2060551
+    ]
+   },
+   "properties": {
+    "ma": "QD-026",
+    "ten": "Sông Đồng Bò",
+    "nguon_nuoc": "Sông Đồng Bò",
+    "xa_phuong": "Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "wqi": 97,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 82,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "1/2025: 94; 2/2025: 99; 3/2025: 96; 4/2025: 92; 5/2025: 96; 6/2025: 96; 7/2025: 96; 8/2025: 95; 9/2025: 82; 10/2025: 82; 11/2025: 85; 12/2025: 97",
+    "wqi_tb": 92.5,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1753871,
+     12.2397964
+    ]
+   },
+   "properties": {
+    "ma": "QD-027",
+    "ten": "Sông Quán Trường",
+    "nguon_nuoc": "Sông Quán Trường",
+    "xa_phuong": "Phường Tây Nha Trang / Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Lư Cẩm",
+    "wqi": 37,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 37,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 77; 2/2025: 75; 3/2025: 58; 4/2025: 73; 5/2025: 78; 6/2025: 80; 7/2025: 76; 8/2025: 79; 9/2025: 68; 10/2025: 79; 11/2025: 86; 12/2025: 37",
+    "wqi_tb": 72.2,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV07",
+    "ten_luu_vuc": "Lưu vực sông Lư Cẩm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0723341,
+     12.1890131
+    ]
+   },
+   "properties": {
+    "ma": "QD-028",
+    "ten": "Sông Suối Dầu",
+    "nguon_nuoc": "Sông Suối Dầu",
+    "xa_phuong": "Xã Suối Dầu / Xã Suối Hiệp",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Lư Cẩm",
+    "wqi": 45,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 45,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 98; 2/2025: 98; 3/2025: 98; 4/2025: 99; 5/2025: 98; 6/2025: 97; 7/2025: 98; 8/2025: 99; 9/2025: 99; 10/2025: 98; 11/2025: 99; 12/2025: 45",
+    "wqi_tb": 93.8,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV07",
+    "ten_luu_vuc": "Lưu vực sông Lư Cẩm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9388334,
+     12.005827
+    ]
+   },
+   "properties": {
+    "ma": "QD-029",
+    "ten": "Sông Tô Hạp",
+    "nguon_nuoc": "Sông Tô Hạp",
+    "xa_phuong": "Xã Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 67,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 67,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 97; 2/2025: 98; 3/2025: 98; 4/2025: 98; 5/2025: 98; 6/2025: 97; 7/2025: 98; 8/2025: 99; 9/2025: 97; 10/2025: 92; 11/2025: 90; 12/2025: 67",
+    "wqi_tb": 94.1,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0861503,
+     12.2218085
+    ]
+   },
+   "properties": {
+    "ma": "QD-030",
+    "ten": "Cống Diên Toàn",
+    "nguon_nuoc": "Cống Diên Toàn",
+    "xa_phuong": "Xã Suối Hiệp",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Lư Cẩm",
+    "wqi": 24,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 24,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 93; 2/2025: 95; 3/2025: 93; 4/2025: 97; 5/2025: 85; 6/2025: 79; 7/2025: 92; 8/2025: 92; 9/2025: 87; 10/2025: 91; 11/2025: 53; 12/2025: 24",
+    "wqi_tb": 81.8,
+    "phan_loai_wqi": "Kém",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV07",
+    "ten_luu_vuc": "Lưu vực sông Lư Cẩm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1464865,
+     12.2858676
+    ]
+   },
+   "properties": {
+    "ma": "QD-031",
+    "ten": "Mương NM Dệt NT",
+    "nguon_nuoc": "Mương nhà máy Dệt Nha Trang",
+    "xa_phuong": "Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 22,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 22,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 68; 2/2025: 68; 3/2025: 71; 4/2025: 62; 5/2025: 60; 6/2025: 59; 7/2025: 59; 8/2025: 58; 9/2025: 57; 10/2025: 59; 11/2025: 64; 12/2025: 22",
+    "wqi_tb": 58.9,
+    "phan_loai_wqi": "Kém",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0783868,
+     12.153217
+    ]
+   },
+   "properties": {
+    "ma": "QD-032",
+    "ten": "Cống số 4 - KCN Suối Dầu",
+    "nguon_nuoc": "Cống số 4 - KCN Suối Dầu",
+    "xa_phuong": "Xã Suối Dầu",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Suối Cốc",
+    "wqi": 24,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 24,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 64; 2/2025: 56; 3/2025: 58; 4/2025: 57; 5/2025: 59; 6/2025: 65; 7/2025: 55; 8/2025: 45; 9/2025: 49; 10/2025: 52; 11/2025: 45; 12/2025: 24",
+    "wqi_tb": 52.4,
+    "phan_loai_wqi": "Kém",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV08",
+    "ten_luu_vuc": "Lưu vực suối Cốc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1298875,
+     12.2770267
+    ]
+   },
+   "properties": {
+    "ma": "QD-033",
+    "ten": "Đập Cầu Ngói",
+    "nguon_nuoc": "Kênh mương Cầu Ngói",
+    "xa_phuong": "Xã Diên Điền",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 38,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 38,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 91; 2/2025: 94; 3/2025: 93; 4/2025: 88; 5/2025: 91; 6/2025: 88; 7/2025: 86; 8/2025: 97; 9/2025: 86; 10/2025: 86; 11/2025: 92; 12/2025: 38",
+    "wqi_tb": 85.8,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7974626,
+     11.8137568
+    ]
+   },
+   "properties": {
+    "ma": "QD-034",
+    "ten": "Đầu nguồn sông Cái",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Xã Lâm Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 61,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 61,
+    "ky_wqi_thap_nhat": "12/2025",
+    "chuoi_wqi": "1/2025: 94; 2/2025: 95; 3/2025: 95; 4/2025: 94; 5/2025: 96; 6/2025: 83; 7/2025: 83; 8/2025: 95; 9/2025: 90; 10/2025: 92; 11/2025: 90; 12/2025: 61",
+    "wqi_tb": 89,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8034317,
+     11.7838034
+    ]
+   },
+   "properties": {
+    "ma": "QD-035",
+    "ten": "Cầu sông Cái",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 64,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 61,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 86; 2/2025: 90; 3/2025: 92; 4/2025: 91; 5/2025: 96; 6/2025: 61; 7/2025: 89; 8/2025: 91; 9/2025: 90; 10/2025: 90; 11/2025: 85; 12/2025: 64",
+    "wqi_tb": 85.4,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7936104,
+     11.772811
+    ]
+   },
+   "properties": {
+    "ma": "QD-036",
+    "ten": "Cầu Ninh Bình",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 78,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 63,
+    "ky_wqi_thap_nhat": "11/2025",
+    "chuoi_wqi": "1/2025: 78; 2/2025: 81; 3/2025: 93; 4/2025: 90; 5/2025: 90; 6/2025: 81; 7/2025: 87; 8/2025: 89; 9/2025: 65; 10/2025: 90; 11/2025: 63; 12/2025: 78",
+    "wqi_tb": 82.1,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8144234,
+     11.7112414
+    ]
+   },
+   "properties": {
+    "ma": "QD-037",
+    "ten": "Cầu Tân Mỹ",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 70,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 65,
+    "ky_wqi_thap_nhat": "2/2025",
+    "chuoi_wqi": "1/2025: 83; 2/2025: 65; 3/2025: 79; 4/2025: 87; 5/2025: 91; 6/2025: 65; 7/2025: 79; 8/2025: 74; 9/2025: 72; 10/2025: 83; 11/2025: 70; 12/2025: 70",
+    "wqi_tb": 76.5,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8578825,
+     11.6798907
+    ]
+   },
+   "properties": {
+    "ma": "QD-038",
+    "ten": "Thôn Phú Thạnh",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 72,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 62,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 79; 2/2025: 80; 3/2025: 89; 4/2025: 89; 5/2025: 92; 6/2025: 62; 7/2025: 77; 8/2025: 86; 9/2025: 66; 10/2025: 78; 11/2025: 62; 12/2025: 72",
+    "wqi_tb": 77.7,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.942309,
+     11.5953104
+    ]
+   },
+   "properties": {
+    "ma": "QD-039",
+    "ten": "Đập Lâm Cấm",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Phường Đô Vinh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 74,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 61,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 81; 2/2025: 65; 3/2025: 87; 4/2025: 88; 5/2025: 89; 6/2025: 61; 7/2025: 84; 8/2025: 88; 9/2025: 66; 10/2025: 82; 11/2025: 63; 12/2025: 74",
+    "wqi_tb": 77.3,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.949485,
+     11.5880407
+    ]
+   },
+   "properties": {
+    "ma": "QD-040",
+    "ten": "Cầu Móng (Bảo An)",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Phường Bảo An",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 75,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 62,
+    "ky_wqi_thap_nhat": "2/2025",
+    "chuoi_wqi": "1/2025: 86; 2/2025: 62; 3/2025: 85; 4/2025: 69; 5/2025: 92; 6/2025: 62; 7/2025: 79; 8/2025: 90; 9/2025: 64; 10/2025: 81; 11/2025: 64; 12/2025: 75",
+    "wqi_tb": 75.8,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9897019,
+     11.5536781
+    ]
+   },
+   "properties": {
+    "ma": "QD-041",
+    "ten": "Cầu Đạo Long 1",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Phường Phan Rang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 79,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 59,
+    "ky_wqi_thap_nhat": "11/2025",
+    "chuoi_wqi": "1/2025: 82; 2/2025: 62; 3/2025: 86; 4/2025: 68; 5/2025: 87; 6/2025: 82; 7/2025: 84; 8/2025: 89; 9/2025: 65; 10/2025: 80; 11/2025: 59; 12/2025: 79",
+    "wqi_tb": 76.9,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0200299,
+     11.5438087
+    ]
+   },
+   "properties": {
+    "ma": "QD-042",
+    "ten": "Đập hạ lưu sông Dinh",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Phường Phan Rang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 77,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 58,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 80; 2/2025: 81; 3/2025: 87; 4/2025: 83; 5/2025: 65; 6/2025: 58; 7/2025: 86; 8/2025: 92; 9/2025: 64; 10/2025: 79; 11/2025: 62; 12/2025: 77",
+    "wqi_tb": 76.2,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0272228,
+     11.5425239
+    ]
+   },
+   "properties": {
+    "ma": "QD-043",
+    "ten": "Cuối nguồn sông Cái",
+    "nguon_nuoc": "Sông Cái Phan Rang",
+    "xa_phuong": "Phường Đông Hải",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 80,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 52,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 82; 2/2025: 75; 3/2025: 82; 4/2025: 83; 5/2025: 62; 6/2025: 52; 7/2025: 56; 8/2025: 87; 9/2025: 62; 10/2025: 78; 11/2025: 63; 12/2025: 80",
+    "wqi_tb": 71.8,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8472046,
+     11.4805976
+    ]
+   },
+   "properties": {
+    "ma": "QD-044",
+    "ten": "Trạm YT thôn 1 (Nhị Hà, TN)",
+    "nguon_nuoc": "Sông Lu",
+    "xa_phuong": "Xã Phước Hà",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 86,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 53,
+    "ky_wqi_thap_nhat": "7/2025",
+    "chuoi_wqi": "1/2025: 81; 2/2025: 63; 3/2025: 80; 4/2025: 61; 5/2025: 70; 6/2025: 60; 7/2025: 53; 8/2025: 85; 9/2025: 60; 10/2025: 80; 11/2025: 86; 12/2025: 86",
+    "wqi_tb": 72.1,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9235277,
+     11.5191875
+    ]
+   },
+   "properties": {
+    "ma": "QD-045",
+    "ten": "Cầu Phú Quý (Phước Dân, NP)",
+    "nguon_nuoc": "Sông Lu",
+    "xa_phuong": "Xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 83,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 58,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 74; 2/2025: 59; 3/2025: 60; 4/2025: 77; 5/2025: 64; 6/2025: 58; 7/2025: 65; 8/2025: 62; 9/2025: 59; 10/2025: 84; 11/2025: 82; 12/2025: 83",
+    "wqi_tb": 68.9,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9726611,
+     11.527792
+    ]
+   },
+   "properties": {
+    "ma": "QD-046",
+    "ten": "Thôn Từ Tâm (Phước Hải, NP)",
+    "nguon_nuoc": "Sông Lu",
+    "xa_phuong": "Xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 81,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 54,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 55; 2/2025: 55; 3/2025: 79; 4/2025: 80; 5/2025: 83; 6/2025: 54; 7/2025: 72; 8/2025: 88; 9/2025: 60; 10/2025: 81; 11/2025: 80; 12/2025: 81",
+    "wqi_tb": 72.3,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.998149,
+     11.5315647
+    ]
+   },
+   "properties": {
+    "ma": "QD-047",
+    "ten": "Cầu Trắng (An Hải, NP)",
+    "nguon_nuoc": "Sông Lu",
+    "xa_phuong": "Xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 80,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 48,
+    "ky_wqi_thap_nhat": "7/2025",
+    "chuoi_wqi": "1/2025: 71; 2/2025: 56; 3/2025: 82; 4/2025: 82; 5/2025: 80; 6/2025: 60; 7/2025: 48; 8/2025: 83; 9/2025: 59; 10/2025: 80; 11/2025: 79; 12/2025: 80",
+    "wqi_tb": 71.7,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8802674,
+     11.5923675
+    ]
+   },
+   "properties": {
+    "ma": "QD-048",
+    "ten": "Thôn Phước An (Phước Vinh, NP)",
+    "nguon_nuoc": "Sông Quao",
+    "xa_phuong": "Xã Phước Hậu",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 78,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 55,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 78; 2/2025: 79; 3/2025: 79; 4/2025: 81; 5/2025: 79; 6/2025: 55; 7/2025: 55; 8/2025: 59; 9/2025: 74; 10/2025: 56; 11/2025: 82; 12/2025: 78",
+    "wqi_tb": 71.2,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.895556,
+     11.5778058
+    ]
+   },
+   "properties": {
+    "ma": "QD-049",
+    "ten": "Gần UBND xã Phước Thái, NP",
+    "nguon_nuoc": "Sông Quao",
+    "xa_phuong": "Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 80,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 53,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 72; 2/2025: 75; 3/2025: 73; 4/2025: 60; 5/2025: 55; 6/2025: 53; 7/2025: 53; 8/2025: 76; 9/2025: 59; 10/2025: 76; 11/2025: 61; 12/2025: 80",
+    "wqi_tb": 66.1,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9770887,
+     11.557959
+    ]
+   },
+   "properties": {
+    "ma": "QD-050",
+    "ten": "Cầu sông Quao",
+    "nguon_nuoc": "Sông Quao",
+    "xa_phuong": "Xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 79,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 52,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 63; 2/2025: 79; 3/2025: 81; 4/2025: 80; 5/2025: 62; 6/2025: 52; 7/2025: 52; 8/2025: 82; 9/2025: 83; 10/2025: 78; 11/2025: 62; 12/2025: 79",
+    "wqi_tb": 71.1,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7889972,
+     11.7266773
+    ]
+   },
+   "properties": {
+    "ma": "QD-051",
+    "ten": "Cách điểm XT NM Quảng Phú 100m thượng nguồn Suối Cạn",
+    "nguon_nuoc": "Suối Cạn",
+    "xa_phuong": "Xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 76,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 4,
+    "wqi_thap_nhat": 63,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "3/2025: 87; 6/2025: 86; 9/2025: 63; 12/2025: 76",
+    "wqi_tb": 78,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7920306,
+     11.7203703
+    ]
+   },
+   "properties": {
+    "ma": "QD-052",
+    "ten": "Cuối nguồn suối Cạn",
+    "nguon_nuoc": "Suối Cạn",
+    "xa_phuong": "Xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 64,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 4,
+    "wqi_thap_nhat": 60,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "3/2025: 90; 6/2025: 88; 9/2025: 60; 12/2025: 64",
+    "wqi_tb": 75.5,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7931806,
+     11.7173305
+    ]
+   },
+   "properties": {
+    "ma": "QD-053",
+    "ten": "Thôn Tân Tiến (xã Hòa Sơn, Ninh Sơn)",
+    "nguon_nuoc": "Sông Than",
+    "xa_phuong": "Xã Anh Dũng",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 79,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 4,
+    "wqi_thap_nhat": 65,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "3/2025: 82; 6/2025: 80; 9/2025: 65; 12/2025: 79",
+    "wqi_tb": 76.5,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7950149,
+     11.7171191
+    ]
+   },
+   "properties": {
+    "ma": "QD-054",
+    "ten": "Cuối sông Than trước khi nhập sông Cái",
+    "nguon_nuoc": "Sông Than",
+    "xa_phuong": "Xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 79,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 4,
+    "wqi_thap_nhat": 79,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "3/2025: 90; 6/2025: 87; 9/2025: 79; 12/2025: 79",
+    "wqi_tb": 83.8,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8815687,
+     11.612353
+    ]
+   },
+   "properties": {
+    "ma": "QD-055",
+    "ten": "Cầu Lầu",
+    "nguon_nuoc": "Sông Quao",
+    "xa_phuong": "Xã Phước Hậu",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 81,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 62,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 86; 2/2025: 87; 3/2025: 86; 4/2025: 81; 5/2025: 80; 6/2025: 62; 7/2025: 62; 8/2025: 89; 9/2025: 83; 10/2025: 84; 11/2025: 83; 12/2025: 81",
+    "wqi_tb": 80.3,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8949243,
+     11.5742453
+    ]
+   },
+   "properties": {
+    "ma": "QD-056",
+    "ten": "Thôn Thái Giao, xã Phước Thái",
+    "nguon_nuoc": "Sông Quao",
+    "xa_phuong": "Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 81,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 59,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 68; 2/2025: 83; 3/2025: 82; 4/2025: 83; 5/2025: 87; 6/2025: 59; 7/2025: 59; 8/2025: 85; 9/2025: 81; 10/2025: 82; 11/2025: 80; 12/2025: 81",
+    "wqi_tb": 77.5,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9002675,
+     11.5295466
+    ]
+   },
+   "properties": {
+    "ma": "QD-057",
+    "ten": "Mương Nhật, xã Phước Hữu",
+    "nguon_nuoc": "Mương Nhật",
+    "xa_phuong": "Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 80,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 54,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 70; 2/2025: 79; 3/2025: 81; 4/2025: 86; 5/2025: 84; 6/2025: 54; 7/2025: 54; 8/2025: 82; 9/2025: 80; 10/2025: 78; 11/2025: 82; 12/2025: 80",
+    "wqi_tb": 75.8,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9347044,
+     11.5276775
+    ]
+   },
+   "properties": {
+    "ma": "QD-058",
+    "ten": "Trạm thủy nông, TT Phước Dân",
+    "nguon_nuoc": "Kênh Nam",
+    "xa_phuong": "Xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 79,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 60,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 79; 2/2025: 82; 3/2025: 84; 4/2025: 79; 5/2025: 82; 6/2025: 60; 7/2025: 60; 8/2025: 90; 9/2025: 83; 10/2025: 79; 11/2025: 82; 12/2025: 79",
+    "wqi_tb": 78.2,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.984965,
+     11.5442341
+    ]
+   },
+   "properties": {
+    "ma": "QD-059",
+    "ten": "Cống 26, xã An Hải",
+    "nguon_nuoc": "Kênh Nam",
+    "xa_phuong": "Xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 78,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 58,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 65; 2/2025: 70; 3/2025: 70; 4/2025: 71; 5/2025: 69; 6/2025: 58; 7/2025: 58; 8/2025: 88; 9/2025: 82; 10/2025: 80; 11/2025: 79; 12/2025: 78",
+    "wqi_tb": 72.3,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9543917,
+     11.5922054
+    ]
+   },
+   "properties": {
+    "ma": "QD-060",
+    "ten": "Cầu Bảo An",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Phường Bảo An",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 86,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 61,
+    "ky_wqi_thap_nhat": "2/2025",
+    "chuoi_wqi": "1/2025: 84; 2/2025: 61; 3/2025: 84; 4/2025: 81; 5/2025: 80; 6/2025: 63; 7/2025: 63; 8/2025: 91; 9/2025: 82; 10/2025: 77; 11/2025: 64; 12/2025: 86",
+    "wqi_tb": 76.3,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9801669,
+     11.5782737
+    ]
+   },
+   "properties": {
+    "ma": "QD-061",
+    "ten": "Cầu Mã Đạo (Phước Mỹ)",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Phường Bảo An",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 60,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 60,
+    "ky_wqi_thap_nhat": "5/2025",
+    "chuoi_wqi": "1/2025: 66; 2/2025: 63; 3/2025: 65; 4/2025: 77; 5/2025: 60; 6/2025: 65; 7/2025: 65; 8/2025: 87; 9/2025: 70; 10/2025: 69; 11/2025: 61; 12/2025: 60",
+    "wqi_tb": 67.3,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9936849,
+     11.5899555
+    ]
+   },
+   "properties": {
+    "ma": "QD-062",
+    "ten": "Cầu Nghiêng (Thành Hải)",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Phường Bảo An",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "wqi": 82,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 57,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 88; 2/2025: 66; 3/2025: 63; 4/2025: 81; 5/2025: 64; 6/2025: 57; 7/2025: 57; 8/2025: 84; 9/2025: 62; 10/2025: 62; 11/2025: 61; 12/2025: 82",
+    "wqi_tb": 68.9,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0252572,
+     11.5944378
+    ]
+   },
+   "properties": {
+    "ma": "QD-063",
+    "ten": "Cống Nhơn Sơn (Văn Hải)",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Phường Ninh Chử",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "wqi": 77,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 51,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 74; 2/2025: 66; 3/2025: 65; 4/2025: 82; 5/2025: 80; 6/2025: 51; 7/2025: 51; 8/2025: 85; 9/2025: 57; 10/2025: 69; 11/2025: 65; 12/2025: 77",
+    "wqi_tb": 68.5,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9086381,
+     11.620013
+    ]
+   },
+   "properties": {
+    "ma": "QD-064",
+    "ten": "Cầu Ông Một",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Phường Đô Vinh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 80,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 61,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 81; 2/2025: 81; 3/2025: 81; 4/2025: 79; 5/2025: 80; 6/2025: 61; 7/2025: 61; 8/2025: 61; 9/2025: 84; 10/2025: 82; 11/2025: 83; 12/2025: 80",
+    "wqi_tb": 76.2,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9516713,
+     11.6116668
+    ]
+   },
+   "properties": {
+    "ma": "QD-065",
+    "ten": "Đường sắt (p. Đô Vinh)",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Phường Đô Vinh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 80,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 63,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 81; 2/2025: 81; 3/2025: 80; 4/2025: 80; 5/2025: 64; 6/2025: 63; 7/2025: 63; 8/2025: 63; 9/2025: 82; 10/2025: 80; 11/2025: 83; 12/2025: 80",
+    "wqi_tb": 75,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9783624,
+     11.6460349
+    ]
+   },
+   "properties": {
+    "ma": "QD-066",
+    "ten": "Thôn An Hòa, xã Xuân Hải",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Xã Xuân Hải",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 78,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 60,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "1/2025: 87; 2/2025: 88; 3/2025: 81; 4/2025: 81; 5/2025: 83; 6/2025: 63; 7/2025: 63; 8/2025: 63; 9/2025: 60; 10/2025: 78; 11/2025: 83; 12/2025: 78",
+    "wqi_tb": 75.7,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0032781,
+     11.6590248
+    ]
+   },
+   "properties": {
+    "ma": "QD-067",
+    "ten": "Thôn Phước Nhơn, xã Xuân Hải",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Xã Xuân Hải",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 78,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 59,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "1/2025: 81; 2/2025: 81; 3/2025: 85; 4/2025: 83; 5/2025: 83; 6/2025: 61; 7/2025: 61; 8/2025: 61; 9/2025: 59; 10/2025: 60; 11/2025: 64; 12/2025: 78",
+    "wqi_tb": 71.4,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.036519,
+     11.6735175
+    ]
+   },
+   "properties": {
+    "ma": "QD-068",
+    "ten": "Thôn Ba Tháp, xã Bắc Phong",
+    "nguon_nuoc": "Kênh Bắc",
+    "xa_phuong": "Xã Thuận Bắc",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 78,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 59,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 83; 2/2025: 83; 3/2025: 84; 4/2025: 80; 5/2025: 83; 6/2025: 59; 7/2025: 59; 8/2025: 59; 9/2025: 62; 10/2025: 81; 11/2025: 63; 12/2025: 78",
+    "wqi_tb": 72.8,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0660539,
+     11.6522001
+    ]
+   },
+   "properties": {
+    "ma": "QD-069",
+    "ten": "Bỉnh Nghĩa (Bắc Sơn)",
+    "nguon_nuoc": "Kênh tiêu Cầu Ngòi",
+    "xa_phuong": "Xã Ninh Hải",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "wqi": 69,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 56,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "1/2025: 78; 2/2025: 61; 3/2025: 81; 4/2025: 80; 5/2025: 77; 6/2025: 57; 7/2025: 57; 8/2025: 57; 9/2025: 56; 10/2025: 83; 11/2025: 62; 12/2025: 69",
+    "wqi_tb": 68.2,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9937156,
+     11.6084246
+    ]
+   },
+   "properties": {
+    "ma": "QD-070",
+    "ten": "Cầu Ngòi (Thành Hải)",
+    "nguon_nuoc": "Kênh tiêu Cầu Ngòi",
+    "xa_phuong": "Phường Bảo An",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "wqi": 75,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 51,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "1/2025: 57; 2/2025: 73; 3/2025: 62; 4/2025: 79; 5/2025: 79; 6/2025: 56; 7/2025: 77; 8/2025: 77; 9/2025: 51; 10/2025: 57; 11/2025: 62; 12/2025: 75",
+    "wqi_tb": 67.1,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9981167,
+     11.6048423
+    ]
+   },
+   "properties": {
+    "ma": "QD-071",
+    "ten": "Trên mương Bầu, cách Cty TT 42m hạ nguồn",
+    "nguon_nuoc": "Kênh tiêu Cầu Ngòi",
+    "xa_phuong": "Phường Bảo An",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "wqi": 75,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 49,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "1/2025: 58; 2/2025: 58; 3/2025: 62; 4/2025: 77; 5/2025: 77; 6/2025: 49; 7/2025: 57; 8/2025: 57; 9/2025: 56; 10/2025: 53; 11/2025: 60; 12/2025: 75",
+    "wqi_tb": 61.6,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0173,
+     11.6050722
+    ]
+   },
+   "properties": {
+    "ma": "QD-072",
+    "ten": "Cuối kênh tiêu, TT Khánh Hải",
+    "nguon_nuoc": "Kênh tiêu Cầu Ngòi",
+    "xa_phuong": "Phường Ninh Chử",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "wqi": 73,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 12,
+    "wqi_thap_nhat": 52,
+    "ky_wqi_thap_nhat": "10/2025",
+    "chuoi_wqi": "1/2025: 61; 2/2025: 59; 3/2025: 62; 4/2025: 60; 5/2025: 60; 6/2025: 58; 7/2025: 57; 8/2025: 57; 9/2025: 54; 10/2025: 52; 11/2025: 61; 12/2025: 73",
+    "wqi_tb": 59.5,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0687855,
+     11.8024999
+    ]
+   },
+   "properties": {
+    "ma": "QD-073",
+    "ten": "Hồ sông Trâu",
+    "nguon_nuoc": "Hồ sông Trâu",
+    "xa_phuong": "Xã Công Hải",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Võ Tá",
+    "wqi": 87,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 4,
+    "wqi_thap_nhat": 84,
+    "ky_wqi_thap_nhat": "6/2025",
+    "chuoi_wqi": "3/2025: 94; 6/2025: 84; 9/2025: 86; 12/2025: 87",
+    "wqi_tb": 87.8,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV06",
+    "ten_luu_vuc": "Lưu vực sông Võ Tá"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9340526,
+     11.8560308
+    ]
+   },
+   "properties": {
+    "ma": "QD-074",
+    "ten": "Hồ sông Sắt",
+    "nguon_nuoc": "Hồ sông Sắt",
+    "xa_phuong": "Xã Bác Ái Đông",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 91,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 4,
+    "wqi_thap_nhat": 82,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "3/2025: 95; 6/2025: 85; 9/2025: 82; 12/2025: 91",
+    "wqi_tb": 88.2,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7883878,
+     11.4899422
+    ]
+   },
+   "properties": {
+    "ma": "QD-075",
+    "ten": "Hồ Tân Giang",
+    "nguon_nuoc": "Hồ Tân Giang",
+    "xa_phuong": "Xã Phước Hà",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 87,
+    "thoi_diem_wqi": "12/2025",
+    "so_ky": 4,
+    "wqi_thap_nhat": 75,
+    "ky_wqi_thap_nhat": "9/2025",
+    "chuoi_wqi": "3/2025: 86; 6/2025: 95; 9/2025: 75; 12/2025: 87",
+    "wqi_tb": 85.8,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2045029,
+     12.6830146
+    ]
+   },
+   "properties": {
+    "ma": "QD-076",
+    "ten": "Suối Đồng Công",
+    "nguon_nuoc": "Suối Đồng Công",
+    "xa_phuong": "Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Hiền Lương",
+    "wqi": 94,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 94,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 94",
+    "wqi_tb": 94,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1158491,
+     12.5906382
+    ]
+   },
+   "properties": {
+    "ma": "QD-077",
+    "ten": "Suối Dưa",
+    "nguon_nuoc": "Suối Dưa",
+    "xa_phuong": "Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0184881,
+     12.5499412
+    ]
+   },
+   "properties": {
+    "ma": "QD-078",
+    "ten": "Suối Sim",
+    "nguon_nuoc": "Suối Sim",
+    "xa_phuong": "Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 93,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 93,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 93",
+    "wqi_tb": 93,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0207781,
+     12.5340521
+    ]
+   },
+   "properties": {
+    "ma": "QD-079",
+    "ten": "Suối Búng",
+    "nguon_nuoc": "Suối Búng",
+    "xa_phuong": "Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 97,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 97",
+    "wqi_tb": 97,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1103138,
+     12.5118145
+    ]
+   },
+   "properties": {
+    "ma": "QD-080",
+    "ten": "Sông Tân Lâm",
+    "nguon_nuoc": "Sông Tân Lâm",
+    "xa_phuong": "Phường Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 93,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 93,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 93",
+    "wqi_tb": 93,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1671695,
+     12.4984204
+    ]
+   },
+   "properties": {
+    "ma": "QD-081",
+    "ten": "Sông Đa Hàn",
+    "nguon_nuoc": "Sông Đa Hàn",
+    "xa_phuong": "Phường Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 89,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 89,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 89",
+    "wqi_tb": 89,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8811151,
+     12.4217074
+    ]
+   },
+   "properties": {
+    "ma": "QD-082",
+    "ten": "Sông Ea Tar",
+    "nguon_nuoc": "Sông Ea Tar",
+    "xa_phuong": "Xã Trung Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 99,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 99,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 99",
+    "wqi_tb": 99,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.968713,
+     12.3585996
+    ]
+   },
+   "properties": {
+    "ma": "QD-083",
+    "ten": "Sông Cà Hon",
+    "nguon_nuoc": "Sông Cà Hon",
+    "xa_phuong": "Xã Bắc Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 95,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 95,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 95",
+    "wqi_tb": 95,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9749683,
+     12.3562145
+    ]
+   },
+   "properties": {
+    "ma": "QD-084",
+    "ten": "Phụ lưu số 5",
+    "nguon_nuoc": "Phụ lưu số 5 sông Chò",
+    "xa_phuong": "Xã Bắc Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0147545,
+     12.2957927
+    ]
+   },
+   "properties": {
+    "ma": "QD-085",
+    "ten": "Sông Đồng Găng",
+    "nguon_nuoc": "Sông Đồng Găng",
+    "xa_phuong": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 70,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 70,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 70",
+    "wqi_tb": 70,
+    "phan_loai_wqi": "Trung bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1541289,
+     12.2943009
+    ]
+   },
+   "properties": {
+    "ma": "QD-086",
+    "ten": "Phụ lưu số 12",
+    "nguon_nuoc": "Phụ lưu số 12 sông Cái Nha Trang",
+    "xa_phuong": "Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 86,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 86,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 86",
+    "wqi_tb": 86,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0879503,
+     12.2560571
+    ]
+   },
+   "properties": {
+    "ma": "QD-087",
+    "ten": "Sông Con",
+    "nguon_nuoc": "Sông Con",
+    "xa_phuong": "Xã Diên Khánh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 80,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 80,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 80",
+    "wqi_tb": 80,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0117268,
+     12.2658976
+    ]
+   },
+   "properties": {
+    "ma": "QD-088",
+    "ten": "Sông Cây Sung",
+    "nguon_nuoc": "Sông Cây Sung",
+    "xa_phuong": "Xã Diên Lạc",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 99,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 99,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 99",
+    "wqi_tb": 99,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9434106,
+     12.2825676
+    ]
+   },
+   "properties": {
+    "ma": "QD-089",
+    "ten": "Sông Cầu",
+    "nguon_nuoc": "Sông Cầu",
+    "xa_phuong": "Xã Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.897252,
+     12.3264611
+    ]
+   },
+   "properties": {
+    "ma": "QD-090",
+    "ten": "Sông Giang",
+    "nguon_nuoc": "Sông Giang",
+    "xa_phuong": "Xã Trung Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8776159,
+     12.2732976
+    ]
+   },
+   "properties": {
+    "ma": "QD-091",
+    "ten": "Phụ lưu số 4",
+    "nguon_nuoc": "Phụ lưu số 4 sông Cái Nha Trang",
+    "xa_phuong": "Xã Nam Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8640618,
+     12.2713124
+    ]
+   },
+   "properties": {
+    "ma": "QD-092",
+    "ten": "Phụ lưu số 3",
+    "nguon_nuoc": "Phụ lưu số 3 sông Cái Nha Trang",
+    "xa_phuong": "Xã Nam Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8140631,
+     12.2661133
+    ]
+   },
+   "properties": {
+    "ma": "QD-093",
+    "ten": "Sông Bến Lội",
+    "nguon_nuoc": "Sông Bến Lội",
+    "xa_phuong": "Xã Nam Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7944807,
+     12.2824884
+    ]
+   },
+   "properties": {
+    "ma": "QD-094",
+    "ten": "Sông Máu",
+    "nguon_nuoc": "Sông Máu",
+    "xa_phuong": "Xã Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8060399,
+     12.2580659
+    ]
+   },
+   "properties": {
+    "ma": "QD-095",
+    "ten": "Sông Gia Loi",
+    "nguon_nuoc": "Sông Gia Loi",
+    "xa_phuong": "Xã Nam Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8116979,
+     12.2430388
+    ]
+   },
+   "properties": {
+    "ma": "QD-096",
+    "ten": "Phụ lưu số 1 (M22)",
+    "nguon_nuoc": "Phụ lưu số 1 sông Bến Lội",
+    "xa_phuong": "Xã Nam Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7780983,
+     12.2912352
+    ]
+   },
+   "properties": {
+    "ma": "QD-097",
+    "ten": "Phụ lưu số 1 (M24)",
+    "nguon_nuoc": "Phụ lưu số 1 sông Máu",
+    "xa_phuong": "Xã Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 94,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 94,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 94",
+    "wqi_tb": 94,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1127014,
+     11.9291238
+    ]
+   },
+   "properties": {
+    "ma": "QD-098",
+    "ten": "Suối Hành",
+    "nguon_nuoc": "Suối Hành",
+    "xa_phuong": "Phường Ba Ngòi",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Lạch Cầu 1",
+    "wqi": 91,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 91,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 91",
+    "wqi_tb": 91,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9237344,
+     12.0179616
+    ]
+   },
+   "properties": {
+    "ma": "QD-099",
+    "ten": "Suối Cay Chay",
+    "nguon_nuoc": "Suối Cay Chay",
+    "xa_phuong": "Xã Đông Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 97,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 97",
+    "wqi_tb": 97,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9147684,
+     12.0279814
+    ]
+   },
+   "properties": {
+    "ma": "QD-100",
+    "ten": "Sông Tà Gụ",
+    "nguon_nuoc": "Sông Tà Gụ",
+    "xa_phuong": "Xã Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 97,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 97",
+    "wqi_tb": 97,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8917404,
+     12.0223671
+    ]
+   },
+   "properties": {
+    "ma": "QD-101",
+    "ten": "Suối Ta Bê",
+    "nguon_nuoc": "Suối Ta Bê",
+    "xa_phuong": "Xã Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 97,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 97",
+    "wqi_tb": 97,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8602239,
+     12.0272923
+    ]
+   },
+   "properties": {
+    "ma": "QD-102",
+    "ten": "Suối Kò Ró",
+    "nguon_nuoc": "Suối Kò Ró",
+    "xa_phuong": "Xã Tây Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "wqi": 97,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 97,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 97",
+    "wqi_tb": 97,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1099223,
+     12.4601374
+    ]
+   },
+   "properties": {
+    "ma": "QD-103",
+    "ten": "Sông Tam Ích",
+    "nguon_nuoc": "Sông Tam Ích",
+    "xa_phuong": "Xã Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "wqi": 91,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 91,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 91",
+    "wqi_tb": 91,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.150068,
+     12.4025524
+    ]
+   },
+   "properties": {
+    "ma": "QD-104",
+    "ten": "Suối Ba Hồ",
+    "nguon_nuoc": "Suối Ba Hồ",
+    "xa_phuong": "Xã Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Suối Ba Hồ",
+    "wqi": 99,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 99,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 99",
+    "wqi_tb": 99,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV17",
+    "ten_luu_vuc": "Lưu vực suối Ba Hồ"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1232409,
+     12.1144141
+    ]
+   },
+   "properties": {
+    "ma": "QD-105",
+    "ten": "Suối Cốc",
+    "nguon_nuoc": "Suối Cốc",
+    "xa_phuong": "Xã Cam Hiệp",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Suối Cốc",
+    "wqi": 96,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 96,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 96",
+    "wqi_tb": 96,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV08",
+    "ten_luu_vuc": "Lưu vực suối Cốc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1321901,
+     12.0222989
+    ]
+   },
+   "properties": {
+    "ma": "QD-106",
+    "ten": "Suối Nước Ngọt",
+    "nguon_nuoc": "Suối Nước Ngọt",
+    "xa_phuong": "Xã Nam Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "S.Nước Ngọt",
+    "wqi": 39,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 39,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 39",
+    "wqi_tb": 39,
+    "phan_loai_wqi": "Xấu",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV13",
+    "ten_luu_vuc": "Lưu vực sông Nước Ngọt"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.118864,
+     11.9299908
+    ]
+   },
+   "properties": {
+    "ma": "QD-107",
+    "ten": "Sông Lạch Cầu 1",
+    "nguon_nuoc": "Sông Lạch Cầu 1",
+    "xa_phuong": "Phường Ba Ngòi",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Lạch Cầu 1",
+    "wqi": 85,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 85,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 85",
+    "wqi_tb": 85,
+    "phan_loai_wqi": "Tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.022379,
+     12.5710554
+    ]
+   },
+   "properties": {
+    "ma": "QD-108",
+    "ten": "Hồ chứa nước Suối Sim",
+    "nguon_nuoc": "Hồ chứa nước Suối Sim",
+    "xa_phuong": "Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Dinh",
+    "wqi": 98,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 98,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 98",
+    "wqi_tb": 98,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1362533,
+     12.6818048
+    ]
+   },
+   "properties": {
+    "ma": "QD-109",
+    "ten": "Hồ chứa nước Đá Đen",
+    "nguon_nuoc": "Hồ chứa nước Đá Đen",
+    "xa_phuong": "Xã Vạn Hưng",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Hiền Lương",
+    "wqi": 95,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 95,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 95",
+    "wqi_tb": 95,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1482327,
+     12.3175246
+    ]
+   },
+   "properties": {
+    "ma": "QD-110",
+    "ten": "Hồ chứa nước Đắc Lộc",
+    "nguon_nuoc": "Hồ chứa nước Đắc Lộc",
+    "xa_phuong": "Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "wqi": 93,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 93,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 93",
+    "wqi_tb": 93,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2729847,
+     12.7607203
+    ]
+   },
+   "properties": {
+    "ma": "QD-111",
+    "ten": "Hồ chứa nước Cây Bứa",
+    "nguon_nuoc": "Hồ chứa nước Cây Bứa",
+    "xa_phuong": "Xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "wqi": 91,
+    "thoi_diem_wqi": "7/2026",
+    "so_ky": 1,
+    "wqi_thap_nhat": 91,
+    "ky_wqi_thap_nhat": "7/2026",
+    "chuoi_wqi": "7/2026: 91",
+    "wqi_tb": 91,
+    "phan_loai_wqi": "Rất tốt",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 1.TH_CLN_KK_KHANHHOA_FINAL.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  }
+ ]
+}

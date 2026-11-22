@@ -53,7 +53,12 @@
     "xa_thai",
     "doan_song",
     "quan_trac",
-    "quan_trac_ndd"
+    "quan_trac_ndd",
+    "ao_ho_khong_san_lap",
+    "quan_trac_dia_phuong",
+    "luu_luong",
+    "vet_lu",
+    "sat_lo"
   ],
   "ten_tinh_trong_qtqg": [
     "Khánh Hòa",

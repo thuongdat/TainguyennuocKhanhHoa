@@ -1,0 +1,1667 @@
+{
+ "type": "FeatureCollection",
+ "name": "sat_lo",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "sinh_boi": "14_nap_bo_sung_mapinfo",
+ "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo)",
+ "thoi_diem_xuat": "2026-11-22T13:48+07:00",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0328927,
+      12.449949
+     ],
+     [
+      109.0331586,
+      12.4499604
+     ],
+     [
+      109.0332741,
+      12.4499424
+     ],
+     [
+      109.0334801,
+      12.4498179
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-001",
+    "ten_song": "Sông Tam Ích",
+    "thon": "Thôn Bắc",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "bo_song": "Bờ phải",
+    "chieu_dai_m": 40.0,
+    "mo_ta": "Vị trí sạt lở nằm ở bờ phải, không có dân cư. Chưa được kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0339319,
+      12.4494184
+     ],
+     [
+      109.0340603,
+      12.4493753
+     ],
+     [
+      109.0342272,
+      12.4493324
+     ],
+     [
+      109.0343557,
+      12.4492894
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-002",
+    "ten_song": "Sông Tam Ích",
+    "thon": "Thôn Bắc",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "bo_song": "Bờ phải",
+    "chieu_dai_m": 50.0,
+    "mo_ta": "Vị trí sạt lở nằm ở bờ phải, không có dân cư. Chưa được kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0357212,
+      12.4490359
+     ],
+     [
+      109.035841,
+      12.4493074
+     ],
+     [
+      109.035916,
+      12.4495659
+     ],
+     [
+      109.0360238,
+      12.4497114
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-003",
+    "ten_song": "Sông Tam Ích",
+    "thon": "Thôn Bắc",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "bo_song": "Bờ phải",
+    "chieu_dai_m": 45.0,
+    "mo_ta": "Vị trí sạt lở nằm ở bờ phải, không có dân cư. Chưa được kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0478088,
+      12.450722
+     ],
+     [
+      109.0479556,
+      12.4507985
+     ],
+     [
+      109.0485389,
+      12.4512213
+     ],
+     [
+      109.048928,
+      12.4514568
+     ],
+     [
+      109.0492413,
+      12.4515662
+     ],
+     [
+      109.0493311,
+      12.4515668
+     ],
+     [
+      109.0494338,
+      12.4515486
+     ],
+     [
+      109.049511,
+      12.4514926
+     ],
+     [
+      109.0495821,
+      12.4514176
+     ],
+     [
+      109.0496281,
+      12.4512543
+     ],
+     [
+      109.0496356,
+      12.4511222
+     ],
+     [
+      109.0496494,
+      12.4509901
+     ],
+     [
+      109.0496824,
+      12.4508519
+     ],
+     [
+      109.0497468,
+      12.450802
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-004",
+    "ten_song": "Sông Tam Ích",
+    "thon": "Thôn Bắc",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "bo_song": "Bờ phải",
+    "chieu_dai_m": 150.0,
+    "mo_ta": "Vị trí sạt lở nằm ở bờ phải, không có dân cư. Chưa được kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0591244,
+      12.4515113
+     ],
+     [
+      109.0589924,
+      12.4516135
+     ],
+     [
+      109.0588429,
+      12.4517155
+     ],
+     [
+      109.0587458,
+      12.4518265
+     ],
+     [
+      109.0586926,
+      12.4519293
+     ],
+     [
+      109.058683,
+      12.4520408
+     ],
+     [
+      109.0586992,
+      12.4522128
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-005",
+    "ten_song": "Sông Tam Ích",
+    "thon": "Thôn Bắc",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "bo_song": "Bờ phải",
+    "chieu_dai_m": 40.0,
+    "mo_ta": "Vị trí sạt lở nằm ở bờ phải, không có dân cư. Chưa được kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0829895,
+      12.4551131
+     ],
+     [
+      109.0834481,
+      12.4546096
+     ],
+     [
+      109.0838091,
+      12.4542942
+     ],
+     [
+      109.0839672,
+      12.454201
+     ],
+     [
+      109.084248,
+      12.4540912
+     ],
+     [
+      109.084704,
+      12.4539313
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-006",
+    "ten_song": "Sông Tam Ích",
+    "thon": "Thôn Nam",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "bo_song": "Bờ phải",
+    "chieu_dai_m": 140.0,
+    "mo_ta": "Vị trí sạt lở nằm ở bờ phải, không có dân cư. Chưa được kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.967533,
+      12.3559559
+     ],
+     [
+      108.9677555,
+      12.3556658
+     ],
+     [
+      108.9679534,
+      12.3555461
+     ],
+     [
+      108.9682751,
+      12.3553928
+     ],
+     [
+      108.9684509,
+      12.355252
+     ],
+     [
+      108.9686249,
+      12.3549626
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-007",
+    "ten_song": "Sông Chò",
+    "thon": null,
+    "xa_phuong": "Bắc Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 180.0,
+    "mo_ta": "Không có nhà dân, vị trí sạt lở chủ yếu là đất nông nghiệp",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.9753702,
+      12.3525804
+     ],
+     [
+      108.975706,
+      12.3522992
+     ],
+     [
+      108.9758008,
+      12.3521438
+     ],
+     [
+      108.9758145,
+      12.351979
+     ],
+     [
+      108.9757783,
+      12.3517139
+     ],
+     [
+      108.9757134,
+      12.351359
+     ],
+     [
+      108.9757422,
+      12.351125
+     ],
+     [
+      108.9759053,
+      12.3508357
+     ],
+     [
+      108.9763246,
+      12.3503675
+     ],
+     [
+      108.9764029,
+      12.3501859
+     ],
+     [
+      108.9764008,
+      12.3500424
+     ],
+     [
+      108.9763175,
+      12.3498897
+     ],
+     [
+      108.9759563,
+      12.3495656
+     ],
+     [
+      108.9756383,
+      12.3492516
+     ],
+     [
+      108.9755383,
+      12.3490619
+     ],
+     [
+      108.9754701,
+      12.3488346
+     ],
+     [
+      108.9754723,
+      12.3486167
+     ],
+     [
+      108.9755648,
+      12.3483126
+     ],
+     [
+      108.9757275,
+      12.3480075
+     ],
+     [
+      108.9760678,
+      12.3476625
+     ],
+     [
+      108.9765373,
+      12.3472893
+     ],
+     [
+      108.9771212,
+      12.3469833
+     ],
+     [
+      108.9777948,
+      12.3465433
+     ],
+     [
+      108.9780929,
+      12.3462627
+     ],
+     [
+      108.9782774,
+      12.345968
+     ],
+     [
+      108.978456,
+      12.345636
+     ],
+     [
+      108.9785548,
+      12.3453902
+     ],
+     [
+      108.9785891,
+      12.3451667
+     ],
+     [
+      108.9785598,
+      12.3450024
+     ],
+     [
+      108.9784439,
+      12.3448395
+     ],
+     [
+      108.9783354,
+      12.3448039
+     ],
+     [
+      108.9782491,
+      12.3448105
+     ],
+     [
+      108.9780402,
+      12.3449251
+     ],
+     [
+      108.977893,
+      12.3451822
+     ],
+     [
+      108.9777452,
+      12.3454074
+     ],
+     [
+      108.9775895,
+      12.3454629
+     ],
+     [
+      108.9774328,
+      12.3454545
+     ],
+     [
+      108.9772585,
+      12.3453614
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-008",
+    "ten_song": "Sông Chò",
+    "thon": null,
+    "xa_phuong": "Bắc Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Phải",
+    "chieu_dai_m": 850.0,
+    "mo_ta": "Không có nhà dân, vị trí sạt lở chủ yếu là đất nông nghiệp",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8972554,
+      12.3264614
+     ],
+     [
+      108.8976959,
+      12.3260427
+     ],
+     [
+      108.8987026,
+      12.3248789
+     ],
+     [
+      108.8991625,
+      12.3243787
+     ],
+     [
+      108.8997592,
+      12.3238429
+     ],
+     [
+      108.8999402,
+      12.3235293
+     ],
+     [
+      108.8999653,
+      12.3233667
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-009",
+    "ten_song": "Sông Giang",
+    "thon": null,
+    "xa_phuong": "Trung Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "2 bờ",
+    "chieu_dai_m": 400.0,
+    "mo_ta": "Không có nhà dân, ven sông là đất nông nghiệp",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8961018,
+      12.3149033
+     ],
+     [
+      108.8963436,
+      12.3145211
+     ],
+     [
+      108.8965531,
+      12.3142882
+     ],
+     [
+      108.8967575,
+      12.3141636
+     ],
+     [
+      108.8969772,
+      12.314147
+     ],
+     [
+      108.8973296,
+      12.3142838
+     ],
+     [
+      108.8976164,
+      12.3146247
+     ],
+     [
+      108.8978171,
+      12.315183
+     ],
+     [
+      108.8980488,
+      12.3155244
+     ],
+     [
+      108.8982981,
+      12.3156493
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-010",
+    "ten_song": "Sông Giang",
+    "thon": null,
+    "xa_phuong": "Trung Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 280.0,
+    "mo_ta": "Không có nhà dân",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.7926683,
+      12.2839287
+     ],
+     [
+      108.7928042,
+      12.2837357
+     ],
+     [
+      108.7931124,
+      12.2834515
+     ],
+     [
+      108.7934432,
+      12.2832967
+     ],
+     [
+      108.7938575,
+      12.2831681
+     ],
+     [
+      108.7940708,
+      12.2830422
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-011",
+    "ten_song": "Sông Máu",
+    "thon": "Tà Gộc",
+    "xa_phuong": "Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Phải",
+    "chieu_dai_m": 125.0,
+    "mo_ta": "Không có nhà dân, nguy cơ sạt lở thấp",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8019807,
+      12.2768776
+     ],
+     [
+      108.802972,
+      12.2768229
+     ],
+     [
+      108.8039763,
+      12.2767202
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-012",
+    "ten_song": "Sông Máu",
+    "thon": "Tà Gộc",
+    "xa_phuong": "Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 150.0,
+    "mo_ta": "Không có nhà dân, bờ phải đang xây dựng kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8204099,
+      12.2704101
+     ],
+     [
+      108.8207846,
+      12.2701856
+     ],
+     [
+      108.8209875,
+      12.2701351
+     ],
+     [
+      108.8213648,
+      12.2700917
+     ],
+     [
+      108.8216539,
+      12.2699828
+     ],
+     [
+      108.8220567,
+      12.2696815
+     ],
+     [
+      108.8223824,
+      12.2694194
+     ],
+     [
+      108.8226431,
+      12.269349
+     ],
+     [
+      108.8230979,
+      12.269295
+     ],
+     [
+      108.8234858,
+      12.2693182
+     ],
+     [
+      108.8240581,
+      12.2693483
+     ],
+     [
+      108.8245412,
+      12.2692557
+     ],
+     [
+      108.8250426,
+      12.2690676
+     ],
+     [
+      108.8257157,
+      12.2687053
+     ],
+     [
+      108.8261107,
+      12.2685376
+     ],
+     [
+      108.8265345,
+      12.2683601
+     ],
+     [
+      108.827006,
+      12.2681246
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-013",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 650.0,
+    "mo_ta": "Không có nhà dân, bờ phải đã được kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8561267,
+      12.2639679
+     ],
+     [
+      108.8568338,
+      12.2639484
+     ],
+     [
+      108.8582392,
+      12.2639572
+     ],
+     [
+      108.8592193,
+      12.2640388
+     ],
+     [
+      108.8594335,
+      12.264112
+     ],
+     [
+      108.8595995,
+      12.264205
+     ],
+     [
+      108.8597084,
+      12.2643561
+     ],
+     [
+      108.8597602,
+      12.2645843
+     ],
+     [
+      108.8597554,
+      12.2649276
+     ],
+     [
+      108.859634,
+      12.2652345
+     ],
+     [
+      108.8592826,
+      12.2657355
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-014",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Nam Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 470.0,
+    "mo_ta": "Không có nhà dân, nguy cơ sạt lở cao",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8677203,
+      12.268153
+     ],
+     [
+      108.8679949,
+      12.268378
+     ],
+     [
+      108.8680846,
+      12.2685484
+     ],
+     [
+      108.8680879,
+      12.2687773
+     ],
+     [
+      108.8680133,
+      12.2689786
+     ],
+     [
+      108.8677372,
+      12.2693067
+     ],
+     [
+      108.867213,
+      12.269915
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-015",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 140.0,
+    "mo_ta": "Không có nhà dân, bờ phải đang xây dựng kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8881273,
+      12.2752356
+     ],
+     [
+      108.8882002,
+      12.2749294
+     ],
+     [
+      108.8883125,
+      12.2746607
+     ],
+     [
+      108.8885903,
+      12.2744374
+     ],
+     [
+      108.8890515,
+      12.274164
+     ],
+     [
+      108.889872,
+      12.2739424
+     ],
+     [
+      108.8902498,
+      12.2739275
+     ],
+     [
+      108.8907346,
+      12.2739492
+     ],
+     [
+      108.8912993,
+      12.2741225
+     ],
+     [
+      108.8922957,
+      12.2746614
+     ],
+     [
+      108.8935244,
+      12.2751779
+     ],
+     [
+      108.8942938,
+      12.2754435
+     ],
+     [
+      108.894997,
+      12.2758053
+     ],
+     [
+      108.8961501,
+      12.276447
+     ],
+     [
+      108.8972944,
+      12.2771555
+     ],
+     [
+      108.8984785,
+      12.2779301
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-016",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 1100.0,
+    "mo_ta": "Không có nhà dân, nguy cơ sạt lở cao",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.9706111,
+      12.2838309
+     ],
+     [
+      108.9713175,
+      12.2830907
+     ],
+     [
+      108.9718331,
+      12.2825925
+     ],
+     [
+      108.9723026,
+      12.2822745
+     ],
+     [
+      108.9726789,
+      12.2822212
+     ],
+     [
+      108.973166,
+      12.282262
+     ],
+     [
+      108.9735463,
+      12.2824839
+     ],
+     [
+      108.9741008,
+      12.2829664
+     ],
+     [
+      108.9746738,
+      12.2838677
+     ],
+     [
+      108.9750466,
+      12.2844008
+     ],
+     [
+      108.9754407,
+      12.2847181
+     ],
+     [
+      108.9760279,
+      12.284949
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-017",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 600.0,
+    "mo_ta": "Không có nhà dân, nguy cơ sạt lở cao",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.9891462,
+      12.2790136
+     ],
+     [
+      108.9893339,
+      12.2785562
+     ],
+     [
+      108.9895615,
+      12.2783254
+     ],
+     [
+      108.989923,
+      12.2781047
+     ],
+     [
+      108.9905541,
+      12.2780118
+     ],
+     [
+      108.9912385,
+      12.2782412
+     ],
+     [
+      108.9920343,
+      12.2785886
+     ],
+     [
+      108.9930018,
+      12.2790411
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-018",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 320.0,
+    "mo_ta": "Không có nhà dân, nguy cơ sạt lở cao",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0107844,
+      12.2846071
+     ],
+     [
+      109.0111542,
+      12.284069
+     ],
+     [
+      109.0112718,
+      12.2837457
+     ],
+     [
+      109.0112689,
+      12.2835447
+     ],
+     [
+      109.0113658,
+      12.2832016
+     ],
+     [
+      109.0115921,
+      12.2826354
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-019",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Tây Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Trái",
+    "chieu_dai_m": 140.0,
+    "mo_ta": "Không có nhà dân, bờ phải đang xây dựng kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0776224,
+      12.2647925
+     ],
+     [
+      109.0781249,
+      12.2646543
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-020",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": "Trường Lạc",
+    "xa_phuong": "Diên Lạc",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Phải",
+    "chieu_dai_m": 40.0,
+    "mo_ta": "Vị trí sạt lở bên bờ phảii có nhà dân; và chưa được xây kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.0855176,
+      12.2474072
+     ],
+     [
+      109.0851109,
+      12.2472648
+     ],
+     [
+      109.084482,
+      12.2469369
+     ],
+     [
+      109.0840455,
+      12.2466398
+     ],
+     [
+      109.0836834,
+      12.2462741
+     ],
+     [
+      109.083397,
+      12.2459275
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-021",
+    "ten_song": "Suối Dầu",
+    "thon": "Trường Thạnh",
+    "xa_phuong": "Diên Lạc",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "2 bờ",
+    "chieu_dai_m": 70.0,
+    "mo_ta": "Vị trí sạt lở 2 bên bờ không có nhà dân; và chưa được xây kè",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.069999,
+      12.1907483
+     ],
+     [
+      109.0703131,
+      12.1902675
+     ],
+     [
+      109.0706956,
+      12.189834
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-022",
+    "ten_song": "Suối Dầu",
+    "thon": "Quốc lộ 1A",
+    "xa_phuong": null,
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Lư Cẩm",
+    "bo_song": "Trái",
+    "chieu_dai_m": 70.0,
+    "mo_ta": "Vị trí sạt lở có khu dân cư dọc bờ sông",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV07",
+    "ten_luu_vuc": "Lưu vực sông Lư Cẩm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.1320305,
+      12.2629602
+     ],
+     [
+      109.1331032,
+      12.2638778
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-023",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Tây Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Phải",
+    "chieu_dai_m": 80.0,
+    "mo_ta": "Vị trí sạt lở gần nhà dân, chưa được kè, đã bị sạt từ 5-10m, hằng năm bị sạt 1-2m",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      109.1398482,
+      12.265787
+     ],
+     [
+      109.1404939,
+      12.2662442
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-024",
+    "ten_song": "Sông Cái Nha Trang",
+    "thon": null,
+    "xa_phuong": "Tây Nha Trang",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "bo_song": "Phải",
+    "chieu_dai_m": 120.0,
+    "mo_ta": "Vị trí sạt lở gần nhà dân, chưa được kè, nhưng đã được gia cố bằng rọ đá. Sạt lở khoảng 2-8m, được gia cố nên tạm ngưng sạt lở",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8538775,
+      12.0173829
+     ],
+     [
+      108.8546477,
+      12.017431
+     ],
+     [
+      108.8554782,
+      12.0174049
+     ],
+     [
+      108.8562295,
+      12.0172182
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-025",
+    "ten_song": "Sông Cái Phan Rang",
+    "thon": null,
+    "xa_phuong": "Tây Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "bo_song": "Trái",
+    "chieu_dai_m": 200.0,
+    "mo_ta": "Khu vực không có dân cư",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.8887803,
+      12.0262304
+     ],
+     [
+      108.8887409,
+      12.0267012
+     ],
+     [
+      108.8887453,
+      12.0270098
+     ],
+     [
+      108.8888593,
+      12.027449
+     ],
+     [
+      108.889018,
+      12.0277848
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-026",
+    "ten_song": "Sông Cái Phan Rang",
+    "thon": "khu vực chân Cầu Sơn Bình",
+    "xa_phuong": "Tây Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "bo_song": "Phải",
+    "chieu_dai_m": 150.0,
+    "mo_ta": "Vị trí sạt lở trước đây đã được gia cố tuy nhiên thời điểm khảo sát các tấm bê tông gia cố bị sạt lở hư hỏng",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.889577,
+      12.0298612
+     ],
+     [
+      108.8899704,
+      12.0301606
+     ],
+     [
+      108.8904918,
+      12.0303248
+     ],
+     [
+      108.8910104,
+      12.0303176
+     ],
+     [
+      108.8914788,
+      12.0302729
+     ],
+     [
+      108.8917365,
+      12.0301551
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-027",
+    "ten_song": "Sông Cái Phan Rang",
+    "thon": null,
+    "xa_phuong": "Tây Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "bo_song": "Trái",
+    "chieu_dai_m": 200.0,
+    "mo_ta": "Khu vực giáp với đoạn kè bờ, gần cầu Sơn Bình",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.9159973,
+      12.0354972
+     ],
+     [
+      108.9161294,
+      12.0354334
+     ],
+     [
+      108.9162905,
+      12.0353144
+     ],
+     [
+      108.9163849,
+      12.0352689
+     ],
+     [
+      108.9164321,
+      12.0352507
+     ],
+     [
+      108.9165542,
+      12.0352886
+     ],
+     [
+      108.9166664,
+      12.0353821
+     ],
+     [
+      108.9168532,
+      12.0355683
+     ],
+     [
+      108.9168726,
+      12.0355744
+     ],
+     [
+      108.9170973,
+      12.0356442
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-028",
+    "ten_song": "Suối Tà Gụ",
+    "thon": "Tà Gụ",
+    "xa_phuong": "Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "bo_song": "Phải",
+    "chieu_dai_m": 130.0,
+    "mo_ta": "Khu vực sạt lở không có khu dân cư, Bên bờ trái đã được kè bờ",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.9151324,
+      12.0307667
+     ],
+     [
+      108.9154633,
+      12.0305658
+     ],
+     [
+      108.9157179,
+      12.0304843
+     ],
+     [
+      108.9159062,
+      12.0304672
+     ],
+     [
+      108.9160848,
+      12.0304964
+     ],
+     [
+      108.9162636,
+      12.0304977
+     ],
+     [
+      108.9164237,
+      12.0304803
+     ],
+     [
+      108.9165652,
+      12.0304352
+     ],
+     [
+      108.9165937,
+      12.0303984
+     ],
+     [
+      108.9166413,
+      12.0303248
+     ],
+     [
+      108.9167081,
+      12.0302051
+     ],
+     [
+      108.9167523,
+      12.0300696
+     ],
+     [
+      108.9167562,
+      12.0300575
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-029",
+    "ten_song": "Suối Tà Gụ",
+    "thon": "Tà Gụ",
+    "xa_phuong": "Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "bo_song": "Trái",
+    "chieu_dai_m": 140.0,
+    "mo_ta": "Khu vực sạt lở không có khu dân cư",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      108.9695774,
+      11.9871439
+     ],
+     [
+      108.9693531,
+      11.9868765
+     ],
+     [
+      108.9692102,
+      11.986566
+     ],
+     [
+      108.9691667,
+      11.9861878
+     ],
+     [
+      108.96922,
+      11.9859526
+     ],
+     [
+      108.9695352,
+      11.9855575
+     ],
+     [
+      108.969933,
+      11.9852211
+     ],
+     [
+      108.9706503,
+      11.9847781
+     ],
+     [
+      108.9707723,
+      11.9845179
+     ]
+    ]
+   },
+   "properties": {
+    "ma": "SL-030",
+    "ten_song": "Sông Cái Phan Rang",
+    "thon": "chân Cầu Tha Mang",
+    "xa_phuong": "Khánh Sơn",
+    "tinh": "Khánh Hòa",
+    "luu_vuc_kiem_ke": "Sông Cái",
+    "bo_song": "Trái",
+    "chieu_dai_m": 300.0,
+    "mo_ta": "Vị trí sạt lở trước đây đã được gia cố tuy nhiên thời điểm khảo sát các tấm bê tông gia cố bị sạt lở hư hỏng",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 5.SAT_LO_KH.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  }
+ ]
+}

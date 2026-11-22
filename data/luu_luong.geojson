@@ -1,0 +1,491 @@
+{
+ "type": "FeatureCollection",
+ "name": "luu_luong",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "sinh_boi": "14_nap_bo_sung_mapinfo",
+ "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo)",
+ "thoi_diem_xuat": "2026-11-22T13:48+07:00",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0300138,
+     11.619391
+    ]
+   },
+   "properties": {
+    "ma": "LL-001",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "xa_phuong": "Ninh Hải",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 1.36,
+    "q_thang_2": 0.51,
+    "q_thang_3": 0.28,
+    "q_thang_4": 0.31,
+    "q_thang_5": 0.48,
+    "q_thang_6": 0.16,
+    "q_thang_7": 0.1,
+    "q_thang_8": 0.1,
+    "q_thang_9": 2.38,
+    "q_thang_10": 8.89,
+    "q_thang_11": 13.5,
+    "q_thang_12": 7.37,
+    "q_mua_mua": 32.14,
+    "q_mua_kho": 3.29,
+    "q_ca_nam": 35.44,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0416706,
+     11.6200283
+    ]
+   },
+   "properties": {
+    "ma": "LL-002",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "xa_phuong": "Ninh Hải",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 1.19,
+    "q_thang_2": 0.45,
+    "q_thang_3": 0.27,
+    "q_thang_4": 0.36,
+    "q_thang_5": 0.77,
+    "q_thang_6": 0.19,
+    "q_thang_7": 0.26,
+    "q_thang_8": 0.22,
+    "q_thang_9": 2.09,
+    "q_thang_10": 8.22,
+    "q_thang_11": 13.09,
+    "q_thang_12": 7.04,
+    "q_mua_mua": 30.45,
+    "q_mua_kho": 3.71,
+    "q_ca_nam": 34.16,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0024301,
+     11.4054452
+    ]
+   },
+   "properties": {
+    "ma": "LL-003",
+    "luu_vuc_kiem_ke": "Vũng Sơn Hải",
+    "xa_phuong": "Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 0.95,
+    "q_thang_2": 0.4,
+    "q_thang_3": 0.24,
+    "q_thang_4": 0.35,
+    "q_thang_5": 1.43,
+    "q_thang_6": 0.63,
+    "q_thang_7": 0.26,
+    "q_thang_8": 0.26,
+    "q_thang_9": 1.83,
+    "q_thang_10": 7.15,
+    "q_thang_11": 8.99,
+    "q_thang_12": 5.28,
+    "q_mua_mua": 23.25,
+    "q_mua_kho": 4.5,
+    "q_ca_nam": 27.76,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV10",
+    "ten_luu_vuc": "Lưu vực Vũng Sơn Hải"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8825426,
+     11.353347
+    ]
+   },
+   "properties": {
+    "ma": "LL-004",
+    "luu_vuc_kiem_ke": "Suối Bung",
+    "xa_phuong": "Cà Ná",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 1.39,
+    "q_thang_2": 0.57,
+    "q_thang_3": 0.33,
+    "q_thang_4": 0.48,
+    "q_thang_5": 2.43,
+    "q_thang_6": 1.18,
+    "q_thang_7": 0.68,
+    "q_thang_8": 0.79,
+    "q_thang_9": 3.21,
+    "q_thang_10": 10.34,
+    "q_thang_11": 12.21,
+    "q_thang_12": 7.18,
+    "q_mua_mua": 32.94,
+    "q_mua_kho": 7.87,
+    "q_ca_nam": 40.81,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV16",
+    "ten_luu_vuc": "Lưu vực suối Bung"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.3141099,
+     12.7737363
+    ]
+   },
+   "properties": {
+    "ma": "LL-005",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "xa_phuong": "Tu Bông",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 8.45,
+    "q_thang_2": 5.22,
+    "q_thang_3": 4.03,
+    "q_thang_4": 3.06,
+    "q_thang_5": 2.81,
+    "q_thang_6": 2.99,
+    "q_thang_7": 1.78,
+    "q_thang_8": 1.48,
+    "q_thang_9": 2.31,
+    "q_thang_10": 13.32,
+    "q_thang_11": 29.36,
+    "q_thang_12": 16.79,
+    "q_mua_mua": 29.82,
+    "q_mua_kho": 61.78,
+    "q_ca_nam": 91.6,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.247747,
+     12.7192648
+    ]
+   },
+   "properties": {
+    "ma": "LL-006",
+    "luu_vuc_kiem_ke": "Sông Đông Điền",
+    "xa_phuong": "Vạn Thắng",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 8.45,
+    "q_thang_2": 5.22,
+    "q_thang_3": 4.03,
+    "q_thang_4": 3.06,
+    "q_thang_5": 2.81,
+    "q_thang_6": 2.99,
+    "q_thang_7": 1.78,
+    "q_thang_8": 1.48,
+    "q_thang_9": 2.31,
+    "q_thang_10": 13.32,
+    "q_thang_11": 29.36,
+    "q_thang_12": 16.79,
+    "q_mua_mua": 29.82,
+    "q_mua_kho": 61.78,
+    "q_ca_nam": 91.6,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV14",
+    "ten_luu_vuc": "Lưu vực sông Đông Điền"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2124393,
+     12.6856706
+    ]
+   },
+   "properties": {
+    "ma": "LL-007",
+    "luu_vuc_kiem_ke": "Sông Hiền Lương",
+    "xa_phuong": "Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 9.34,
+    "q_thang_2": 8.79,
+    "q_thang_3": 7.48,
+    "q_thang_4": 6.02,
+    "q_thang_5": 5.81,
+    "q_thang_6": 5.3,
+    "q_thang_7": 2.95,
+    "q_thang_8": 3.54,
+    "q_thang_9": 4.9,
+    "q_thang_10": 15.11,
+    "q_thang_11": 36.49,
+    "q_thang_12": 23.26,
+    "q_mua_mua": 49.23,
+    "q_mua_kho": 79.76,
+    "q_ca_nam": 128.99,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1441654,
+     12.4406368
+    ]
+   },
+   "properties": {
+    "ma": "LL-008",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 11.32,
+    "q_thang_2": 7.34,
+    "q_thang_3": 6.18,
+    "q_thang_4": 5.25,
+    "q_thang_5": 5.37,
+    "q_thang_6": 5.45,
+    "q_thang_7": 4.16,
+    "q_thang_8": 3.82,
+    "q_thang_9": 5.69,
+    "q_thang_10": 20.62,
+    "q_thang_11": 45.75,
+    "q_thang_12": 24.25,
+    "q_mua_mua": 48.89,
+    "q_mua_kho": 96.31,
+    "q_ca_nam": 145.2,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1584364,
+     12.4051459
+    ]
+   },
+   "properties": {
+    "ma": "LL-009",
+    "luu_vuc_kiem_ke": "Suối Ba Hồ",
+    "xa_phuong": "Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 3.83,
+    "q_thang_2": 2.68,
+    "q_thang_3": 2.46,
+    "q_thang_4": 2.08,
+    "q_thang_5": 2.11,
+    "q_thang_6": 1.93,
+    "q_thang_7": 1.56,
+    "q_thang_8": 1.2,
+    "q_thang_9": 1.99,
+    "q_thang_10": 5.5,
+    "q_thang_11": 12.62,
+    "q_thang_12": 8.68,
+    "q_mua_mua": 17.85,
+    "q_mua_kho": 28.79,
+    "q_ca_nam": 46.64,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV17",
+    "ten_luu_vuc": "Lưu vực suối Ba Hồ"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1546619,
+     12.2133325
+    ]
+   },
+   "properties": {
+    "ma": "LL-010",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "xa_phuong": "Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 3.47,
+    "q_thang_2": 2.05,
+    "q_thang_3": 2.14,
+    "q_thang_4": 2.6,
+    "q_thang_5": 2.52,
+    "q_thang_6": 1.63,
+    "q_thang_7": 1.31,
+    "q_thang_8": 1.22,
+    "q_thang_9": 4.83,
+    "q_thang_10": 14.53,
+    "q_thang_11": 23.36,
+    "q_thang_12": 10.26,
+    "q_mua_mua": 16.94,
+    "q_mua_kho": 52.98,
+    "q_ca_nam": 69.92,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1671457,
+     12.2545473
+    ]
+   },
+   "properties": {
+    "ma": "LL-011",
+    "luu_vuc_kiem_ke": "Sông Lư Cẩm",
+    "xa_phuong": "Suối Dầu",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 9.87,
+    "q_thang_2": 4.98,
+    "q_thang_3": 5.61,
+    "q_thang_4": 7.86,
+    "q_thang_5": 10.57,
+    "q_thang_6": 7.04,
+    "q_thang_7": 6.39,
+    "q_thang_8": 6.48,
+    "q_thang_9": 18.32,
+    "q_thang_10": 38.02,
+    "q_thang_11": 62.21,
+    "q_thang_12": 28.9,
+    "q_mua_mua": 58.8,
+    "q_mua_kho": 147.45,
+    "q_ca_nam": 206.25,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV07",
+    "ten_luu_vuc": "Lưu vực sông Lư Cẩm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1489102,
+     12.109731
+    ]
+   },
+   "properties": {
+    "ma": "LL-012",
+    "luu_vuc_kiem_ke": "Suối Cốc",
+    "xa_phuong": "Cam Tân",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 6.12,
+    "q_thang_2": 5.25,
+    "q_thang_3": 7.13,
+    "q_thang_4": 5.43,
+    "q_thang_5": 2.74,
+    "q_thang_6": 3.26,
+    "q_thang_7": 2.31,
+    "q_thang_8": 1.85,
+    "q_thang_9": 4.56,
+    "q_thang_10": 11.28,
+    "q_thang_11": 30.64,
+    "q_thang_12": 23.28,
+    "q_mua_mua": 34.09,
+    "q_mua_kho": 69.76,
+    "q_ca_nam": 103.85,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV08",
+    "ten_luu_vuc": "Lưu vực suối Cốc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1298807,
+     11.9159269
+    ]
+   },
+   "properties": {
+    "ma": "LL-013",
+    "luu_vuc_kiem_ke": "Lạch Cầu 1",
+    "xa_phuong": "Cam An",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 11.12,
+    "q_thang_2": 8.12,
+    "q_thang_3": 6.52,
+    "q_thang_4": 5.22,
+    "q_thang_5": 3.54,
+    "q_thang_6": 2.81,
+    "q_thang_7": 2.71,
+    "q_thang_8": 2.2,
+    "q_thang_9": 4.92,
+    "q_thang_10": 14.78,
+    "q_thang_11": 33.64,
+    "q_thang_12": 25.95,
+    "q_mua_mua": 42.24,
+    "q_mua_kho": 79.29,
+    "q_ca_nam": 121.53,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1873309,
+     12.0185216
+    ]
+   },
+   "properties": {
+    "ma": "LL-014",
+    "luu_vuc_kiem_ke": "S.Nước Ngọt",
+    "xa_phuong": "Cam Lâm",
+    "tinh": "Khánh Hòa",
+    "q_thang_1": 5.72,
+    "q_thang_2": 3.11,
+    "q_thang_3": 2.72,
+    "q_thang_4": 2.6,
+    "q_thang_5": 3.36,
+    "q_thang_6": 2.22,
+    "q_thang_7": 1.37,
+    "q_thang_8": 1.29,
+    "q_thang_9": 3.38,
+    "q_thang_10": 14.15,
+    "q_thang_11": 25.54,
+    "q_thang_12": 14.33,
+    "q_mua_mua": 22.39,
+    "q_mua_kho": 57.4,
+    "q_ca_nam": 79.79,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 3.Luong_dc.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV13",
+    "ten_luu_vuc": "Lưu vực sông Nước Ngọt"
+   }
+  }
+ ]
+}

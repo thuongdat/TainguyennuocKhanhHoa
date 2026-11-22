@@ -146,7 +146,24 @@ python scripts/08_xuat_lo_khoan_ndd.py        # data/quan_trac_ndd.geojson, từ
 python scripts/09_chuan_hoa_ao_ho_khong_san_lap.py   # data/ao_ho_khong_san_lap.geojson
 python scripts/12_nap_ao_ho_kiem_ke.py        # data/ao_ho.geojson, từ Excel rà soát kiểm kê
 python scripts/13_nap_wqi_dia_phuong.py       # data/quan_trac_dia_phuong.geojson
+python scripts/14_nap_bo_sung_mapinfo.py      # 5 lớp từ bộ MapInfo bổ sung, xem dưới
 ```
+
+Script 14 đọc `CSDL/KHANHHOA_BS/KHANHHOA_BS/MAP/*.TAB` và ghi
+`quan_trac_dia_phuong`, `ao_ho_khong_san_lap`, `luu_luong`, `vet_lu`, `sat_lo`
+(`--lop <ma>` để chạy một lớp). Nó **thay chỗ** script 13 và 09 cho hai lớp đầu:
+chạy lại 13 hoặc 09 sẽ ghi đè kết quả của 14. Bốn điều về bộ tệp này:
+
+1. Hệ khai TM 108°15' nhưng datum `WGS84`, nên `set_crs(9217, allow_override=True)`.
+2. Chữ là TCVN3, đổi bằng `tcvn3_sang_unicode()` của script 05.
+3. Cột `X` là tung độ, `Y` là hoành độ; script lấy tọa độ từ hình học, không dùng hai cột đó.
+4. WQI bằng 0 là kỳ **chưa đo**, bị bỏ. Cột `NGUOI_CUNGCAP_THONGTIN` của lớp vết
+   lũ (họ tên người dân) **cố ý không đưa ra**, vì `data/` xuất bản công khai.
+
+Hai hồ bị loại vì tọa độ sai trong bản gốc: STT 96 "Hồ số 8" (0, 0) và STT 112
+"Ao chống hạn thôn Đá Bàn" (tung độ 131053, thiếu một chữ số). Sửa trong MapInfo
+rồi chạy lại. STT của lớp sạt lở phần lớn là 0 nên mã `SL-<nnn>` đánh theo thứ tự dòng.
+`backend/tests/test_lop_bo_sung_mapinfo.py` chốt các điều trên.
 
 Script 04 nhận tên lớp làm tham số để chỉ làm lại một phần, ví dụ
 `python scripts/04_tao_nen_dia_phuong.py DoanTimDuongBo`. Chạy toàn bộ script này
@@ -531,9 +548,10 @@ Phải nắm rõ trước khi sửa bất cứ thứ gì liên quan đến số 
 | Tab Quan trắc ở `CHE_DO=that` | Dữ liệu thật, từ CSDL QTQG |
 | Tab Quan trắc ở `CHE_DO=thu_nghiem` | **Thử nghiệm**, sinh từ vị trí trạm |
 | `data/quan_trac_ndd.geojson`, 28 lỗ khoan | Dữ liệu thật, đã sinh 27/10/2026 |
-| `data/ao_ho_khong_san_lap.geojson` | Dữ liệu thật, danh mục tỉnh công bố. **Chưa sinh**, chờ bản xuất CSV |
-| `data/ao_ho.geojson` kiểu mới (202 hồ, ao, đầm từ Excel) | Dữ liệu thật. **Chưa sinh**, chờ cột tọa độ trong sheet `B3.2.Hồ`; hiện vẫn là 51 hồ kiểu cũ |
-| `data/quan_trac_dia_phuong.geojson` (111 vị trí WQI) | Dữ liệu thật. **Chưa sinh**, chờ cột tọa độ trong sheet `Biểu 10`; chưa có trong `lop_co_san` |
+| `data/ao_ho_khong_san_lap.geojson` (200 hồ, ao, đầm) | Dữ liệu thật, script 14 sinh 22/11/2026 |
+| `data/ao_ho.geojson` | Vẫn là 51 hồ kiểu cũ của script 05 |
+| `data/quan_trac_dia_phuong.geojson` (111 vị trí WQI) | Dữ liệu thật, script 14 sinh 22/11/2026 |
+| `data/luu_luong.geojson` (14), `vet_lu.geojson` (61), `sat_lo.geojson` (30 đoạn) | Dữ liệu thật, script 14 sinh 22/11/2026 |
 
 Dữ liệu mô phỏng do `scripts/00_tao_du_lieu_mau.py` sinh ra, mỗi đối tượng mang
 trường `nguon_dl` ghi rõ điều đó.

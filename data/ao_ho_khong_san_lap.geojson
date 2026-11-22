@@ -1,0 +1,5215 @@
+{
+ "type": "FeatureCollection",
+ "name": "ao_ho_khong_san_lap",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "sinh_boi": "14_nap_bo_sung_mapinfo",
+ "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo)",
+ "thoi_diem_xuat": "2026-11-22T13:48+07:00",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2912063,
+     12.7960993
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-001",
+    "ten": "Hồ Hoa Sơn",
+    "vi_tri_hc": "Long Hòa, xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1364000,
+    "dien_tich_ha": 136.4,
+    "dung_tich_trieu_m3": 18.04,
+    "dung_tich_huu_ich_trieu_m3": 17.64,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 824 ha đất canh tác (lúa); Cấp nước sinh hoạt, công nghiệp, dịch vụ khoảng 3.000 m3/ngày đêm cho Nhà máy nước Tu Bông, Công ty TNHH MTV Đá Phú Tài Khánh Hòa. Ngoài ra, phòng chống lũ cho hạ du.",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.3148108,
+     12.7981652
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-002",
+    "ten": "Hồ Bà Bác",
+    "vi_tri_hc": "Tân Phước Tây, xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 9870,
+    "dien_tich_ha": 0.987,
+    "dung_tich_trieu_m3": 0.029,
+    "dung_tich_huu_ich_trieu_m3": 0.03,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 30 ha đất canh tác (lúa)",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2726882,
+     12.7602514
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-003",
+    "ten": "Hồ Cây Bứa",
+    "vi_tri_hc": "Tiên Ninh, xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 78100,
+    "dien_tich_ha": 7.81,
+    "dung_tich_trieu_m3": 0.271,
+    "dung_tich_huu_ich_trieu_m3": 0.27,
+    "chuc_nang": "Cấp nước tưới hỗ trợ 30 ha lúa khi hồ chứa Hoa Sơn không đảm bảo nguồn nước",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2898222,
+     12.7842187
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-004",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Long Hòa, xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 32100,
+    "dien_tich_ha": 3.21,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.290242,
+     12.783268
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-005",
+    "ten": "Hồ số 2",
+    "vi_tri_hc": "Long Hòa, xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 40000,
+    "dien_tich_ha": 4.0,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp, phục vụ nuôi trồng thủy sản",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2948964,
+     12.7886367
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-006",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "Long Hòa, xã Tu Bông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 36500,
+    "dien_tich_ha": 3.65,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2332247,
+     12.7425311
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-007",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Bình Lộc, xã Vạn Thắng",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 9400,
+    "dien_tich_ha": 0.94,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và phục vụ sinh hoạt",
+    "luu_vuc_kiem_ke": "Đồng Điền",
+    "ghi_chu": "Tên khác: Hồ Bến Khế",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV14",
+    "ten_luu_vuc": "Lưu vực sông Đông Điền"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2395304,
+     12.7491603
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-008",
+    "ten": "Hồ Suối Luồng",
+    "vi_tri_hc": "Suối Luồng, Xã Vạn Thắng",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 134000,
+    "dien_tich_ha": 13.4,
+    "dung_tich_trieu_m3": 0.579,
+    "dung_tich_huu_ich_trieu_m3": 0.472,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 83 ha đất canh tác (lúa). Ngoài ra, Phòng chống lũ cho hạ du.",
+    "luu_vuc_kiem_ke": "Đồng Điền",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV14",
+    "ten_luu_vuc": "Lưu vực sông Đông Điền"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2153892,
+     12.6964616
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-009",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Phú Cang 2 , Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6600,
+    "dien_tich_ha": 0.66,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Đã lấp một phần, làm khu tái định cư (Vông Trắc Tre)",
+    "luu_vuc_kiem_ke": "Hiền Lương",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2157961,
+     12.687186
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-010",
+    "ten": "Ao số 2",
+    "vi_tri_hc": "Thôn 12, Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5100,
+    "dien_tich_ha": 0.51,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Hiền Lương",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2131419,
+     12.6864454
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-011",
+    "ten": "Ao số 3",
+    "vi_tri_hc": "Thôn 12, Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5200,
+    "dien_tich_ha": 0.52,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt, sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Hiền Lương",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2146493,
+     12.6858072
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-012",
+    "ten": "Cụm ao số 1",
+    "vi_tri_hc": "Thôn 12, Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 15900,
+    "dien_tich_ha": 1.59,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt, sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Hiền Lương",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2173502,
+     12.689169
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-013",
+    "ten": "Cụm ao số 2",
+    "vi_tri_hc": "Thôn 12, Xã Vạn Ninh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 16400,
+    "dien_tich_ha": 1.64,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Hiền Lương",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.3329581,
+     12.8054849
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-014",
+    "ten": "Hồ Suối Lớn",
+    "vi_tri_hc": "Cổ Mã, xã Đại Lãnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 28600,
+    "dien_tich_ha": 2.86,
+    "dung_tich_trieu_m3": 0.203,
+    "dung_tich_huu_ich_trieu_m3": 0.163,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 69 ha đất canh tác (lúa). Ngoài ra, phòng chống lũ cho hạ du.",
+    "luu_vuc_kiem_ke": "Tân Phước",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV09",
+    "ten_luu_vuc": "Lưu vực Tân Phước"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1363198,
+     12.6824011
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-015",
+    "ten": "Hồ Đá Đen",
+    "vi_tri_hc": "Xuân Thọ, Xã Vạn Hưng",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 460000,
+    "dien_tich_ha": 46.0,
+    "dung_tich_trieu_m3": 3.43,
+    "dung_tich_huu_ich_trieu_m3": 3.26,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp, thủy sản cho 462 ha đất canh tác (lúa); cấp nước sinh hoạt không thường xuyên cho người dân các xã Vạn Hưng và Vạn Ninh. Ngoài ra, phòng chống lũ cho hạ du.",
+    "luu_vuc_kiem_ke": "Hiền Lương",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV12",
+    "ten_luu_vuc": "Lưu vực sông Hiền Lương"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1083483,
+     12.6375133
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-016",
+    "ten": "Hồ Đá Bàn",
+    "vi_tri_hc": "Ninh Sơn, Xã Bắc Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6688000,
+    "dien_tich_ha": 668.8,
+    "dung_tich_trieu_m3": 75.0,
+    "dung_tich_huu_ich_trieu_m3": 69.76,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 4.276 ha đất canh tác (lúa và màu); Cấp nước sinh hoạt, công nghiệp, dịch vụ khoảng 12.000 m3/ngày đêm cho 02 nhà máy nước Ninh Đông và Ninh Sơn. Ngoài ra, Phòng chống lũ cho hạ du. Góp phần phát triển kinh tế xã hội của",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1712159,
+     12.5213935
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-017",
+    "ten": "Hồ số 2",
+    "vi_tri_hc": "Ninh An, Xã Bắc Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 25400,
+    "dien_tich_ha": 2.54,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1211861,
+     12.541257
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-018",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Ninh Trung, Xã Hòa Trí",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5900,
+    "dien_tich_ha": 0.59,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0871987,
+     12.5105406
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-019",
+    "ten": "Ao số 2",
+    "vi_tri_hc": "Ninh Thân, Xã Hòa Trí",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5000,
+    "dien_tich_ha": 0.5,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt và sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0212364,
+     12.5705616
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-020",
+    "ten": "Hồ Suối Sim",
+    "vi_tri_hc": "Nông Trường, Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 900000,
+    "dien_tich_ha": 90.0,
+    "dung_tich_trieu_m3": 1.73,
+    "dung_tich_huu_ich_trieu_m3": 1.32,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 2,2 ha đất canh tác (lúa)",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9371951,
+     12.6107096
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-021",
+    "ten": "Hồ thủy điện Eakrong Rou",
+    "vi_tri_hc": "Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2990000,
+    "dien_tich_ha": 299.0,
+    "dung_tich_trieu_m3": 35.91,
+    "dung_tich_huu_ich_trieu_m3": 31.82,
+    "chuc_nang": "Tích trữ nước để phát điện, điều tiết dòng chảy và góp phần cung cấp nước cho sản xuất và sinh hoạt ở khu vực xung quanh",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9801789,
+     12.555716
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-022",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Xã Tây Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 27600,
+    "dien_tich_ha": 2.76,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp, chăn nuôi",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.088026,
+     12.5074646
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-023",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Ninh Phụng, Phường Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5000,
+    "dien_tich_ha": 0.5,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1251589,
+     12.4887434
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-024",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Trần Quý Cáp, Phường Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 12400,
+    "dien_tich_ha": 1.24,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0561921,
+     12.5099663
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-025",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Ninh Xuân, Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 8500,
+    "dien_tich_ha": 0.85,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0360469,
+     12.5171852
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-026",
+    "ten": "Ao số 2",
+    "vi_tri_hc": "Ninh Xuân, Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10000,
+    "dien_tich_ha": 1.0,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1232357,
+     12.4940828
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-027",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Tân Bình, Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 13700,
+    "dien_tich_ha": 1.37,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1223058,
+     12.4883549
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-028",
+    "ten": "Hồ số 2",
+    "vi_tri_hc": "Tân Bình, Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 12800,
+    "dien_tich_ha": 1.28,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0509368,
+     12.4704611
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-029",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "Ninh Xuân, Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 115000,
+    "dien_tich_ha": 11.5,
+    "dung_tich_trieu_m3": 0.215,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp, chăn nuôi",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": "Tên khác: Hồ Bến Ghe",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0725144,
+     12.5015735
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-030",
+    "ten": "Hồ số 4",
+    "vi_tri_hc": "Ninh Xuân, Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 21000,
+    "dien_tich_ha": 2.1,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0457687,
+     12.5041126
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-031",
+    "ten": "Hồ Suối Trầu",
+    "vi_tri_hc": "Ninh Xuân, Xã Tân Định",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2390000,
+    "dien_tich_ha": 239.0,
+    "dung_tich_trieu_m3": 9.545,
+    "dung_tich_huu_ich_trieu_m3": 9.199,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 467 ha đất canh tác (lúa, hoa màu)",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1611997,
+     12.4749927
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-032",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Phú Thạnh, Phường Hòa Thắng",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6300,
+    "dien_tich_ha": 0.63,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2325111,
+     12.4562574
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-033",
+    "ten": "Hồ Tiên Du",
+    "vi_tri_hc": "Ninh Phú, Phường Hòa Thắng",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1427000,
+    "dien_tich_ha": 142.7,
+    "dung_tich_trieu_m3": 7.13,
+    "dung_tich_huu_ich_trieu_m3": 6.88,
+    "chuc_nang": "Cấp nước sản xuất nông nghiệp cho 73 ha đất canh tác (lúa); Cấp nước sinh hoạt không thường xuyên cho người dân (xã Ninh Phú, thị xã Ninh Hòa cũ). Nay là phường Hòa Thắng. Ngoài ra, phòng chống lũ cho hạ du.",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.184212,
+     12.4715875
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-034",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Ninh Phú, Phường Hòa Thắng",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 16400,
+    "dien_tich_ha": 1.64,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2394139,
+     12.500994
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-035",
+    "ten": "Hồ Hyundai Vinasin (hồ chứa nước Hòn Khói)",
+    "vi_tri_hc": "Lô CN21, khu công nghiệp (Tổ Dân Phố Mỹ á,Phường Đông Ninh Hòa)",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 333000,
+    "dien_tich_ha": 33.3,
+    "dung_tich_trieu_m3": 1.26,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cấp nước sinh hoạt, công nghiệp cho khu công nghiệp HuynDai- Vinashin và khu dân cư Ninh Thủy, với lượng cấp 1,36 Tr.m3/năm (trong giai đoạn 1) và 2,83 Tr.m3/năm (trong giai đoạn 2, hiện nay chưa được tiến hành xây dựng); các nhu cầu dùng nước khác khi đ",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1206345,
+     12.450684
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-036",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Mỹ Lợi, Xã Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6200,
+    "dien_tich_ha": 0.62,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9813142,
+     12.4621342
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-037",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Ninh Tân, Xã Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 22400,
+    "dien_tich_ha": 2.24,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp kết hợp du lịch sinh thái",
+    "luu_vuc_kiem_ke": "Cái Ninh Hòa",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV03",
+    "ten_luu_vuc": "Lưu vực sông Dinh"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1037459,
+     12.4306883
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-038",
+    "ten": "Hồ số 2",
+    "vi_tri_hc": "Ninh Lộc, Xã Nam Ninh Hòa",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 71900,
+    "dien_tich_ha": 7.19,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp, tích trữ và điều hòa nguồn nước",
+    "luu_vuc_kiem_ke": "Sông Tam Ích",
+    "ghi_chu": "Tên khác: Hồ Sở Quan",
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV11",
+    "ten_luu_vuc": "Lưu vực sông Tam Ích"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8340102,
+     12.3742356
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-039",
+    "ten": "Hồ Thủy điện sông Giang",
+    "vi_tri_hc": "Khánh Trung, Xã Trung Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 234000,
+    "dien_tich_ha": 23.4,
+    "dung_tich_trieu_m3": 3.17,
+    "dung_tich_huu_ich_trieu_m3": 2.53,
+    "chuc_nang": "Tích trữ nước để phát điện, điều tiết dòng chảy và góp phần cung cấp nước cho sản xuất và sinh hoạt ở khu vực xung quanh",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8442451,
+     12.4431251
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-040",
+    "ten": "Hồ Sông Chò 2",
+    "vi_tri_hc": "Khánh Hiệp, Xã Trung Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 350000,
+    "dien_tich_ha": 35.0,
+    "dung_tich_trieu_m3": 3.09,
+    "dung_tich_huu_ich_trieu_m3": 2.58,
+    "chuc_nang": "Đập thủy điện sông Chò 2 giúp tích nước tạo hồ chứa, tận dụng chênh lệch độ cao để sản xuất điện năng. Ngoài ra, đập giúp điều tiết dòng chảy, cắt giảm lũ cho hạ du, cung cấp nước tưới tiêu nông nghiệp và nuôi trồng thủy sản",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9583619,
+     12.38345
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-041",
+    "ten": "Hồ chứa nước Ba Dùi",
+    "vi_tri_hc": "Ba Dùi, Xã Bắc Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 72500,
+    "dien_tich_ha": 7.25,
+    "dung_tich_trieu_m3": 0.231,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.171167,
+     12.2955909
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-042",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Vĩnh Hải, Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 18800,
+    "dien_tich_ha": 1.88,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Hồ cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1752037,
+     12.2932993
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-043",
+    "ten": "Hồ số 2",
+    "vi_tri_hc": "Vĩnh Hải, Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 21300,
+    "dien_tich_ha": 2.13,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Điều hòa khí hậu vùng dân cư",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1389458,
+     12.2814784
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-044",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "Vĩnh Hải, Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 29700,
+    "dien_tich_ha": 2.97,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1389458,
+     12.2814784
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-045",
+    "ten": "Hồ số 4",
+    "vi_tri_hc": "Vĩnh Phương, Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 31700,
+    "dien_tich_ha": 3.17,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước tưới tiêu - sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.149492,
+     12.3174572
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-046",
+    "ten": "Hồ Đắc Lộc",
+    "vi_tri_hc": "Vĩnh Phương, Phường Bắc Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 410000,
+    "dien_tich_ha": 41.0,
+    "dung_tich_trieu_m3": 1.15,
+    "dung_tich_huu_ich_trieu_m3": 0.91,
+    "chuc_nang": "Cấp nước tưới cho một số diện tích nhỏ, lẻ dọc kênh thoát lũ. (Các diện tích sản xuất dọc kênh tưới thiết kế hiện đang sử dụng nguồn nước từ giếng khoan của người dân). Ngoài ra, phòng lũ cho hạ lưu thôn Đắc Lộc và cải tạo cảnh quan môi trường sinh thái",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9922426,
+     12.3224407
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-047",
+    "ten": "Hồ chứa nước Đồng Mộc",
+    "vi_tri_hc": "Xuân Trung, Xã Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 129000,
+    "dien_tich_ha": 12.9,
+    "dung_tich_trieu_m3": 0.92,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Chức năng tạo cảnh quan và sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0035241,
+     12.3098264
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-048",
+    "ten": "Hồ chứa nước Đá Mài",
+    "vi_tri_hc": "Khánh Xuân, Xã Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 105000,
+    "dien_tich_ha": 10.5,
+    "dung_tich_trieu_m3": 0.235,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Chức năng tạo cảnh quan và sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9658585,
+     12.3130826
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-049",
+    "ten": "Hồ Đồng Hằng",
+    "vi_tri_hc": "Diên Xuân, Xã Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 11700,
+    "dien_tich_ha": 1.17,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0297566,
+     12.2768663
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-050",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Hạ, Xã Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 20900,
+    "dien_tich_ha": 2.09,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ nước",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0145821,
+     12.2806516
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-051",
+    "ten": "Ao số 2",
+    "vi_tri_hc": "Xuân Lâm, Xã Diên Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 40900,
+    "dien_tich_ha": 4.09,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ nước",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0977585,
+     12.3109424
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-052",
+    "ten": "Hồ Am Chúa",
+    "vi_tri_hc": "Xã Diên Điền",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 700000,
+    "dien_tich_ha": 70.0,
+    "dung_tich_trieu_m3": 4.29,
+    "dung_tich_huu_ich_trieu_m3": 4.04,
+    "chuc_nang": "Cấp nước tưới cho 360 ha đất canh tác. Ngoài ra, phòng lũ cho hạ du",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0790306,
+     12.2812143
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-053",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Diên Sơn, Xã Diên Điền",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 19100,
+    "dien_tich_ha": 1.91,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0087587,
+     12.2629679
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-054",
+    "ten": "Ao số 2",
+    "vi_tri_hc": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5700,
+    "dien_tich_ha": 0.57,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0452027,
+     12.2718411
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-055",
+    "ten": "Ao số 3",
+    "vi_tri_hc": "Diên Phước, Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 9300,
+    "dien_tich_ha": 0.93,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9785207,
+     12.2271346
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-056",
+    "ten": "Hồ Láng Nhớt",
+    "vi_tri_hc": "Diên Tân, Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 423000,
+    "dien_tich_ha": 42.3,
+    "dung_tich_trieu_m3": 2.134,
+    "dung_tich_huu_ich_trieu_m3": 2.05,
+    "chuc_nang": "Cấp nước tưới cho khoảng 354 ha đất canh tác (lúa). Ngoài ra, phòng lũ cho hạ du",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9730648,
+     12.2350679
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-057",
+    "ten": "Hồ Cây Sung",
+    "vi_tri_hc": "Diên Tân, Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 131000,
+    "dien_tich_ha": 13.1,
+    "dung_tich_trieu_m3": 0.453,
+    "dung_tich_huu_ich_trieu_m3": 0.43,
+    "chuc_nang": "Cấp nước tưới cho khoảng 75 ha đất canh tác (lúa)",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9927194,
+     12.2696018
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-058",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 22100,
+    "dien_tich_ha": 2.21,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cấp nước cho nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0315756,
+     12.2546867
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-059",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 15300,
+    "dien_tich_ha": 1.53,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cấp nước cho nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9865295,
+     12.2782154
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-060",
+    "ten": "Hồ số 4",
+    "vi_tri_hc": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 11100,
+    "dien_tich_ha": 1.11,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0484673,
+     12.2570517
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-061",
+    "ten": "Hồ số 5",
+    "vi_tri_hc": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 94200,
+    "dien_tich_ha": 9.42,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": null,
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0464345,
+     12.2718827
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-062",
+    "ten": "Hồ số 6",
+    "vi_tri_hc": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 8600,
+    "dien_tich_ha": 0.86,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": null,
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0486406,
+     12.2657654
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-063",
+    "ten": "Hồ số 7",
+    "vi_tri_hc": "Xã Diên Thọ",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 14500,
+    "dien_tich_ha": 1.45,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": null,
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2571595,
+     12.2053565
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-064",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Vĩnh Nguyên, Phường Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 55400,
+    "dien_tich_ha": 5.54,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Hồ cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2746219,
+     12.2085372
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-065",
+    "ten": "Hồ số 2",
+    "vi_tri_hc": "Vĩnh Nguyên, Phường Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 67300,
+    "dien_tich_ha": 6.73,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Hồ cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2825046,
+     12.2246969
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-066",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "Hòn Tre, Phường Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 81100,
+    "dien_tich_ha": 8.11,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Hồ cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.3244437,
+     12.2058163
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-067",
+    "ten": "Hồ số 4",
+    "vi_tri_hc": "Hòn Lớn, Phường Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 45600,
+    "dien_tich_ha": 4.56,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Hồ cung cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": null,
+    "ten_luu_vuc": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2594224,
+     12.2132485
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-068",
+    "ten": "Cụm hồ sồ số 1",
+    "vi_tri_hc": "Hòn Tre, Phường Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 50000,
+    "dien_tich_ha": 5.0,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tạo cảnh quan, điều hòa khí hậu và phục vụ nhu cầu nghỉ dưỡng",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8231652,
+     12.2670075
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-069",
+    "ten": "Hồ Bầu Sang",
+    "vi_tri_hc": "Bầu Sang, Xã Nam Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 11800,
+    "dien_tich_ha": 1.18,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều hòa nguồn nước",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.155418,
+     12.1897459
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-070",
+    "ten": "Hồ Đồng Bò (HTL Kênh Hạ)",
+    "vi_tri_hc": "Phước Trung, Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 79000,
+    "dien_tich_ha": 7.9,
+    "dung_tich_trieu_m3": 0.54,
+    "dung_tich_huu_ich_trieu_m3": 0.521,
+    "chuc_nang": "Cấp nước tưới cho khoảng 7 ha đất canh tác (lúa). Cấp nước thô khoảng 400 m3/ngày-đêm cho Công ty CP Hoàn Cầu Nha Trang và hộ kinh doanh Trần Thị Duyên. Ngoài ra, phòng lũ cho hạ du, tạo cảnh quan, du lịch sinh thái",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1995156,
+     12.1692047
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-071",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Phước Hạ, Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 50000,
+    "dien_tich_ha": 5.0,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tạo cảnh quan, điều hòa vi khí hậu và phục vụ nhu cầu nghỉ dưỡng",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1904222,
+     12.1726166
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-072",
+    "ten": "Cụm hồ số 2",
+    "vi_tri_hc": "Phước Hạ, Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 70200,
+    "dien_tich_ha": 7.02,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tạo cảnh quan, điều hòa vi khí hậu và phục vụ nhu cầu nghỉ dưỡng",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2120475,
+     12.1562802
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-073",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Phước Trung, Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 8200,
+    "dien_tich_ha": 0.82,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1964734,
+     12.1715383
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-074",
+    "ten": "Ao số 2",
+    "vi_tri_hc": "Phước Hạ, Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 3600,
+    "dien_tich_ha": 0.36,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ nước",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1948391,
+     12.1718602
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-075",
+    "ten": "Ao số 3",
+    "vi_tri_hc": "Phước Hạ, Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2400,
+    "dien_tich_ha": 0.24,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ nước",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1934141,
+     12.1742335
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-076",
+    "ten": "Ao số 4",
+    "vi_tri_hc": "Phước Hạ, Phường Nam Nha Trang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6400,
+    "dien_tich_ha": 0.64,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ nước",
+    "luu_vuc_kiem_ke": "Sông Đồng Bò",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV15",
+    "ten_luu_vuc": "Lưu vực sông Đồng Bò"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9161363,
+     12.1908345
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-077",
+    "ten": "Hồ số 1",
+    "vi_tri_hc": "Khánh Phú, Xã Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 16000,
+    "dien_tich_ha": 1.6,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tạo cảnh quan, điều hòa khí hậu",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9535735,
+     12.2741617
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-078",
+    "ten": "Hợp thuỷ thôn Đông 1",
+    "vi_tri_hc": "Thôn Đông, xã Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 200,
+    "dien_tich_ha": 0.02,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9475501,
+     12.2732099
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-079",
+    "ten": "Hợp thuỷ thôn Đông 2",
+    "vi_tri_hc": "Thôn Đông, xã Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 300,
+    "dien_tich_ha": 0.03,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9493294,
+     12.2612094
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-080",
+    "ten": "Hồ điều tra",
+    "vi_tri_hc": "Thôn Tây Nam, xã Khánh Vĩnh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5000,
+    "dien_tich_ha": 0.5,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Nha Trang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV02",
+    "ten_luu_vuc": "Lưu vực sông Cái Nha Trang"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0562595,
+     12.153063
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-081",
+    "ten": "Hồ Suối Dầu",
+    "vi_tri_hc": "Xã Suối Dầu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 3450000,
+    "dien_tich_ha": 345.0,
+    "dung_tich_trieu_m3": 35.99,
+    "dung_tich_huu_ich_trieu_m3": 28.88,
+    "chuc_nang": "Cấp nước tưới cho khoảng 1.550 ha đất canh tác (lúa và màu) và có thể tiếp tục giảm trong thời gian đến. Cấp nước thô khoảng 30.000 m3/ngày-đêm cho Khu công nghiệp Suối Dầu, Công ty Cấp thoát nước Suối Dầu. Ngoài ra, phòng chống lũ cho hạ du",
+    "luu_vuc_kiem_ke": "Sông Lư Cẩm",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV07",
+    "ten_luu_vuc": "Lưu vực sông Lư Cẩm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1933814,
+     12.0629667
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-082",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Cam Hải Đông, Xã Cam Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 15000,
+    "dien_tich_ha": 1.5,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV13",
+    "ten_luu_vuc": "Lưu vực sông Nước Ngọt"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1989248,
+     12.0461344
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-083",
+    "ten": "Hồ Bầu Ró",
+    "vi_tri_hc": "Cam Hải Đông, Xã Cam Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 62500,
+    "dien_tich_ha": 6.25,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV13",
+    "ten_luu_vuc": "Lưu vực sông Nước Ngọt"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1935895,
+     12.0751784
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-084",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "Cam Hải Đông, Xã Cam Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 16500,
+    "dien_tich_ha": 1.65,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tạo cảnh quan, điều hòa vi khí hậu và phục vụ nhu cầu nghỉ dưỡng",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV13",
+    "ten_luu_vuc": "Lưu vực sông Nước Ngọt"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1939625,
+     12.0767861
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-085",
+    "ten": "Hồ số 4",
+    "vi_tri_hc": "Cam Hải Đông, Xã Cam Lâm",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 21500,
+    "dien_tich_ha": 2.15,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tạo cảnh quan, điều hòa vi khí hậu và phục vụ nhu cầu nghỉ dưỡng",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV13",
+    "ten_luu_vuc": "Lưu vực sông Nước Ngọt"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.095729,
+     12.1060834
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-086",
+    "ten": "Ao Bầu Gốc",
+    "vi_tri_hc": "Xuân Lập, xã Cam Hiệp",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 15000,
+    "dien_tich_ha": 1.5,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Nuôi trồng thủy sản và cấp, thoát nước sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Suối Cốc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV08",
+    "ten_luu_vuc": "Lưu vực suối Cốc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0899294,
+     12.1021235
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-087",
+    "ten": "Hồ chứa nước Cam Ranh (Hồ Cam Thượng)",
+    "vi_tri_hc": "Sơn Tân, Xã Cam Hiệp",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2560000,
+    "dien_tich_ha": 256.0,
+    "dung_tich_trieu_m3": 256.0,
+    "dung_tich_huu_ich_trieu_m3": 19.39,
+    "chuc_nang": "Cấp nước tưới cho khoảng 1.046 ha đất canh tác (lúa) và có thể tiếp tục giảm trong thời gian đến. Cấp nước thô khoảng 15.000 m3/ngày đêm cho Nhà máy nước Cam Lâm, Công ty CP Đường Việt Nam. Phòng chống lũ cho hạ du",
+    "luu_vuc_kiem_ke": "Suối Cốc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV08",
+    "ten_luu_vuc": "Lưu vực suối Cốc"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.065297,
+     11.98185
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-088",
+    "ten": "Hồ Tà Rục",
+    "vi_tri_hc": "xã Cam An",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1660000,
+    "dien_tich_ha": 166.0,
+    "dung_tich_trieu_m3": 23.48,
+    "dung_tich_huu_ich_trieu_m3": 20.66,
+    "chuc_nang": "Cấp nước tưới cho khoảng 650 ha đất canh tác (lúa và màu). Cấp nước thô khoảng 20.000 m3/ngày đêm cho Nhà máy nước Cam Phước Tây. Phòng chống lũ cho hạ du",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2405722,
+     11.9654302
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-089",
+    "ten": "Ao số 3",
+    "vi_tri_hc": "Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 7200,
+    "dien_tich_ha": 0.72,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2556394,
+     11.8735087
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-090",
+    "ten": "Ao số 4",
+    "vi_tri_hc": "Cam Nghĩa, Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 8800,
+    "dien_tich_ha": 0.88,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, phục vụ tưới tiêu nông nghiệp và cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2359288,
+     11.9584319
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-091",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 52900,
+    "dien_tich_ha": 5.29,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2394605,
+     11.9677482
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-092",
+    "ten": "Hồ số 4",
+    "vi_tri_hc": "Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 37100,
+    "dien_tich_ha": 3.71,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2371222,
+     11.9710649
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-093",
+    "ten": "Hồ số 5",
+    "vi_tri_hc": "Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 21000,
+    "dien_tich_ha": 2.1,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2372889,
+     11.973984
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-094",
+    "ten": "Hồ số 6",
+    "vi_tri_hc": "Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 18700,
+    "dien_tich_ha": 1.87,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2451787,
+     11.9848396
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-095",
+    "ten": "Hồ số 7",
+    "vi_tri_hc": "Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 24000,
+    "dien_tich_ha": 2.4,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1783071,
+     11.9630216
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-097",
+    "ten": "Hồ số 9",
+    "vi_tri_hc": "Cam Phúc Bắc, Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 28300,
+    "dien_tich_ha": 2.83,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2339652,
+     11.8976301
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-098",
+    "ten": "Hồ con hổ",
+    "vi_tri_hc": "Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 356000,
+    "dien_tich_ha": 35.6,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, phục vụ tưới tiêu nông nghiệp và cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1825415,
+     11.963577
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-099",
+    "ten": "Cụm ao số 10",
+    "vi_tri_hc": "Cam Phúc Bắc, Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 8600,
+    "dien_tich_ha": 0.86,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1801105,
+     11.9641727
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-100",
+    "ten": "Cụm ao số 11",
+    "vi_tri_hc": "Cam Phúc Bắc, Phường Bắc Cam Ranh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 0,
+    "dien_tich_ha": null,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tích trữ và điều tiết nguồn nước, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0623625,
+     11.9338659
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-101",
+    "ten": "Hồ Suối Hành",
+    "vi_tri_hc": "Cam Phước Đông, Phường Ba Ngòi",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1444000,
+    "dien_tich_ha": 144.4,
+    "dung_tich_trieu_m3": 9.49,
+    "dung_tich_huu_ich_trieu_m3": 8.96,
+    "chuc_nang": "Cấp nước tưới cho khoảng 216 ha đất canh tác. Ngoài ra, phòng chống lũ cho hạ du",
+    "luu_vuc_kiem_ke": "Sông Lạch Cầu 1",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV04",
+    "ten_luu_vuc": "Lưu vực lạch Cầu 1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7698658,
+     11.8699648
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-102",
+    "ten": "Hồ Sông Cái",
+    "vi_tri_hc": "Phước Hoà, xã Bác ái Tây",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 9450000,
+    "dien_tich_ha": 945.0,
+    "dung_tich_trieu_m3": 219.81,
+    "dung_tich_huu_ich_trieu_m3": 199.505,
+    "chuc_nang": "Tưới và tạo nguồn tưới cho 7.480 ha đất nông nghiệp; tiếp nước cho hệ thống thủy nông Nha Trinh - Lâm Cấm và các khu tưới hồ Cho Mo, hồ Bà Râu, hồ Sông Trâu, hồ Ông Kinh bơm tưới tạm thời chống hạn cho 424,5 ha (cho khu tái định canh Sôn Cái và kh",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8194217,
+     11.8656385
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-103",
+    "ten": "Hồ Trà Co",
+    "vi_tri_hc": "xã Bác ái Tây",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1397000,
+    "dien_tich_ha": 139.7,
+    "dung_tich_trieu_m3": 10.1,
+    "dung_tich_huu_ich_trieu_m3": 8.76,
+    "chuc_nang": "Cấp nước tưới cho 1.162 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9776877,
+     11.8530896
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-104",
+    "ten": "Ao chống hạn thôn Suối Lỡ",
+    "vi_tri_hc": "Phước Thành, xã Bác ái Đông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 3400,
+    "dien_tich_ha": 0.34,
+    "dung_tich_trieu_m3": 0.0057,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9835223,
+     11.8624581
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-105",
+    "ten": "Hồ sinh thái thôn Ma Dú",
+    "vi_tri_hc": "Phước Thành, xã Bác ái Đông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5800,
+    "dien_tich_ha": 0.58,
+    "dung_tich_trieu_m3": 0.0086,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9827439,
+     11.8802691
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-106",
+    "ten": "Hồ sinh thái Đá Ba Cái",
+    "vi_tri_hc": "Phước Thành, xã Bác ái Đông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 11000,
+    "dien_tich_ha": 1.1,
+    "dung_tich_trieu_m3": 0.0222,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9882051,
+     11.8495277
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-107",
+    "ten": "Hồ Ma Dú",
+    "vi_tri_hc": "Phước Thành, xã Bác ái Đông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 3700,
+    "dien_tich_ha": 0.37,
+    "dung_tich_trieu_m3": 0.0092,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.931781,
+     11.8571273
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-108",
+    "ten": "Hồ Sông Sắt",
+    "vi_tri_hc": "Phước Thành, xã Bác ái Đông",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 7915000,
+    "dien_tich_ha": 791.5,
+    "dung_tich_trieu_m3": 69.33,
+    "dung_tich_huu_ich_trieu_m3": 66.14,
+    "chuc_nang": "Cấp nước tưới cho 3.800 ha đất sản xuất nông nghiệp, cấp nước sinh hoạt, chăn nuôi v nuôi trồng thủy sản, kết hợp phát triển du lịch, cải tạo môi trường sinh thái khu vực.",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8608545,
+     11.8248617
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-109",
+    "ten": "Ao chống hạn thôn Ma Ty",
+    "vi_tri_hc": "Phước Thắng, xã Bác ái",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 12211,
+    "dien_tich_ha": 1.221,
+    "dung_tich_trieu_m3": 0.0215,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8696113,
+     11.8257377
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-110",
+    "ten": "Ao chống hạn thôn Ma Ty",
+    "vi_tri_hc": "Phước Thắng, xã Bác ái",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 13067,
+    "dien_tich_ha": 1.307,
+    "dung_tich_trieu_m3": 0.0146,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8529755,
+     11.8225732
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-111",
+    "ten": "Ao chống hạn",
+    "vi_tri_hc": "Phước Thắng, xã Bác ái",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 20205,
+    "dien_tich_ha": 2.021,
+    "dung_tich_trieu_m3": 0.0166,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8627602,
+     11.8028353
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-113",
+    "ten": "Ao chống hạn thôn Suối Rớ",
+    "vi_tri_hc": "Phước Chính, xã Bác ái",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 162,
+    "dien_tich_ha": 0.016,
+    "dung_tich_trieu_m3": 0.0049,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8623188,
+     11.8065519
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-114",
+    "ten": "Ao chống hạn thôn Suối Rớ",
+    "vi_tri_hc": "Phước Chính, xã Bác ái",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 163,
+    "dien_tich_ha": 0.016,
+    "dung_tich_trieu_m3": 1.0049,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Sắt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.6901279,
+     11.8285771
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-115",
+    "ten": "Thủy điện Hạ Sông Pha 1",
+    "vi_tri_hc": "xã Lâm Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 104000,
+    "dien_tich_ha": 10.4,
+    "dung_tich_trieu_m3": 0.22,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp điện",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7079103,
+     11.8320205
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-116",
+    "ten": "Thủy điện Hạ Sông Pha 2",
+    "vi_tri_hc": "xã Lâm Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 70000,
+    "dien_tich_ha": 7.0,
+    "dung_tich_trieu_m3": 0.07,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp điện",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7443144,
+     11.8200802
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-117",
+    "ten": "Thủy điện Thượng sông Ông 1",
+    "vi_tri_hc": "xã Lâm Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 500000,
+    "dien_tich_ha": 50.0,
+    "dung_tich_trieu_m3": 0.078,
+    "dung_tich_huu_ich_trieu_m3": 0.05,
+    "chuc_nang": "Cung cấp điện",
+    "luu_vuc_kiem_ke": "Sông Ông",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0472859,
+     11.8415932
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-118",
+    "ten": "Hồ Ba Chi",
+    "vi_tri_hc": "xã Công Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 113600,
+    "dien_tich_ha": 11.36,
+    "dung_tich_trieu_m3": 0.4,
+    "dung_tich_huu_ich_trieu_m3": 0.33,
+    "chuc_nang": "Cấp nước cho 40 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Trâu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV06",
+    "ten_luu_vuc": "Lưu vực sông Võ Tá"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0781047,
+     11.8299156
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-119",
+    "ten": "Hồ Ma Trai",
+    "vi_tri_hc": "xã Công Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 150000,
+    "dien_tich_ha": 15.0,
+    "dung_tich_trieu_m3": 0.48,
+    "dung_tich_huu_ich_trieu_m3": 0.31,
+    "chuc_nang": "Cấp nước cho 40 ha đất sản xuất nông nghiệp, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Trâu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV06",
+    "ten_luu_vuc": "Lưu vực sông Võ Tá"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0675548,
+     11.8032422
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-120",
+    "ten": "Hồ Sông Trâu",
+    "vi_tri_hc": "xã Công Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 3960000,
+    "dien_tich_ha": 396.0,
+    "dung_tich_trieu_m3": 31.53,
+    "dung_tich_huu_ich_trieu_m3": 30.4,
+    "chuc_nang": "Cấp nước tưới cho 3.000 ha đất sản xuất nông nghiệp, cấp nước sinh hoạt; dịch vụ và công nghiệp",
+    "luu_vuc_kiem_ke": "Sông Trâu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV06",
+    "ten_luu_vuc": "Lưu vực sông Võ Tá"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7883095,
+     11.7731978
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-121",
+    "ten": "Hồ sinh thái 3 tháng 4",
+    "vi_tri_hc": "xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6314,
+    "dien_tich_ha": 0.631,
+    "dung_tich_trieu_m3": 0.0158,
+    "dung_tich_huu_ich_trieu_m3": 0.0095,
+    "chuc_nang": "Tạo cảnh quan sinh thái",
+    "luu_vuc_kiem_ke": "Sông Ông",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8083872,
+     11.7604845
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-122",
+    "ten": "Hồ thủy điện Thượng Sông Ông",
+    "vi_tri_hc": "xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 260000,
+    "dien_tich_ha": 26.0,
+    "dung_tich_trieu_m3": 0.226,
+    "dung_tich_huu_ich_trieu_m3": 0.12,
+    "chuc_nang": "Cung cấp điện",
+    "luu_vuc_kiem_ke": "Sông Ông",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8057858,
+     11.7488907
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-123",
+    "ten": "Hồ thủy điện sông Ông",
+    "vi_tri_hc": "xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 160000,
+    "dien_tich_ha": 16.0,
+    "dung_tich_trieu_m3": 0.016,
+    "dung_tich_huu_ich_trieu_m3": 0.016,
+    "chuc_nang": "Cung cấp điện",
+    "luu_vuc_kiem_ke": "Sông Ông",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8104363,
+     11.7620083
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-124",
+    "ten": "Hồ Thủy điện Tân Mỹ 2",
+    "vi_tri_hc": "xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 62600,
+    "dien_tich_ha": 6.26,
+    "dung_tich_trieu_m3": 0.28,
+    "dung_tich_huu_ich_trieu_m3": 0.24,
+    "chuc_nang": "Cung cấp điện",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8117615,
+     11.7277515
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-125",
+    "ten": "Hồ thuỷ điện Mỹ Sơn",
+    "vi_tri_hc": "xã Ninh Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 675000,
+    "dien_tich_ha": 67.5,
+    "dung_tich_trieu_m3": 1.91,
+    "dung_tich_huu_ich_trieu_m3": 1.05,
+    "chuc_nang": "Cung cấp điện",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0256197,
+     11.6980881
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-126",
+    "ten": "Ao Nhà nước",
+    "vi_tri_hc": "xã Thuận Bắc",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 11000,
+    "dien_tich_ha": 1.1,
+    "dung_tich_trieu_m3": 0.01,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi (chống hạn)",
+    "luu_vuc_kiem_ke": "Suối Kinh Bắc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0434095,
+     11.6834488
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-127",
+    "ten": "Ao Thủy Lợi",
+    "vi_tri_hc": "xã Thuận Bắc",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2000,
+    "dien_tich_ha": 0.2,
+    "dung_tich_trieu_m3": 0.004,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi (chống hạn)",
+    "luu_vuc_kiem_ke": "Suối Kinh Bắc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0405203,
+     11.6834568
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-128",
+    "ten": "Ao Ông Ngũ",
+    "vi_tri_hc": "xã Thuận Bắc",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2500,
+    "dien_tich_ha": 0.25,
+    "dung_tich_trieu_m3": 0.007,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi (chống hạn)",
+    "luu_vuc_kiem_ke": "Suối Kinh Bắc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0383414,
+     11.7431091
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-129",
+    "ten": "Hồ Bà Râu",
+    "vi_tri_hc": "xã Thuận Bắc",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 870000,
+    "dien_tich_ha": 87.0,
+    "dung_tich_trieu_m3": 4.67,
+    "dung_tich_huu_ich_trieu_m3": 4.49,
+    "chuc_nang": "Cấp nước cho 300 ha đất sản xuất nông nghiệp, và cấp nước cho khu công nghiệp Du Long",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0833577,
+     11.7123991
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-130",
+    "ten": "Hồ Kiền Kiền",
+    "vi_tri_hc": "xã Thuận Bắc",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 30000,
+    "dien_tich_ha": 3.0,
+    "dung_tich_trieu_m3": 0.03,
+    "dung_tich_huu_ich_trieu_m3": 0.03,
+    "chuc_nang": "Duy trì dòng chảy môi trường hạ lưu bổ sung cấp nước đối với hệ thống cấp nước Kiền Kiền hiện có (nhánh Kiền Kiền); chuyển nước san lưu vực suối Đá (đảm bảo nước tưới cho 300 ha đất nông nghiệp); cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0742545,
+     11.7328106
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-131",
+    "ten": "Hồ Lợi Hải",
+    "vi_tri_hc": "xã Thuận Bắc",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 480000,
+    "dien_tich_ha": 48.0,
+    "dung_tich_trieu_m3": 3.26,
+    "dung_tich_huu_ich_trieu_m3": 3.11,
+    "chuc_nang": "Duy trì dòng chảy môi trường hạ lưu bổ sung cấp nước đối với hệ thống cấp nước Kiền Kiền hiện có (nhánh Kiền Kiền); chuyển nước san lưu vực suối Đá (đảm bảo nước tưới cho 300ha đất nông nghiệp); cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Trâu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV06",
+    "ten_luu_vuc": "Lưu vực sông Võ Tá"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8793313,
+     11.6483539
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-132",
+    "ten": "Ao số 3",
+    "vi_tri_hc": "xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 9167,
+    "dien_tich_ha": 0.917,
+    "dung_tich_trieu_m3": 0.0229,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8780735,
+     11.6436827
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-133",
+    "ten": "Ao số 4",
+    "vi_tri_hc": "xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6302,
+    "dien_tich_ha": 0.63,
+    "dung_tich_trieu_m3": 0.0158,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9298588,
+     11.7025169
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-134",
+    "ten": "Hồ Phước Trung",
+    "vi_tri_hc": "Phước Trung, Xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 557000,
+    "dien_tich_ha": 55.7,
+    "dung_tich_trieu_m3": 2.35,
+    "dung_tich_huu_ich_trieu_m3": 2.28,
+    "chuc_nang": "Cấp nước tưới cho 270 ha đất sản xuất nông nghiệp, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Suối Ngang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9805693,
+     11.7211414
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-135",
+    "ten": "Hồ Phước Nhơn",
+    "vi_tri_hc": "xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 240100,
+    "dien_tich_ha": 24.01,
+    "dung_tich_trieu_m3": 0.97,
+    "dung_tich_huu_ich_trieu_m3": 0.944,
+    "chuc_nang": "Cấp nước tưới cho 205 ha đất sản xuất nông nghiệp, cấp nước phục vụ chăn nuôi, ia súc",
+    "luu_vuc_kiem_ke": "Suối Kinh Bấc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8284297,
+     11.7317774
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-136",
+    "ten": "Hồ Cho Mo",
+    "vi_tri_hc": "xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1603800,
+    "dien_tich_ha": 160.38,
+    "dung_tich_trieu_m3": 8.8,
+    "dung_tich_huu_ich_trieu_m3": 8.11,
+    "chuc_nang": "Cấp nước cho 1.242 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Suối Cho Mo",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9750447,
+     11.6709643
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-137",
+    "ten": "Hồ Thành Sơn",
+    "vi_tri_hc": "xã Mỹ Sơn",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1418300,
+    "dien_tich_ha": 141.83,
+    "dung_tich_trieu_m3": 3.05,
+    "dung_tich_huu_ich_trieu_m3": 2.66,
+    "chuc_nang": "Cung cấp nước tưới cho 150 ha đất sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Kinh Bấc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1572161,
+     11.6499535
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-138",
+    "ten": "Ao Bàu Tró trong",
+    "vi_tri_hc": "Thái An, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 33900,
+    "dien_tich_ha": 3.39,
+    "dung_tich_trieu_m3": 0.05,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1595923,
+     11.6502805
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-139",
+    "ten": "Ao Bàu Tró giữa",
+    "vi_tri_hc": "Thái An, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 45000,
+    "dien_tich_ha": 4.5,
+    "dung_tich_trieu_m3": 0.067,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1611558,
+     11.6516315
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-140",
+    "ten": "Ao Bàu Tró ngoài",
+    "vi_tri_hc": "Thái An, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 29000,
+    "dien_tich_ha": 2.9,
+    "dung_tich_trieu_m3": 0.043,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1612155,
+     11.6615028
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-141",
+    "ten": "Ao Mang Khô",
+    "vi_tri_hc": "Thái An, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 9000,
+    "dien_tich_ha": 0.9,
+    "dung_tich_trieu_m3": 0.013,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1385458,
+     11.6069999
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-142",
+    "ten": "Ao Hòn Dung",
+    "vi_tri_hc": "Thái An, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 15000,
+    "dien_tich_ha": 1.5,
+    "dung_tich_trieu_m3": 0.022,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Ông Luận",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1428365,
+     11.6097167
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-143",
+    "ten": "Ao Bầu Đình",
+    "vi_tri_hc": "Mỹ Hòa, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 17000,
+    "dien_tich_ha": 1.7,
+    "dung_tich_trieu_m3": 0.025,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Ông Luận",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1411566,
+     11.6062234
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-144",
+    "ten": "Ao Đồng Giữa",
+    "vi_tri_hc": "Mỹ Hòa, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 13000,
+    "dien_tich_ha": 1.3,
+    "dung_tich_trieu_m3": 0.026,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Ông Luận",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1402648,
+     11.5996903
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-145",
+    "ten": "Ao Đồng Dưới",
+    "vi_tri_hc": "Mỹ Hòa, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 16000,
+    "dien_tich_ha": 1.6,
+    "dung_tich_trieu_m3": 0.024,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Ông Luận",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0892389,
+     11.6304887
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-146",
+    "ten": "Ao Khánh Tân",
+    "vi_tri_hc": "Nhơn Hải, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 23500,
+    "dien_tich_ha": 2.35,
+    "dung_tich_trieu_m3": 0.007,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0998924,
+     11.5934297
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-147",
+    "ten": "Ao Bầu Chùa",
+    "vi_tri_hc": "Khánh Nhơn, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 234000,
+    "dien_tich_ha": 23.4,
+    "dung_tich_trieu_m3": 0.035,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1112798,
+     11.6082125
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-148",
+    "ten": "Ao Hố Chại",
+    "vi_tri_hc": "Nhơn Hải, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 11000,
+    "dien_tich_ha": 1.1,
+    "dung_tich_trieu_m3": 0.003,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1193858,
+     11.5845939
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-149",
+    "ten": "Ao Mỹ Tường 2",
+    "vi_tri_hc": "Khánh Nhơn, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5000,
+    "dien_tich_ha": 0.5,
+    "dung_tich_trieu_m3": 0.0015,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1106083,
+     11.5865818
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-150",
+    "ten": "Ao Mỹ Tường 1",
+    "vi_tri_hc": "Khánh Nhơn, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 113000,
+    "dien_tich_ha": 11.3,
+    "dung_tich_trieu_m3": 0.022,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1292012,
+     11.5920131
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-151",
+    "ten": "Ao Đá Bàn",
+    "vi_tri_hc": "xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 25000,
+    "dien_tich_ha": 2.5,
+    "dung_tich_trieu_m3": 0.05,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1634266,
+     11.6870062
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-152",
+    "ten": "Hồ Nước Ngọt",
+    "vi_tri_hc": "Đá Hang, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 278100,
+    "dien_tich_ha": 27.81,
+    "dung_tich_trieu_m3": 1.81,
+    "dung_tich_huu_ich_trieu_m3": 1.58,
+    "chuc_nang": "Cấp nước tưới cho 144,5 ha đất nông nghiệp trên địa bàn xã Vĩnh Hải. Tạo nguồn cấp nước cho sinh hoạt, dịch vụ và du lịch",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1218954,
+     11.6073761
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-153",
+    "ten": "Hồ Ông Kinh",
+    "vi_tri_hc": "Nhơn Hải, xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 299200,
+    "dien_tich_ha": 29.92,
+    "dung_tich_trieu_m3": 0.83,
+    "dung_tich_huu_ich_trieu_m3": 0.81,
+    "chuc_nang": "Cung cấp nước tưới cho 108 ha đất canh tác thuộc thôn Mỹ Tường, xã Vĩnh Hải với cây trồng chính là cây hành và cây tỏi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1979191,
+     11.7103976
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-154",
+    "ten": "Hồ sinh thái Amanoi",
+    "vi_tri_hc": "Vĩnh Hy, Xã Vĩnh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10085,
+    "dien_tich_ha": 1.008,
+    "dung_tich_trieu_m3": 0.018,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tưới tiêu, tạo cảnh quan",
+    "luu_vuc_kiem_ke": null,
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV06",
+    "ten_luu_vuc": "Lưu vực sông Võ Tá"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0470472,
+     11.6243075
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-155",
+    "ten": "Ao Mỹ Phong",
+    "vi_tri_hc": "Xã Ninh Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 7000,
+    "dien_tich_ha": 0.7,
+    "dung_tich_trieu_m3": 0.015,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9957053,
+     11.6180896
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-156",
+    "ten": "Hồ số 5",
+    "vi_tri_hc": "Thôn Đá Bắn, Xã Xuân Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 28700,
+    "dien_tich_ha": 2.87,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9116109,
+     11.6626104
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-157",
+    "ten": "Ao chống hạn",
+    "vi_tri_hc": "phường Đô Vinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2100,
+    "dien_tich_ha": 0.21,
+    "dung_tich_trieu_m3": 0.0053,
+    "dung_tich_huu_ich_trieu_m3": 0.0042,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Kinh Bắc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9148931,
+     11.6543852
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-158",
+    "ten": "Ao chống hạn",
+    "vi_tri_hc": "phường Đô Vinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 600,
+    "dien_tich_ha": 0.06,
+    "dung_tich_trieu_m3": 0.0015,
+    "dung_tich_huu_ich_trieu_m3": 0.0012,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Kinh Bắc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9260576,
+     11.6669975
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-159",
+    "ten": "Ao chống hạn",
+    "vi_tri_hc": "phường Đô Vinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 600,
+    "dien_tich_ha": 0.06,
+    "dung_tich_trieu_m3": 0.0015,
+    "dung_tich_huu_ich_trieu_m3": 0.0012,
+    "chuc_nang": "Phục vụ sinh hoạt và chăn nuôi",
+    "luu_vuc_kiem_ke": "Suối Kinh Bắc",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7584986,
+     11.693235
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-160",
+    "ten": "Hồ Sông Than",
+    "vi_tri_hc": "Hòa Sơn, Xã Anh Dũng",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 7710000,
+    "dien_tich_ha": 771.0,
+    "dung_tich_trieu_m3": 85.04,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cấp nước tưới cho 4.500 ha đất canh tác. Cấp nước sinh hoạt cho khoảng 20.000 dân vùng hạ lưu Cấp nước cho các ngành kinh tế khác: 4x 6m /năm Cấp nước bổ sung cho các hồ Lanh Ra, Tà Ranh, Bầu Zôn. Xả trả lại nguồn nước tự nhiên cho hạ du về mùa kiệt",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8502818,
+     11.6293225
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-161",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Phước Vinh, xã Phước Hậu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 12000,
+    "dien_tich_ha": 1.2,
+    "dung_tich_trieu_m3": 0.018,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8535898,
+     11.6365932
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-162",
+    "ten": "Ao số 2",
+    "vi_tri_hc": "Phước Vinh, xã Phước Hậu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10000,
+    "dien_tich_ha": 1.0,
+    "dung_tich_trieu_m3": 0.015,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.909463,
+     11.5995679
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-163",
+    "ten": "Hồ Bầu Xít",
+    "vi_tri_hc": "Hoài Nhơn, xã Phước Hậu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 140000,
+    "dien_tich_ha": 14.0,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Quao",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8446688,
+     11.6160537
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-164",
+    "ten": "Hồ Lanh Ra",
+    "vi_tri_hc": "Phước Vinh, xã Phước Hậu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1890000,
+    "dien_tich_ha": 189.0,
+    "dung_tich_trieu_m3": 13.88,
+    "dung_tich_huu_ich_trieu_m3": 13.26,
+    "chuc_nang": "Cấp nước cho 1050 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Quao",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0290157,
+     11.5901579
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-165",
+    "ten": "Ao số 1",
+    "vi_tri_hc": "Sơn Hải, Phường Ninh Chử",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5300,
+    "dien_tich_ha": 0.53,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0299623,
+     11.6206387
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-166",
+    "ten": "Đầm Nại",
+    "vi_tri_hc": "phường Ninh Chử",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6917600,
+    "dien_tich_ha": 691.76,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Nuôi trồng thủy sản và thoát nước mưa, nước thải",
+    "luu_vuc_kiem_ke": "Sông Bà Râu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9392719,
+     11.5165622
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-167",
+    "ten": "Ao La Thang",
+    "vi_tri_hc": "Thôn Thành Đức, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10000,
+    "dien_tich_ha": 1.0,
+    "dung_tich_trieu_m3": 0.01,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8838009,
+     11.5277629
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-168",
+    "ten": "Ao Mu Lâm",
+    "vi_tri_hc": "Thành Đức, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10000,
+    "dien_tich_ha": 1.0,
+    "dung_tich_trieu_m3": 0.02,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8837183,
+     11.527745
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-169",
+    "ten": "Ao Hậu Sanh",
+    "vi_tri_hc": "Hậu Sanh, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10000,
+    "dien_tich_ha": 1.0,
+    "dung_tich_trieu_m3": 0.01,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8889313,
+     11.5060094
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-170",
+    "ten": "Ao Bà Tàng",
+    "vi_tri_hc": "Hậu Sanh, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 8000,
+    "dien_tich_ha": 0.8,
+    "dung_tich_trieu_m3": 0.016,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8858673,
+     11.5008721
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-171",
+    "ten": "Ao Ba Mang",
+    "vi_tri_hc": "Hậu Sanh, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 7000,
+    "dien_tich_ha": 0.7,
+    "dung_tich_trieu_m3": 0.014,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8862604,
+     11.5574283
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-172",
+    "ten": "Hồ Đá Trắng (hồ Ông Việt)",
+    "vi_tri_hc": "Đá Trắng, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 12000,
+    "dien_tich_ha": 1.2,
+    "dung_tich_trieu_m3": 0.075,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Quao",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8867245,
+     11.5721361
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-173",
+    "ten": "Hồ Thái Giao (hồ Ông Thông)",
+    "vi_tri_hc": "Thái Giao, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 6000,
+    "dien_tich_ha": 0.6,
+    "dung_tich_trieu_m3": 0.045,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Quao",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8762685,
+     11.5539695
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-174",
+    "ten": "Hồ Tà Ranh",
+    "vi_tri_hc": "Như Bình, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 581700,
+    "dien_tich_ha": 58.17,
+    "dung_tich_trieu_m3": 1.22,
+    "dung_tich_huu_ich_trieu_m3": 1.11,
+    "chuc_nang": "Cấp nước cho 100 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Quao",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8685571,
+     11.520039
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-175",
+    "ten": "Hồ Bầu Zôn",
+    "vi_tri_hc": "Thành Đức, Xã Phước Hữu",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 890000,
+    "dien_tich_ha": 89.0,
+    "dung_tich_trieu_m3": 1.69,
+    "dung_tich_huu_ich_trieu_m3": 1.6,
+    "chuc_nang": "Cấp nước cho 135 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.992661,
+     11.559128
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-176",
+    "ten": "Hồ điều hòa Kinh Dinh",
+    "vi_tri_hc": "phường Phan Rang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 7400,
+    "dien_tich_ha": 0.74,
+    "dung_tich_trieu_m3": 0.0259,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Thoát nước mưa, nước thải",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9967966,
+     11.5663224
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-177",
+    "ten": "Hồ điều hòa Công viên 16 tháng 4",
+    "vi_tri_hc": "phường Phan Rang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10000,
+    "dien_tich_ha": 1.0,
+    "dung_tich_trieu_m3": 0.035,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Thoát nước mưa, nước thải",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0010067,
+     11.5429335
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-178",
+    "ten": "Hồ trước Đập Hạ lưu Sông Dinh",
+    "vi_tri_hc": "Phường Phan Rang",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1400000,
+    "dien_tich_ha": 140.0,
+    "dung_tich_trieu_m3": 3.5,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Cung cấp nước tưới sản xuất và sinh hoạt ngăn chặn tình trạng xâm nhập mặn; tạo nguồn để cấp nước cho nhiệt điện; phát triển du lịch, kết hợp giao thông",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0287912,
+     11.5487545
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-179",
+    "ten": "Hồ Đông Hải",
+    "vi_tri_hc": "Hải Thượng Lãn Ông, Phường Đông Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 34000,
+    "dien_tich_ha": 3.4,
+    "dung_tich_trieu_m3": 0.051,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ điều hòa tiêu thoát nước chung cho thành phố và một phần sử dụng cho tưới tiêu khi cần thiết",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0049597,
+     11.5744013
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-180",
+    "ten": "Hồ công viên trung tâm thành phố",
+    "vi_tri_hc": "Tổ dân phố 1, phường Đông Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 177000,
+    "dien_tich_ha": 17.7,
+    "dung_tich_trieu_m3": 0.265,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Phục vụ điều hòa tiêu thoát nước chung cho thành phố và một phần sử dụng cho tưới tiêu khi cần thiết",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0032578,
+     11.568846
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-181",
+    "ten": "Hồ điều hòa Trung tâm",
+    "vi_tri_hc": "phường Đông Hải",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 100000,
+    "dien_tich_ha": 10.0,
+    "dung_tich_trieu_m3": 0.35,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Thoát nước mưa, nước thải",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9614082,
+     11.5269053
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-182",
+    "ten": "Ao Bầu Chùa",
+    "vi_tri_hc": "Phước Hải, xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 17000,
+    "dien_tich_ha": 1.7,
+    "dung_tich_trieu_m3": 0.068,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9307571,
+     11.5094223
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-183",
+    "ten": "Ao Chung Mỹ",
+    "vi_tri_hc": "xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 26500,
+    "dien_tich_ha": 2.65,
+    "dung_tich_trieu_m3": 0.0795,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Chứa nước mưa",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9242292,
+     11.5281059
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-184",
+    "ten": "Ao Bầu Xúc",
+    "vi_tri_hc": "xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 18000,
+    "dien_tich_ha": 1.8,
+    "dung_tich_trieu_m3": 0.036,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Tạo cảnh quan sinh thái và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9398778,
+     11.5169224
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-185",
+    "ten": "Ao chứa nước khu phố 13",
+    "vi_tri_hc": "xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 5000,
+    "dien_tich_ha": 0.5,
+    "dung_tich_trieu_m3": 0.01,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Chứa nước mưa, thoát nước mưa",
+    "luu_vuc_kiem_ke": "Sông Quao",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9303172,
+     11.5094775
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-186",
+    "ten": "Hồ số 3",
+    "vi_tri_hc": "xã Ninh Phước",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 45300,
+    "dien_tich_ha": 4.53,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Cái Phan Rang",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.833538,
+     11.4839582
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-187",
+    "ten": "Ao chống hạn (đồng Nước Nhỉ)",
+    "vi_tri_hc": "xã Phước Hà",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2700,
+    "dien_tich_ha": 0.27,
+    "dung_tich_trieu_m3": 0.006,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.825463,
+     11.4885578
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-188",
+    "ten": "Ao chống hạn (đồng Láng Dầu)",
+    "vi_tri_hc": "xã Phước Hà",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 2000,
+    "dien_tich_ha": 0.2,
+    "dung_tich_trieu_m3": 0.005,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp và chăn nuôi",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7869971,
+     11.4908642
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-189",
+    "ten": "Hồ Tân Giang",
+    "vi_tri_hc": "xã Phước Hà",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 1040000,
+    "dien_tich_ha": 104.0,
+    "dung_tich_trieu_m3": 13.39,
+    "dung_tich_huu_ich_trieu_m3": 12.05,
+    "chuc_nang": "Cấp nước tưới cho 3.000 ha đất sản xuất nông nghiệp, cấp nước sinh hoạt",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.7877366,
+     11.4311313
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-190",
+    "ten": "Hồ Sông Biêu",
+    "vi_tri_hc": "xã Phước Hà",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 3430000,
+    "dien_tich_ha": 343.0,
+    "dung_tich_trieu_m3": 23.78,
+    "dung_tich_huu_ich_trieu_m3": 16.8,
+    "chuc_nang": "Cấp nước cho 1.200 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8324764,
+     11.498154
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-191",
+    "ten": "Hồ CK7",
+    "vi_tri_hc": "xã Phước Hà",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 320000,
+    "dien_tich_ha": 32.0,
+    "dung_tich_trieu_m3": 1.43,
+    "dung_tich_huu_ich_trieu_m3": 1.306,
+    "chuc_nang": "Cấp nước tưới cho 100 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8625951,
+     11.4547791
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-192",
+    "ten": "Ao Chà Vin",
+    "vi_tri_hc": "xã Thuận Nam",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 285000,
+    "dien_tich_ha": 28.5,
+    "dung_tich_trieu_m3": 0.2,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9255824,
+     11.4766538
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-193",
+    "ten": "Ao Cà Vay",
+    "vi_tri_hc": "xã Thuận Nam",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 85000,
+    "dien_tich_ha": 8.5,
+    "dung_tich_trieu_m3": 0.15,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8462732,
+     11.4551564
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-194",
+    "ten": "Hồ Suối Lớn",
+    "vi_tri_hc": "xã Thuận Nam",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 191000,
+    "dien_tich_ha": 19.1,
+    "dung_tich_trieu_m3": 1.06,
+    "dung_tich_huu_ich_trieu_m3": 1.023,
+    "chuc_nang": "Cấp nước tưới cho 95 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.0097754,
+     11.5036761
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-195",
+    "ten": "Ao xử lý nước thải khu nuôi tôm",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 8000,
+    "dien_tich_ha": 0.8,
+    "dung_tich_trieu_m3": 0.012,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV10",
+    "ten_luu_vuc": "Lưu vực Vũng Sơn Hải"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9904087,
+     11.5462966
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-196",
+    "ten": "Ao Láng (Bầu Láng)",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 7200,
+    "dien_tich_ha": 0.72,
+    "dung_tich_trieu_m3": 0.0108,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.98971,
+     11.5350794
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-197",
+    "ten": "Ao Ké (Bầu Ké)",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 10800,
+    "dien_tich_ha": 1.08,
+    "dung_tich_trieu_m3": 0.0184,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9820976,
+     11.540776
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-198",
+    "ten": "Ao Ông Giỏi (Bầu Ông Giỏi)",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 20300,
+    "dien_tich_ha": 2.03,
+    "dung_tich_trieu_m3": 0.0203,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9855226,
+     11.5428918
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-199",
+    "ten": "Ao Xoài (Bầu Xoài)",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 3600,
+    "dien_tich_ha": 0.36,
+    "dung_tich_trieu_m3": 0.005,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Sông Lu",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV01",
+    "ten_luu_vuc": "Lưu vực sông Cái"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.1634266,
+     11.6870062
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-200",
+    "ten": "Hồ Bầu Ngứ",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 460000,
+    "dien_tich_ha": 46.0,
+    "dung_tich_trieu_m3": 1.6,
+    "dung_tich_huu_ich_trieu_m3": 1.462,
+    "chuc_nang": "Cấp nước cho 170 ha đất sản xuất nông nghiệp",
+    "luu_vuc_kiem_ke": "Suối Nước Ngọt",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV05",
+    "ten_luu_vuc": "Lưu vực sông Bà Râu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9738622,
+     11.4065386
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-201",
+    "ten": "Hồ Núi Một",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 560000,
+    "dien_tich_ha": 56.0,
+    "dung_tich_trieu_m3": 2.25,
+    "dung_tich_huu_ich_trieu_m3": 2.094,
+    "chuc_nang": "Cấp nước cho 151ha nuôi trồng thủy sản; Cấp nước phục vụ Công nghiệp với công suất 600m3/ngày và cấp nước phục vụ sản xuất nông nghiệp với diện tích 30ha",
+    "luu_vuc_kiem_ke": "Suối Vũng Sơn Hải",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV10",
+    "ten_luu_vuc": "Lưu vực Vũng Sơn Hải"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.9987767,
+     11.4099838
+    ]
+   },
+   "properties": {
+    "ma": "HKSL-202",
+    "ten": "Đầm Sơn Hải",
+    "vi_tri_hc": "xã Phước Dinh",
+    "tinh": "Khánh Hòa",
+    "dien_tich_mat_nuoc_m2": 205400,
+    "dien_tich_ha": 20.54,
+    "dung_tich_trieu_m3": null,
+    "dung_tich_huu_ich_trieu_m3": null,
+    "chuc_nang": "Thoát nước mưa",
+    "luu_vuc_kiem_ke": "Suối Vũng Sơn Hải",
+    "ghi_chu": null,
+    "nguon_dl": "Bộ dữ liệu bổ sung kiểm kê tài nguyên nước tỉnh Khánh Hòa (MapInfo), tệp 2.TH_HoAo_co_XY.TAB, nạp ngày 22/11/2026",
+    "ma_luu_vuc": "LV10",
+    "ten_luu_vuc": "Lưu vực Vũng Sơn Hải"
+   }
+  }
+ ]
+}
