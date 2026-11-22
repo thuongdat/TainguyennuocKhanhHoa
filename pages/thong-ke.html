@@ -128,6 +128,101 @@
 
     </div>
 
+    <!-- ----- Chất lượng nước mặt (WQI) ----- -->
+    <div class="muc-tk" data-can-lop="quan_trac_dia_phuong">
+    <h2 class="tk-muc">
+      Chất lượng nước mặt <span class="the-that">dữ liệu thật</span>
+    </h2>
+
+    <section class="the-so" id="hang-kpi-wqi"></section>
+
+    <section class="hang-bieu-do">
+      <div class="khung-bieu-do">
+        <h3>Số vị trí quan trắc theo mức WQI</h3>
+        <p class="chu-thich-bd">WQI kỳ mới nhất của từng vị trí, phân loại và màu theo Quyết định 1460/QĐ-TCMT.</p>
+        <div class="o-bieu-do"><canvas id="bd-wqi"></canvas></div>
+      </div>
+
+      <div class="khung-bieu-do">
+        <h3>Mười vị trí có WQI thấp nhất</h3>
+        <p class="chu-thich-bd" id="tom-tat-wqi">WQI kỳ mới nhất.</p>
+        <div class="khung-bang-tk__than">
+          <table class="bang-tt" id="bang-wqi">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <!-- ----- Hồ, ao, đầm không được san lấp ----- -->
+    <div class="muc-tk" data-can-lop="ao_ho_khong_san_lap">
+    <h2 class="tk-muc">
+      Hồ, ao, đầm không được san lấp <span class="the-that">dữ liệu thật</span>
+    </h2>
+
+    <section class="the-so" id="hang-kpi-ho"></section>
+
+    <section class="hang-bieu-do">
+      <div class="khung-bieu-do">
+        <h3>Số hồ, ao, đầm theo lưu vực</h3>
+        <p class="chu-thich-bd">Lưu vực gán theo vị trí của hồ.</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-ho-luu-vuc"></canvas></div>
+      </div>
+
+      <div class="khung-bieu-do">
+        <h3>Dung tích toàn bộ theo lưu vực</h3>
+        <p class="chu-thich-bd">Đơn vị triệu m³. Hồ không ghi dung tích thì không được cộng.</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-ho-dung-tich"></canvas></div>
+      </div>
+    </section>
+    </div>
+
+    <!-- ----- Lưu lượng dòng chảy ----- -->
+    <div class="muc-tk" data-can-lop="luu_luong">
+    <h2 class="tk-muc">
+      Lưu lượng dòng chảy <span class="the-that">dữ liệu thật</span>
+    </h2>
+
+    <section class="hang-bieu-do">
+      <div class="khung-bieu-do">
+        <h3>Tổng lượng dòng chảy năm tại các điểm tính</h3>
+        <p class="chu-thich-bd">Đơn vị triệu m³, chia theo mùa mưa và mùa khô.</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-luu-luong-diem"></canvas></div>
+      </div>
+
+      <div class="khung-bieu-do">
+        <h3>Phân phối dòng chảy trong năm</h3>
+        <p class="chu-thich-bd">Tỷ lệ lượng dòng chảy từng tháng so với cả năm, trung bình các điểm tính đang chọn.</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-luu-luong-thang"></canvas></div>
+      </div>
+    </section>
+    </div>
+
+    <!-- ----- Lũ lụt và sạt lở bờ sông ----- -->
+    <div class="muc-tk" data-can-lop="vet_lu sat_lo">
+    <h2 class="tk-muc">
+      Lũ lụt và sạt lở bờ sông <span class="the-that">dữ liệu thật</span>
+    </h2>
+
+    <section class="the-so" id="hang-kpi-thien-tai"></section>
+
+    <section class="hang-bieu-do">
+      <div class="khung-bieu-do">
+        <h3>Điểm vết lũ theo lưu vực và chiều cao</h3>
+        <p class="chu-thich-bd">Số điểm điều tra vết lũ, chia theo bậc chiều cao vết lũ.</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-vet-lu"></canvas></div>
+      </div>
+
+      <div class="khung-bieu-do">
+        <h3>Chiều dài sạt lở theo sông</h3>
+        <p class="chu-thich-bd">Tổng chiều dài các đoạn bờ sông sạt lở, đơn vị m.</p>
+        <div class="o-bieu-do o-bieu-do--cao"><canvas id="bd-sat-lo"></canvas></div>
+      </div>
+    </section>
+    </div>
+
     <!-- ----- Dữ liệu hành chính, nguồn thật ----- -->
     <div class="muc-tk" data-can-lop="ranh_gioi_xa">
     <h2 class="tk-muc">

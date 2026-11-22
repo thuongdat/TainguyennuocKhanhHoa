@@ -18,7 +18,10 @@ var MAU_PHAN_LOAI = ['#0b5e72', '#16a6c9', '#0f766e', '#7c3aed',
 
 /* Cac lop can nap. Lop nao thieu thi bao loi ro rang thay vi hien so 0 */
 var CAC_LOP_CAN = ['luu_vuc', 'song_suoi', 'khai_thac', 'ao_ho',
-                   'xa_thai', 'doan_song', 'ranh_gioi_xa'];
+                   'xa_thai', 'doan_song', 'ranh_gioi_xa',
+                   /* Nam lop du lieu that bo sung, scripts/14 */
+                   'quan_trac_dia_phuong', 'ao_ho_khong_san_lap', 'luu_luong',
+                   'vet_lu', 'sat_lo'];
 
 
 /* --------------------------------------------------------------------------
@@ -203,7 +206,292 @@ function ve_tat_ca() {
   ve_bd_loai_hinh();
   ve_bd_suc_chiu_tai();
   ve_bang_khai_thac();
+  ve_muc_bo_sung();
   ve_thoi_diem();
+}
+
+/* Moi muc chi ve khi lop cua no co du lieu (muc khong du da bi an) */
+function ve_muc_bo_sung() {
+  if (DL.quan_trac_dia_phuong) ve_muc_wqi();
+  if (DL.ao_ho_khong_san_lap) ve_muc_ho_khong_san_lap();
+  if (DL.luu_luong) ve_muc_luu_luong();
+  if (DL.vet_lu && DL.sat_lo) ve_muc_thien_tai();
+}
+
+
+/* --------------------------------------------------------------------------
+   Chat luong nuoc mat (WQI), lop quan_trac_dia_phuong
+   -------------------------------------------------------------------------- */
+function ve_muc_wqi() {
+  var ds = loc('quan_trac_dia_phuong');
+  var co_wqi = ds.filter(function (p) { return p.wqi !== null && p.wqi !== undefined; });
+  var theo_loai = gom_nhom(co_wqi, 'phan_loai_wqi', null);
+  function dem(cac_loai) {
+    return cac_loai.reduce(function (t, k) { return t + (theo_loai[k] || 0); }, 0);
+  }
+  var tot = dem(['Rất tốt', 'Tốt']);
+  var tb = dem(['Trung bình']);
+  var xau = dem(['Xấu', 'Kém', 'Ô nhiễm rất nặng']);
+
+  document.getElementById('hang-kpi-wqi').innerHTML = ''
+    + the_kpi('Vị trí quan trắc', so(ds.length),
+              co_wqi.length + ' vị trí có WQI', '', 'that')
+    + the_kpi('Rất tốt và tốt (WQI trên 75)', so(tot),
+              phan_tram_cua(tot, co_wqi.length) + ' số vị trí', 'tot', 'that')
+    + the_kpi('Trung bình (WQI 51 - 75)', so(tb),
+              phan_tram_cua(tb, co_wqi.length) + ' số vị trí', tb ? 'theodoi' : '', 'that')
+    + the_kpi('Xấu, kém (WQI từ 50 trở xuống)', so(xau),
+              phan_tram_cua(xau, co_wqi.length) + ' số vị trí', xau ? 'xau' : 'tot', 'that');
+
+  var cac_loai = Object.keys(MAU_WQI);
+  ve_bieu_do('bd-wqi', {
+    type: 'bar',
+    data: {
+      labels: cac_loai,
+      datasets: [{
+        data: cac_loai.map(function (k) { return theo_loai[k] || 0; }),
+        backgroundColor: cac_loai.map(function (k) { return MAU_WQI[k]; }),
+        borderColor: '#33415588',
+        borderWidth: 1,
+        borderRadius: 3,
+      }],
+    },
+    options: tuy_chon_chung({
+      scales: {
+        x: { grid: { display: false } },
+        y: { beginAtZero: true, ticks: { precision: 0 } },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: function (c) { return c.parsed.y + ' vị trí'; } } },
+      },
+    }),
+  });
+
+  var thap = co_wqi.slice().sort(function (a, b) { return a.wqi - b.wqi; }).slice(0, 10);
+  var bang = document.getElementById('bang-wqi');
+  bang.querySelector('thead').innerHTML = '<tr><th>Vị trí</th><th>Nguồn nước</th>'
+    + '<th>Xã, phường</th><th>WQI</th><th>Phân loại</th><th>Kỳ</th></tr>';
+  bang.querySelector('tbody').innerHTML = thap.map(function (p) {
+    return '<tr>'
+      + '<td>' + (p.ten || '--') + '</td>'
+      + '<td>' + (p.nguon_nuoc || '--') + '</td>'
+      + '<td>' + (p.xa_phuong || '--') + '</td>'
+      + '<td>' + so(p.wqi) + '</td>'
+      + '<td>' + (p.phan_loai_wqi || '--') + '</td>'
+      + '<td>' + (p.thoi_diem_wqi || '--') + '</td>'
+      + '</tr>';
+  }).join('');
+}
+
+function phan_tram_cua(phan, tong_so) {
+  return tong_so ? Math.round(phan / tong_so * 100) + '%' : '--';
+}
+
+
+/* --------------------------------------------------------------------------
+   Ho, ao, dam khong duoc san lap
+   -------------------------------------------------------------------------- */
+function ve_muc_ho_khong_san_lap() {
+  var ds = loc('ao_ho_khong_san_lap');
+  var dien_tich = tong(ds, 'dien_tich_ha');
+  var dung_tich = tong(ds, 'dung_tich_trieu_m3');
+  var co_dung_tich = ds.filter(function (p) { return p.dung_tich_trieu_m3; }).length;
+
+  document.getElementById('hang-kpi-ho').innerHTML = ''
+    + the_kpi('Hồ, ao, đầm không được san lấp', so(ds.length),
+              MA_LUU_VUC_LOC ? 'trong lưu vực đang chọn' : 'trên toàn tỉnh', '', 'that')
+    + the_kpi('Tổng diện tích mặt nước', so_le(dien_tich), 'ha', '', 'that')
+    + the_kpi('Tổng dung tích toàn bộ', so_le(dung_tich),
+              'triệu m³ · ' + co_dung_tich + ' hồ có số liệu', '', 'that');
+
+  ve_bd_theo_luu_vuc('bd-ho-luu-vuc', ds, null, '#0f766e', 'hồ');
+  ve_bd_theo_luu_vuc('bd-ho-dung-tich', ds, 'dung_tich_trieu_m3', '#0b5e72', 'triệu m³');
+}
+
+/* Bieu do thanh ngang theo ten_luu_vuc, dem (truong_cong = null) hoac cong don */
+function ve_bd_theo_luu_vuc(id_canvas, ds, truong_cong, mau, don_vi) {
+  var bang = gom_nhom(ds, 'ten_luu_vuc', truong_cong);
+  var nhan = Object.keys(bang).sort(function (a, b) { return bang[b] - bang[a]; });
+
+  ve_bieu_do(id_canvas, {
+    type: 'bar',
+    data: {
+      labels: nhan.map(function (k) { return k.replace('Lưu vực ', ''); }),
+      datasets: [{ data: nhan.map(function (k) { return bang[k]; }),
+                   backgroundColor: mau, borderRadius: 3 }],
+    },
+    options: tuy_chon_chung({
+      indexAxis: 'y',
+      scales: {
+        x: { beginAtZero: true, ticks: { callback: function (v) { return so(v); } } },
+        y: { grid: { display: false }, ticks: { font: { size: 10.5 } } },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: function (c) {
+          return so_le(c.parsed.x) + ' ' + don_vi;
+        } } },
+      },
+    }),
+  });
+}
+
+
+/* --------------------------------------------------------------------------
+   Luu luong dong chay
+   -------------------------------------------------------------------------- */
+function ve_muc_luu_luong() {
+  var ds = loc('luu_luong').slice().sort(function (a, b) {
+    return (b.q_ca_nam || 0) - (a.q_ca_nam || 0);
+  });
+
+  ve_bieu_do('bd-luu-luong-diem', {
+    type: 'bar',
+    data: {
+      labels: ds.map(function (p) {
+        return (p.luu_vuc_kiem_ke || p.ma) + (p.xa_phuong ? ' (' + p.xa_phuong + ')' : '');
+      }),
+      datasets: [
+        { label: 'Mùa mưa', backgroundColor: '#0369a1', borderRadius: 2,
+          data: ds.map(function (p) { return p.q_mua_mua || 0; }) },
+        { label: 'Mùa khô', backgroundColor: '#f59e0b', borderRadius: 2,
+          data: ds.map(function (p) { return p.q_mua_kho || 0; }) },
+      ],
+    },
+    options: tuy_chon_chung({
+      indexAxis: 'y',
+      scales: {
+        x: { stacked: true, beginAtZero: true },
+        y: { stacked: true, grid: { display: false }, ticks: { font: { size: 10 } } },
+      },
+      plugins: { tooltip: { callbacks: { label: function (c) {
+        return c.dataset.label + ': ' + so_le(c.parsed.x) + ' triệu m³';
+      } } } },
+    }),
+  });
+
+  /* Ty le tung thang so voi ca nam cua moi diem, roi lay trung binh. Khong
+     cong luu luong cac diem voi nhau vi nhieu diem nam tren cung mot song. */
+  var thang = [];
+  for (var t = 1; t <= 12; t++) thang.push(t);
+  var ty_le = thang.map(function (t) {
+    var cac = ds.map(function (p) {
+      var nam = 0;
+      thang.forEach(function (k) { nam += Number(p['q_thang_' + k]) || 0; });
+      return nam ? (Number(p['q_thang_' + t]) || 0) / nam * 100 : null;
+    }).filter(function (v) { return v !== null; });
+    return cac.length ? cac.reduce(function (a, b) { return a + b; }, 0) / cac.length : 0;
+  });
+
+  ve_bieu_do('bd-luu-luong-thang', {
+    type: 'bar',
+    data: {
+      labels: thang.map(function (t) { return 'T' + t; }),
+      datasets: [{
+        data: ty_le,
+        backgroundColor: thang.map(function (t) {
+          return t >= 9 && t <= 12 ? '#0369a1' : '#f59e0b';
+        }),
+        borderRadius: 3,
+      }],
+    },
+    options: tuy_chon_chung({
+      scales: {
+        x: { grid: { display: false } },
+        y: { beginAtZero: true, ticks: { callback: function (v) { return v + '%'; } } },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: function (c) {
+          return c.parsed.y.toFixed(1).replace('.', ',') + '% lượng dòng chảy năm';
+        } } },
+      },
+    }),
+  });
+}
+
+
+/* --------------------------------------------------------------------------
+   Lu lut (vet lu) va sat lo bo song
+   -------------------------------------------------------------------------- */
+function ve_muc_thien_tai() {
+  var vl = loc('vet_lu');
+  var sl = loc('sat_lo');
+
+  var cao_nhat = vl.reduce(function (m, p) {
+    return (p.chieu_cao_vet_lu_m || 0) > ((m && m.chieu_cao_vet_lu_m) || 0) ? p : m;
+  }, null);
+  var dai = tong(sl, 'chieu_dai_m');
+
+  document.getElementById('hang-kpi-thien-tai').innerHTML = ''
+    + the_kpi('Điểm điều tra vết lũ', so(vl.length),
+              MA_LUU_VUC_LOC ? 'trong lưu vực đang chọn' : 'trên toàn tỉnh', '', 'that')
+    + the_kpi('Vết lũ cao nhất',
+              cao_nhat ? so_le(cao_nhat.chieu_cao_vet_lu_m) + ' m' : '--',
+              cao_nhat ? [cao_nhat.thon, cao_nhat.xa_phuong].filter(Boolean).join(', ') : '',
+              cao_nhat && cao_nhat.chieu_cao_vet_lu_m > 2 ? 'xau' : '', 'that')
+    + the_kpi('Đoạn bờ sông sạt lở', so(sl.length), 'đoạn', sl.length ? 'theodoi' : '', 'that')
+    + the_kpi('Tổng chiều dài sạt lở', so(dai), 'm', '', 'that');
+
+  /* Vet lu: cot chong theo bac chieu cao, gom theo luu vuc kiem ke */
+  var cac_bac = [
+    { nhan: 'Dưới 1 m', mau: MAU.vet_lu_thap, dung: function (h) { return h < 1; } },
+    { nhan: '1 - 2 m', mau: MAU.vet_lu_vua, dung: function (h) { return h >= 1 && h <= 2; } },
+    { nhan: 'Trên 2 m', mau: MAU.vet_lu_cao, dung: function (h) { return h > 2; } },
+  ];
+  var bang_lv = gom_nhom(vl, 'luu_vuc_kiem_ke', null);
+  var lv = Object.keys(bang_lv).sort(function (a, b) { return bang_lv[b] - bang_lv[a]; });
+
+  ve_bieu_do('bd-vet-lu', {
+    type: 'bar',
+    data: {
+      labels: lv,
+      datasets: cac_bac.map(function (b) {
+        return {
+          label: b.nhan, backgroundColor: b.mau, borderRadius: 2,
+          data: lv.map(function (k) {
+            return vl.filter(function (p) {
+              return (p.luu_vuc_kiem_ke || '(không rõ)') === k
+                && b.dung(Number(p.chieu_cao_vet_lu_m) || 0);
+            }).length;
+          }),
+        };
+      }),
+    },
+    options: tuy_chon_chung({
+      indexAxis: 'y',
+      scales: {
+        x: { stacked: true, beginAtZero: true, ticks: { precision: 0 } },
+        y: { stacked: true, grid: { display: false }, ticks: { font: { size: 10.5 } } },
+      },
+    }),
+  });
+
+  var bang_song = gom_nhom(sl, 'ten_song', 'chieu_dai_m');
+  var song = Object.keys(bang_song).sort(function (a, b) { return bang_song[b] - bang_song[a]; });
+  ve_bieu_do('bd-sat-lo', {
+    type: 'bar',
+    data: {
+      labels: song,
+      datasets: [{ data: song.map(function (k) { return bang_song[k]; }),
+                   backgroundColor: MAU.sat_lo, borderRadius: 3 }],
+    },
+    options: tuy_chon_chung({
+      indexAxis: 'y',
+      scales: {
+        x: { beginAtZero: true, ticks: { callback: function (v) { return so(v); } } },
+        y: { grid: { display: false }, ticks: { font: { size: 10.5 } } },
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: function (c) {
+          var n = sl.filter(function (p) { return p.ten_song === c.label; }).length;
+          return so(c.parsed.x) + ' m · ' + n + ' đoạn';
+        } } },
+      },
+    }),
+  });
 }
 
 
