@@ -57,7 +57,11 @@ function ve_lai_bang() {
   var dn = l.dn;
   var cac_cot = dn.cot_bang.map(function (ma_truong) {
     var tr = dn.truong.filter(function (t) { return t.ma === ma_truong; })[0];
-    return tr || { ma: ma_truong, ten: ma_truong };
+    if (tr) return tr;
+    /* Truong khoa (thuong la 'ma') khong khai bao trong truong[] nen dat ten
+       hien thi rieng, khop voi cot 'Mã' cua tep CSV xuat ra */
+    if (ma_truong === dn.khoa || ma_truong === 'ma') return { ma: ma_truong, ten: 'Mã' };
+    return { ma: ma_truong, ten: ma_truong };
   });
 
   /* ----- Dong tieu de, nhap vao de sap xep ----- */
